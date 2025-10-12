@@ -3,38 +3,189 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Desastres Naturais — Brasil</title>
-    
+    <title>Monitoramento de Desastres Naturais (M.D.N.) — Brasil</title>
+
     <!-- Leaflet CSS -->
     <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
     />
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
-</head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
 
-<body>
-  <header>
-  Desastres Naturais — Mapa Interativo do Brasil
-  <div style="margin-left:auto">
-    Ano: 
-    <select id="yearFilter">
-      <option value="">Todos</option>
-      
-    </select>
-  </div>
-  </header>
-  <div id="map"></div>
+    <style>
+      /* Fundo com padrão de listras suaves */
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, Arial, sans-serif;
+        background-color: #f7faf8;
+        background-image: repeating-linear-gradient(
+          135deg,
+          #e4f1ed 0,
+          #e4f1ed 25px,
+          #f7faf8 25px,
+          #f7faf8 50px
+        );
+        color: #1b3a33;
+      }
 
-  <!-- Leaflet JS -->
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""
-  ></script>
+      header {
+        background: linear-gradient(90deg, #2f7a6f, #4fa88c);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 25px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
 
-  <script src="{{ url_for('static', filename='app.js') }}"></script>
-</body>
+      /* Logotipo à esquerda */
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .logo-icon {
+        background: white;
+        color: #2f7a6f;
+        font-weight: bold;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.2rem;
+        color: #28594d;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #2e4e4a;
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      #yearFilter {
+        padding: 5px;
+        border-radius: 6px;
+        border: none;
+        font-size: 0.95rem;
+      }
+
+      /* Caixa de resumo acima do mapa */
+      .resumo {
+        max-width: 900px;
+        margin: 25px auto;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        padding: 25px 30px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        color: #274a42;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .resumo:hover {
+        transform: scale(1.01);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+      }
+
+      /* Centraliza e melhora o mapa */
+      #map {
+        height: 500px;
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border: 2px solid #cde5dd;
+        display: block;
+        transition: transform 0.3s ease;
+      }
+      #map:hover {
+        transform: scale(1.005);
+      }
+
+      #barChart {
+        display: block;
+        margin: 20px auto;
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      }
+
+      footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #2f7a6f;
+        color: white;
+        font-size: 0.9rem;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo-icon">🌎</div>
+        <span>M.D.N. — Brasil</span>
+      </div>
+
+      <div style="margin-left: auto">
+        Ano:
+        <select id="yearFilter" multiple>
+          <option value="">Todos</option>
+        </select>
+      </div>
+    </header>
+
+    <h1>Monitoramento de Desastres Naturais</h1>
+
+    <!-- 🔹 Espaço para o resumo acima do mapa -->
+    <div class="resumo">
+      <p>
+        <!-- Aqui você pode inserir um texto de apresentação sobre o sistema, 
+        explicando o propósito do monitoramento e prevenção de desastres naturais. -->
+        Este sistema permite visualizar e analisar eventos naturais ocorridos em todo o Brasil, 
+        promovendo a conscientização e a prevenção de desastres ambientais.
+      </p>
+    </div>
+
+    <h2>Mapa Interativo</h2>
+    <div id="map"></div>
+
+    <h2>Quantidade de eventos por ano:</h2>
+    <canvas id="barChart" width="600" height="400"></canvas>
+
+    <!-- Leaflet JS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='grafico.js') }}"></script>
+
+    <footer>
+      © 2025 — Monitoramento de Desastres Naturais (M.D.N.) | Desenvolvido para pesquisa e prevenção
+    </footer>
+  </body>
 </html>

@@ -13,8 +13,11 @@ header {
 }
 
 #map {
-  width: 100%;
-  height: calc(100vh - 52px);
+  width: 50%;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
 }
 
 /* Estilo do card (popup flutuante estilizado) */
@@ -37,4 +40,18 @@ header {
 .disaster-card .label {
   font-weight: bold;
   color: #4b6043;
+}
+
+table {
+border:1px solid black
+}
+td {
+  border: 1px solid black
+}
+#barChart {
+  width: 700px !important;
+  height: 500px !important;
+  margin-left: 20px;
+  margin-top: 20px;
+
 }
