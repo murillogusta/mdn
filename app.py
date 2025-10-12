@@ -1,11 +1,14 @@
 # app.py
-from flask import Flask, jsonify, request, g, render_template
-import sqlite3, os
+import os
+import sqlite3
+
+from flask import Flask, g, jsonify, render_template, request
 
 ROOT = os.path.dirname(__file__)
 DB_PATH = os.path.join(ROOT, "desastres.db")
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
+
 
 def get_db():
     db = getattr(g, "_database", None)
@@ -15,57 +18,75 @@ def get_db():
         g._database = db
     return db
 
+
 @app.teardown_appcontext
 def close_connection(exception):
     db = getattr(g, "_database", None)
     if db:
         db.close()
 
+
 def row_to_dict(row):
     return {k: row[k] for k in row.keys()}
+
 
 @app.route("/")
 def home():
     return render_template("index.html")
 
+
 @app.route("/ping")
 def ping():
-    return jsonify({"status":"ok"})
+    return jsonify({"status": "ok"})
+
 
 @app.route("/states", methods=["GET"])
 def list_states():
     """Retorna lista completa de estados e dados."""
     db = get_db()
     cur = db.cursor()
-    cur.execute("SELECT * FROM desastres ORDER BY estado")
+    cur.execute(
+        "SELECT * FROM estados join desastres ON estados.id = desastres.estado_id ORDER BY estado"
+    )
     rows = [row_to_dict(r) for r in cur.fetchall()]
     return jsonify(rows)
+
 
 @app.route("/states/<string:uf>", methods=["GET"])
 def get_state(uf):
     db = get_db()
     cur = db.cursor()
-    cur.execute("SELECT * FROM desastres WHERE uf = ? COLLATE NOCASE", (uf.upper(),))
+    cur.execute(
+        "SELECT * FROM estados join desastres ON estados.id = desastres.estado_id WHERE uf = ? COLLATE NOCASE",
+        (uf.upper(),),
+    )
     row = cur.fetchone()
     if not row:
-        return jsonify({"error":"Not found"}), 404
+        return jsonify({"error": "Not found"}), 404
     return jsonify(row_to_dict(row))
+
 
 @app.route("/search", methods=["GET"])
 def search():
-    q = request.args.get("q","").strip()
+    q = request.args.get("q", "").strip()
     if not q:
         return jsonify([])
     q_like = f"%{q}%"
     db = get_db()
     cur = db.cursor()
-    cur.execute("""
-        SELECT * FROM desastres WHERE
+    cur.execute(
+        """
+        SELECT * FROM desastres
+        JOIN estados ON desastres.estado_id = estados.id
+        WHERE
         estado LIKE ? OR uf LIKE ? OR capital LIKE ? OR evento LIKE ? OR clima_descricao LIKE ? OR fonte LIKE ?
         ORDER BY estado
-    """, (q_like, q_like, q_like, q_like, q_like, q_like))
+    """,
+        (q_like, q_like, q_like, q_like, q_like, q_like),
+    )
     rows = [row_to_dict(r) for r in cur.fetchall()]
     return jsonify(rows)
+
 
 if __name__ == "__main__":
     if not os.path.exists(DB_PATH):
