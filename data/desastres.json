@@ -14,11 +14,137 @@
         "ano": 2010
     },
     {
+        "estado_id": 2,
+        "evento": "Enchentes severas — 2010",
+        "clima_descricao": "Chuvas intensas e transbordamento de rios; destruição de pontes e centenas de desabrigados.",
+        "fonte": "Defesa Civil, Agência Brasil",
+        "ano": 2010
+    },
+    {
+        "estado_id": 2,
+        "evento": "Chuvas e alagamentos — 2017",
+        "clima_descricao": "Precipitação acima da média; danos em Maceió e municípios da Zona da Mata.",
+        "fonte": "G1 Alagoas",
+        "ano": 2017
+    },
+    {
+        "estado_id": 2,
+        "evento": "Enchentes e deslizamentos — 2022",
+        "clima_descricao": "Chuvas fortes causaram alagamentos e deslizamentos de encostas; evacuação de famílias.",
+        "fonte": "Defesa Civil, INMET",
+        "ano": 2022
+    },
+    {
+        "estado_id": 2,
+        "evento": "Enxurradas e inundações — 2024",
+        "clima_descricao": "Chuvas persistentes; rios transbordaram e atingiram áreas urbanas.",
+        "fonte": "Agência Alagoas",
+        "ano": 2024
+    },
+   {
         "estado_id": 3,
-        "evento": "Inundações/enchentes urbanas recorrentes — episódios 2000s–2020s",
+        "evento": "Chuvas intensas e alagamentos urbanos",
         "clima_descricao": "Chuvas intensas somadas a marés altas/estuarinas e drenagem insuficiente.",
-        "fonte": "Atlas/estudo sobre inundações no Amapá.",
+        "fonte": "Defesa Civil AP / Imprensa local",
+        "ano": 2010
+    },
+    {
+        "estado_id": 3,
+        "evento": "Deslizamentos pontuais e alagamentos",
+        "clima_descricao": "Chuvas intensas somadas a marés altas/estuarinas e drenagem insuficiente.",
+        "fonte": "Relatórios municipais",
+        "ano": 2011
+    },
+    {
+        "estado_id": 3,
+        "evento": "Inundações em áreas ribeirinhas",
+        "clima_descricao": "Laranjal do Jari: Transbordamento do rio Jari - Casas submersas, danos à saúde pública.",
+        "fonte": "Relatórios municipais",
+        "ano": 2012
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias sazonais e erosões urbanas",
+        "clima_descricao": "Chuvas acima da média pluviométrica; desabrigamento e destruição parcial de residências.",
+        "fonte": "Imprensa local",
+        "ano": 2013
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e enxurradas",
+        "clima_descricao": "Período de chuvas fortes; danos em ruas e pontes de madeira.",
+        "fonte": "Boletins locais",
+        "ano": 2014
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchentes no Vale do Jari",
+        "clima_descricao": "Rio Jari subiu acima da cota de alerta; evacuação de áreas ribeirinhas.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2015
+    },
+    {
+        "estado_id": 3,
+        "evento": "Chuvas fortes e enxurradas urbanas",
+        "clima_descricao": "Chuva concentrada em poucas horas; perdas materiais e danos em residências.",
+        "fonte": "Portal G1 / Defesa Civil",
+        "ano": 2016
+    },
+    {
+        "estado_id": 3,
+        "evento": "Alagamentos urbanos e erosões",
+        "clima_descricao": "Temporal e falha na drenagem; casas danificadas e ruas interditadas.",
+        "fonte": "Prefeitura de Macapá",
+        "ano": 2017
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enxurradas e alagamentos",
+        "clima_descricao": "Chuvas persistentes e cheias do rio; desalojamento e prejuízos à agricultura local.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2018
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e erosões costeiras",
+        "clima_descricao": "Ação de maré alta combinada a chuvas fortes; erosão de margens e destruição de passarelas.",
+        "fonte": "Relatórios estaduais",
+        "ano": 2019
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchentes e cheias urbanas",
+        "clima_descricao": "Chuvas concentradas e falhas na drenagem; danos pontuais em bairros ribeirinhos.",
+        "fonte": "Defesa Civil AP",
         "ano": 2020
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchente do Rio Jari",
+        "clima_descricao": "Chuvas intensas e subida rápida do rio; destruição de pontes e ruas, evacuação de famílias.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 3,
+        "evento": "Alagamentos e erosão de margens fluviais",
+        "clima_descricao": "Chuvas intensas e falhas de drenagem; perda de estruturas e vias locais.",
+        "fonte": "Prefeitura de Mazagão",
+        "ano": 2022
+    },
+    {
+        "estado_id": 3,
+        "evento": "Temporal e vendavais com destruição de telhados",
+        "clima_descricao": "Ventos fortes e chuvas torrenciais; casas destelhadas, quedas de árvores e postes.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e deslizamentos de solo",
+        "clima_descricao": "Chuvas acima da média e saturação do solo; deslizamentos e casas destruídas.",
+        "fonte": "Boletins Defesa Civil / G1 / Agência Brasil",
+        "ano": 2024
     },
     {
         "estado_id": 4,
@@ -28,6 +154,111 @@
         "ano": 2021
     },
     {
+        "estado_id": 4,
+        "evento": "Enchentes — cheia do Rio Negro / processo de enchente 2010",
+        "clima_descricao": "Estação chuvosa intensa elevou cotas do Rio Negro; causou alagamentos de bairros, prejuízos a bens domésticos e comércio ribeirinho, interrupção de serviços e transporte fluvial.",
+        "fonte": "SGB+1",
+        "ano": 2010
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias/enchentes sazonais — continuidade de danos hidrológicos",
+        "clima_descricao": "Chuvas intensas e regime hidrológico fluvial elevado; desalojamento e perdas de safras; dificuldades de abastecimento local.",
+        "fonte": "SGB+1",
+        "ano": 2011
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheia extrema do Rio Negro — 2011/2012",
+        "clima_descricao": "Cheia histórica (~29,97 m); inundações prolongadas, danos em infraestrutura e moradias; necessidade de ações emergenciais.",
+        "fonte": "SGB+1",
+        "ano": 2012
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes e variações hidrológicas",
+        "clima_descricao": "Regime hidrológico ainda elevado; alagamentos localizados e perdas agrícolas; isolamento temporário de comunidades ribeirinhas.",
+        "fonte": "Portal do Marcos Santos",
+        "ano": 2013
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias e enchentes relevantes",
+        "clima_descricao": "Chuvas intensas e elevação das cotas fluviais; alagamento urbano e rural, danos à infraestrutura e moradias.",
+        "fonte": "InfoAmazonia",
+        "ano": 2014
+    },
+    {
+        "estado_id": 4,
+        "evento": "Eventos hidrometeorológicos (enchentes/variações locais)",
+        "clima_descricao": "Estações chuvosas acima da média; interrupções de transporte fluvial e perdas agrícolas.",
+        "fonte": "ResearchGate",
+        "ano": 2015
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes sazonais / eventos locais",
+        "clima_descricao": "Regime de chuvas com transbordamentos e acúmulo; danos à moradia e economia doméstica.",
+        "fonte": "InfoAmazonia",
+        "ano": 2016
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias e alagamentos locais",
+        "clima_descricao": "Chuvas intensas e elevação de níveis fluviais; perda de bens e interrupção de serviços locais.",
+        "fonte": "InfoAmazonia",
+        "ano": 2017
+    },
+    {
+        "estado_id": 4,
+        "evento": "Queimadas e enchentes locais intercaladas",
+        "clima_descricao": "Períodos de estiagem e queimadas seguidos por chuvas intensas; degradação ambiental e prejuízo à subsistência de comunidades locais.",
+        "fonte": "Greenpeace+1",
+        "ano": 2018
+    },
+    {
+        "estado_id": 4,
+        "evento": "Incidentes locais (enchentes e riscos geológicos) e seca episódica",
+        "clima_descricao": "Variabilidade climática com episódios concentrados; perdas agrícolas e danos locais.",
+        "fonte": "Jornal da Sociedade Meteorológica Americana",
+        "ano": 2019
+    },
+    {
+        "estado_id": 4,
+        "evento": "Queimadas e eventos hidrológicos durante a pandemia",
+        "clima_descricao": "Combinação de estiagem e aumento de queimadas; perda de vegetação e deterioração da qualidade do ar.",
+        "fonte": "Greenpeace",
+        "ano": 2020
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheia recorde do Rio Negro — 2021",
+        "clima_descricao": "Cheia extrema (~29,98 m); alagamento de bairros, milhares de desalojados e danos à infraestrutura.",
+        "fonte": "Amazônia Real+1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes de 2022 — nova cheia extrema",
+        "clima_descricao": "Precipitação acima da média devido ao La Niña; repetição de inundações e prejuízos a moradias e comércio.",
+        "fonte": "Amazônia Real",
+        "ano": 2022
+    },
+    {
+        "estado_id": 4,
+        "evento": "Seca extrema e colapso geológico — Vila de Arumã (Beruri)",
+        "clima_descricao": "Seca recorde combinada a erosão e afundamento; destruição de casas e deslocamento de famílias.",
+        "fonte": "Sumauma+1",
+        "ano": 2023
+    },
+    {
+        "estado_id": 4,
+        "evento": "Eventos hidrometeorológicos — enchentes sazonais e estiagem localizada",
+        "clima_descricao": "Chuvas intensas e pontos de alagamento intercalados com períodos secos; prejuízos a moradias e lavouras.",
+        "fonte": "Prefeitura Municipal de Manaus+1",
+        "ano": 2024
+    },
+    {
         "estado_id": 5,
         "evento": "Enchentes no sul/centro-sul — dez 2021",
         "clima_descricao": "Múltiplos dias de chuva muito intensa; precipitação fora da média e prolongada.",
@@ -35,11 +266,95 @@
         "ano": 2021
     },
     {
+        "estado_id": 5,
+        "evento": "Chuvas intensas e enchentes — 2010",
+        "clima_descricao": "Temporais causaram alagamentos e danos em Ilhéus e Itabuna; centenas de desalojados.",
+        "fonte": "G1 Bahia, Defesa Civil",
+        "ano": 2010
+    },
+    {
+        "estado_id": 5,
+        "evento": "Seca prolongada — 2012",
+        "clima_descricao": "Baixa pluviosidade atingiu grande parte do semiárido; prejuízos à agropecuária.",
+        "fonte": "INMET, ANA",
+        "ano": 2012
+    },
+    {
+        "estado_id": 5,
+        "evento": "Enchentes no extremo sul — 2014",
+        "clima_descricao": "Chuvas intensas e cheias de rios; famílias desalojadas e danos em pontes.",
+        "fonte": "Defesa Civil Bahia",
+        "ano": 2014
+    },
+    {
+        "estado_id": 5,
+        "evento": "Seca e estiagem — 2016",
+        "clima_descricao": "Déficit hídrico e perdas agrícolas no sertão baiano; impacto prolongado.",
+        "fonte": "INMET, ANA",
+        "ano": 2016
+    },
+    {
+        "estado_id": 5,
+        "evento": "Enchentes no sul e centro-sul — 2021",
+        "clima_descricao": "Chuvas muito acima da média; inundações amplas, milhares de desabrigados.",
+        "fonte": "Defesa Civil, Agência Brasil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 5,
+        "evento": "Chuvas intensas — 2023",
+        "clima_descricao": "Temporal causou inundações urbanas e danos em estradas.",
+        "fonte": "G1 Bahia",
+        "ano": 2023
+    },
+    {
         "estado_id": 6,
         "evento": "Grande Seca — 1877–1879",
         "clima_descricao": "Longos anos com chuva muito abaixo da média; estiagem severa e prolongada.",
         "fonte": "Revisão histórica sobre a Grande Seca (1877–1879).",
         "ano": 1877
+    },
+    {
+        "estado_id": 6,
+        "evento": "Seca severa — 2012",
+        "clima_descricao": "Estiagem prolongada afetou o abastecimento de água e produção agrícola.",
+        "fonte": "INMET, FUNCEME",
+        "ano": 2012
+    },
+    {
+        "estado_id": 6,
+        "evento": "Chuvas intensas — 2014",
+        "clima_descricao": "Precipitação acima da média; alagamentos em Fortaleza e municípios do interior.",
+        "fonte": "G1 Ceará",
+        "ano": 2014
+    },
+    {
+        "estado_id": 6,
+        "evento": "Seca prolongada — 2017",
+        "clima_descricao": "Registros de chuvas escassas e açudes em níveis críticos; prejuízo à agricultura.",
+        "fonte": "FUNCEME, ANA",
+        "ano": 2017
+    },
+    {
+        "estado_id": 6,
+        "evento": "Chuvas fortes e enchentes — 2020",
+        "clima_descricao": "Temporais causaram inundações e deslizamentos em áreas de encosta.",
+        "fonte": "Defesa Civil, INMET",
+        "ano": 2020
+    },
+    {
+        "estado_id": 6,
+        "evento": "Seca e estiagem — 2022",
+        "clima_descricao": "Redução significativa das chuvas; perdas agrícolas e racionamento de água.",
+        "fonte": "FUNCEME, ANA",
+        "ano": 2022
+    },
+    {
+        "estado_id": 6,
+        "evento": "Chuvas intensas e alagamentos — 2024",
+        "clima_descricao": "Temporais atingiram Fortaleza e interior; dezenas de famílias desalojadas.",
+        "fonte": "Agência Brasil, G1 Ceará",
+        "ano": 2024
     },
     {
         "estado_id": 7,
@@ -96,6 +411,111 @@
         "clima_descricao": "Estação úmida com chuvas contínuas; combinação chuva + maré causa alagamentos prolongados.",
         "fonte": "Estudos sobre inundações urbanas em Belém.",
         "ano": 2012
+    },
+    {
+        "estado_id": 14,
+        "evento": "Enchentes no sudoeste do Pará",
+        "clima_descricao": "Chuvas intensas elevaram níveis dos rios; desalojamento e perda de lavouras.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2010
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca prolongada",
+        "clima_descricao": "Baixo volume de chuvas; perdas agrícolas e falta de água.",
+        "fonte": "Agência Pará",
+        "ano": 2011
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias do Rio Tocantins",
+        "clima_descricao": "Chuvas intensas e transbordamento; destruição de casas ribeirinhas.",
+        "fonte": "Defesa Civil",
+        "ano": 2012
+    },
+    {
+        "estado_id": 14,
+        "evento": "Deslizamentos em áreas de encosta",
+        "clima_descricao": "Chuvas fortes causaram deslizamentos e danos em moradias.",
+        "fonte": "G1 Pará",
+        "ano": 2013
+    },
+    {
+        "estado_id": 14,
+        "evento": "Inundações urbanas",
+        "clima_descricao": "Chuvas torrenciais e drenagem precária; alagamentos e danos urbanos.",
+        "fonte": "Prefeitura de Ananindeua",
+        "ano": 2014
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias no Baixo Amazonas",
+        "clima_descricao": "Chuvas acima da média; perda de plantações e transporte fluvial prejudicado.",
+        "fonte": "Defesa Civil",
+        "ano": 2015
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca severa e queimadas",
+        "clima_descricao": "Prolongada estiagem; problemas respiratórios e perdas agrícolas.",
+        "fonte": "IBAMA, Defesa Civil",
+        "ano": 2016
+    },
+    {
+        "estado_id": 14,
+        "evento": "Enchentes no Marajó",
+        "clima_descricao": "Chuvas fortes e marés altas; perdas em gado e lavouras.",
+        "fonte": "Agência Pará",
+        "ano": 2017
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias históricas no Rio Tapajós",
+        "clima_descricao": "Chuvas prolongadas; casas destruídas e evacuação em massa.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2018
+    },
+    {
+        "estado_id": 14,
+        "evento": "Tempestades com vendaval",
+        "clima_descricao": "Chuvas intensas e ventos fortes; destelhamento e danos elétricos.",
+        "fonte": "CPRM",
+        "ano": 2019
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias do Rio Tocantins",
+        "clima_descricao": "Chuvas intensas e barragens cheias; enchentes urbanas.",
+        "fonte": "Defesa Civil",
+        "ano": 2020
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca e queimadas recordes",
+        "clima_descricao": "Baixa pluviosidade e queimadas; perda de pastagem e poluição do ar.",
+        "fonte": "INPE, Defesa Civil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 14,
+        "evento": "Inundação e cheia recorde",
+        "clima_descricao": "Chuvas fortes no Amazonas e Tapajós; destruição de casas e escolas.",
+        "fonte": "G1 Pará",
+        "ano": 2022
+    },
+    {
+        "estado_id": 14,
+        "evento": "Enxurradas em municípios do sudeste",
+        "clima_descricao": "Chuvas torrenciais; desabrigados e estragos em pontes.",
+        "fonte": "Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias e deslizamentos",
+        "clima_descricao": "Chuvas intensas e solo saturado; deslizamentos e alagamentos urbanos.",
+        "fonte": "Agência Pará, G1",
+        "ano": 2024
     },
     {
         "estado_id": 15,
@@ -161,6 +581,76 @@
         "ano": 2011
     },
     {
+        "estado_id": 23,
+        "evento": "Cheias no Rio Branco — 2011",
+        "clima_descricao": "Chuvas intensas elevaram o nível do Rio Branco, causando transbordamentos urbanos e danos em residências ribeirinhas.",
+        "fonte": "Defesa Civil, G1 Roraima",
+        "ano": 2011
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca severa — 2012",
+        "clima_descricao": "Período de estiagem prolongada; redução de vazão de rios e prejuízos à agricultura e pecuária.",
+        "fonte": "IBGE, Defesa Civil",
+        "ano": 2012
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes e alagamentos urbanos — 2013",
+        "clima_descricao": "Chuvas acima da média causaram inundações em bairros de Boa Vista e interrupções de vias.",
+        "fonte": "Folha BV, Defesa Civil",
+        "ano": 2013
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca e queimadas — 2015",
+        "clima_descricao": "Estiagem severa favoreceu incêndios florestais em áreas rurais e reservas; prejuízos ambientais e à saúde.",
+        "fonte": "IBAMA, INPE",
+        "ano": 2015
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes no Rio Branco — 2017",
+        "clima_descricao": "Chuvas prolongadas causaram alagamentos e evacuação de famílias ribeirinhas.",
+        "fonte": "Defesa Civil Roraima",
+        "ano": 2017
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca e falta d'água — 2019",
+        "clima_descricao": "Baixa pluviosidade e estiagem prolongada provocaram escassez hídrica em comunidades rurais.",
+        "fonte": "Agência Roraima, INMET",
+        "ano": 2019
+    },
+    {
+        "estado_id": 23,
+        "evento": "Cheia do Rio Branco — 2021",
+        "clima_descricao": "Nível do Rio Branco superou cota de alerta; alagamento de bairros, famílias desalojadas e prejuízos urbanos.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca extrema e queimadas — 2022",
+        "clima_descricao": "Estiagem prolongada e focos de incêndio em áreas de vegetação; prejuízos ambientais e risco à fauna.",
+        "fonte": "INPE, IBAMA, Amazônia Real",
+        "ano": 2022
+    },
+    {
+        "estado_id": 23,
+        "evento": "Chuvas intensas e inundações — 2023",
+        "clima_descricao": "Precipitação acima da média em Boa Vista e municípios do interior; danos em vias e residências.",
+        "fonte": "Folha BV, Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes e alagamentos urbanos — 2024",
+        "clima_descricao": "Chuvas intensas elevaram os níveis dos rios; registros de desabrigados e danos materiais.",
+        "fonte": "Defesa Civil, Agência Roraima",
+        "ano": 2024
+    },
+    {
         "estado_id": 24,
         "evento": "Enchentes Vale do Itajaí — nov 2008",
         "clima_descricao": "Dias de chuva contínua e intensa; inundações e deslizamentos.",
@@ -187,5 +677,55 @@
         "clima_descricao": "Períodos secos longos seguidos da estação chuvosa intensa.",
         "fonte": "Relatórios sobre enchentes e secas no Tocantins.",
         "ano": null
+    },
+    {
+        "estado_id": 27,
+        "evento": "Cheias e alagamentos — 2011",
+        "clima_descricao": "Chuvas intensas causaram elevação de rios e inundações em municípios do norte do estado.",
+        "fonte": "Defesa Civil Tocantins",
+        "ano": 2011
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca e estiagem prolongada — 2013",
+        "clima_descricao": "Período seco afetou a produção agrícola e o abastecimento hídrico em comunidades rurais.",
+        "fonte": "ANA, INMET",
+        "ano": 2013
+    },
+    {
+        "estado_id": 27,
+        "evento": "Enchentes e transbordamentos — 2015",
+        "clima_descricao": "Chuvas acima da média provocaram cheias e alagamentos em áreas urbanas e rurais.",
+        "fonte": "Defesa Civil, G1 Tocantins",
+        "ano": 2015
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca severa — 2017",
+        "clima_descricao": "Déficit de chuva prolongado; impactos na agricultura e pecuária; aumento de queimadas.",
+        "fonte": "INPE, IBAMA",
+        "ano": 2017
+    },
+    {
+        "estado_id": 27,
+        "evento": "Enchentes no norte do estado — 2020",
+        "clima_descricao": "Chuvas intensas e transbordamento de rios; interdições e famílias desalojadas.",
+        "fonte": "Defesa Civil, Portal G1",
+        "ano": 2020
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca e queimadas — 2023",
+        "clima_descricao": "Estiagem prolongada e calor extremo; aumento de focos de incêndio e danos ambientais.",
+        "fonte": "INPE, Defesa Civil Tocantins",
+        "ano": 2023
+    },
+    {
+        "estado_id": 27,
+        "evento": "Chuvas intensas e alagamentos — 2024",
+        "clima_descricao": "Temporais e precipitação elevada; danos em infraestrutura e desabrigados em municípios ribeirinhos.",
+        "fonte": "Agência Tocantins",
+        "ano": 2024
     }
+
 ]
