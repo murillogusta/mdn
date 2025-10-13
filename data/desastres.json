@@ -384,6 +384,34 @@
         "fonte": "Relatos sobre alagamentos e inundações em São Luís.",
         "ano": 2010
     },
+     {
+        "estado_id": 10,
+        "evento": "Chuvas fortes e inundações — fev 2018",
+        "clima_descricao": "Chuvas intensas desde fevereiro causaram transbordamento de rios, enchentes, queda de árvores e danos à infraestrutura.",
+        "fonte": "Defesa Civil do Maranhão / Agência Brasil",
+        "ano": 2018
+    },
+    {
+        "estado_id": 10,
+        "evento": "Chuvas intensas e enchentes — mar 2022",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios, destruição de pontes e estradas, e invasão de casas.",
+        "fonte": "UOL Notícias",
+        "ano": 2022
+    },
+    {
+        "estado_id": 10,
+        "evento": "Chuvas e deslizamentos — abr 2023",
+        "clima_descricao": "Chuvas fortes elevaram o nível dos rios; enxurradas arrastaram veículos e causaram deslizamentos de terra.",
+        "fonte": "UOL Notícias",
+        "ano": 2023
+    },
+    {
+        "estado_id": 10,
+        "evento": "Chuvas intensas e destruição de estradas — mar 2024",
+        "clima_descricao": "Chuvas fortes elevaram rios, causando alagamentos e destruição de vias de acesso.",
+        "fonte": "O Imparcial",
+        "ano": 2024
+    },
     {
         "estado_id": 11,
         "evento": "Cheias sazonais no Pantanal / secas 2019–2020",
@@ -524,6 +552,111 @@
         "fonte": "Relatórios sobre enchentes e estiagens na PB.",
         "ano": 2010
     },
+     {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2010",
+        "clima_descricao": "Estiagem prolongada e chuvas abaixo da média em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2010
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2011",
+        "clima_descricao": "Chuvas intensas provocaram o transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2011
+    },
+    {
+        "estado_id": 15,
+        "evento": "Alagamentos urbanos — 2012",
+        "clima_descricao": "Chuvas fortes geraram alagamentos urbanos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2012
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2013",
+        "clima_descricao": "Estiagem prolongada reduziu os níveis de reservatórios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2013
+    },
+    {
+        "estado_id": 15,
+        "evento": "Crise hídrica — 2014",
+        "clima_descricao": "Condições climáticas desfavoráveis agravaram a crise hídrica.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2014
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2015",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2015
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2016",
+        "clima_descricao": "Prolongamento da estiagem em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2016
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2017",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2017
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2018",
+        "clima_descricao": "Longo período de estiagem.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2018
+    },
+    {
+        "estado_id": 15,
+        "evento": "Alagamentos urbanos — 2019",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos em áreas urbanas.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2019
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2020",
+        "clima_descricao": "Estiagem prolongada afetou o interior.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2020
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2021",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2021
+    },
+    {
+        "estado_id": 15,
+        "evento": "Chuvas intensas — maio 2022",
+        "clima_descricao": "Chuvas intensas no mês de maio causaram alagamentos urbanos.",
+        "fonte": "An Attribution Study of Very Intense Rainfall Events in Eastern Northeast Brazil (2022)",
+        "ano": 2022
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2023",
+        "clima_descricao": "Estiagem prolongada com baixos índices pluviométricos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2023
+    },
+    {
+        "estado_id": 15,
+        "evento": "Chuvas intensas — 2024",
+        "clima_descricao": "Chuvas intensas em áreas urbanas causaram desabrigos e danos à infraestrutura.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2024
+    },
     {
         "estado_id": 16,
         "evento": "Enchentes/deslizamentos — março de 2011",
@@ -539,11 +672,53 @@
         "ano": 2010
     },
     {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — jun 2010",
+        "clima_descricao": "Chuvas intensas causaram transbordamento de rios e deslizamentos de encostas.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2010
+    },
+    {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas causaram alagamentos e instabilidade de encostas.",
+        "fonte": "An Attribution Study of Very Intense Rainfall Events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas extremas provocaram transbordamento de rios e deslizamentos em encostas urbanas.",
+        "fonte": "Flash Floods and Landslides in Recife, Northeast Brazil (2022)",
+        "ano": 2022
+    },
+    {
         "estado_id": 18,
         "evento": "Seca intensa — 2012–2015",
         "clima_descricao": "Estiagens prolongadas; quando chove, episódios concentrados geram alagamentos locais.",
         "fonte": "Monitor de Secas (Piauí).",
         "ano": 2015
+    },
+    {
+        "estado_id": 18,
+        "evento": "Seca prolongada — 2010",
+        "clima_descricao": "Falta de chuvas regulares em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais",
+        "ano": 2010
+    },
+    {
+        "estado_id": 18,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas causaram alagamentos e deslizamentos de terra.",
+        "fonte": "An attribution study of very intense rainfall events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 18,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
+        "ano": 2022
     },
     {
         "estado_id": 19,
@@ -558,6 +733,27 @@
         "clima_descricao": "Pancadas fortes na estação chuvosa; drenagem vulnerável.",
         "fonte": "Relatos sobre alagamentos em Natal (RN).",
         "ano": null
+    },
+    {
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — jun 2010",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais",
+        "ano": 2010
+    },
+    {
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "An attribution study of very intense rainfall events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
+        "ano": 2022
     },
     {
         "estado_id": 21,
