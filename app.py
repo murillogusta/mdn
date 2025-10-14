@@ -2,7 +2,12 @@
 import os
 import sqlite3
 
+import requests
+from dotenv import load_dotenv
 from flask import Flask, g, jsonify, render_template, request
+
+load_dotenv()
+OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 
 ROOT = os.path.dirname(__file__)
 DB_PATH = os.path.join(ROOT, "desastres.db")
@@ -112,6 +117,27 @@ def search():
     )
     rows = [row_to_dict(r) for r in cur.fetchall()]
     return jsonify(rows)
+
+
+@app.route("/weather", methods=["GET"])
+def get_weather():
+    q = request.args.get("q", "").strip()
+    if not q:
+        return jsonify({"error": "Query is required"}), 400
+
+    weather_data = requests.get(
+        "https://api.openweathermap.org/data/2.5/weather",
+        params={
+            "q": q,
+            "appid": OPENWEATHERMAP_API_KEY,
+            "units": "metric",
+            "lang": "pt_br",
+        },
+    ).json()
+    if weather_data.get("cod") != 200:
+        return jsonify({"error": "City not found"}), 404
+
+    return jsonify(weather_data)
 
 
 if __name__ == "__main__":

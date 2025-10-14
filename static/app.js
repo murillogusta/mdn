@@ -52,9 +52,24 @@ document.addEventListener("DOMContentLoaded", () => {
     return desastresData.filter(s => s.uf.toUpperCase() === uf.toUpperCase()).length;
   }
 
-  // Renderiza os estados no mapa
-  function renderGeoJSON(geoData, data) {
-    if (geojsonLayer) map.removeLayer(geojsonLayer);
+  // Função para obter o clima atual de uma capital pelo UF
+  async function getCurrentWheather(uf) {
+    const state = allStatesData.find(s => s.uf.toUpperCase() === uf.toUpperCase());
+    if (!state || !state.capital) return;
+   
+    const weatherRes = await fetch(`/weather?q=${state.capital},BR`);
+    if (!weatherRes.ok) return; // Verifica se a resposta é válida
+    const weatherData = await weatherRes.json();
+    return `       
+        <h4>Clima em ${state.capital}</h4>
+        <div><b>Temperatura:</b> ${weatherData.main.temp} °C</div>
+        <div><b>Condição:</b> ${weatherData.weather[0].description}</div>
+      `;
+      
+    }
+    // Renderiza os estados no mapa
+    function renderGeoJSON(geoData, data) {
+      if (geojsonLayer) map.removeLayer(geojsonLayer);
 
     const stateByUF = {};
     data.forEach(s => stateByUF[s.uf.toUpperCase()] = s);
@@ -70,16 +85,17 @@ document.addEventListener("DOMContentLoaded", () => {
       layer.on({
         mouseover: e => e.target.setStyle({ weight:2, color:"#2f6b46", fillColor:"#a9d9a1" }),
         mouseout: e => geojsonLayer.resetStyle(e.target),
-        click: e => {
+        click: async e => {
           const selectedYear = yearFilter.value;
           
           // Filter disasters for the clicked state
           const stateDisasters = filterDisastersByState(uf);
+          const weatherData = await getCurrentWheather(uf);
           
           if (selectedYear && (!s || !s.ano == selectedYear)) {
             layer.bindPopup(`<div class="disaster-card">Nenhum desastre em ${selectedYear} para ${feature.properties.nome}</div>`).openPopup();
             // Still populate table with state disasters (all years)
-            populateDisasterTable(stateDisasters, feature.properties.nome);
+            populateDisasterTable(stateDisasters, feature.properties.nome);            
             scrollToTable();
             return;
           }
@@ -93,6 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3>${s.estado} (${s.uf})</h3>
               <div><b>Capital:</b> ${s.capital}</div>
               <div><b>Desastres:</b> ${count_disasters(s.uf)}</div>
+              <div style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9;">
+                ${weatherData || '<i>Dados de clima indisponíveis</i>'}
+              </div>
               <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
                 <i>Clique para ver detalhes na tabela abaixo</i>
               </div>
