@@ -5,6 +5,7 @@ import sqlite3
 import requests
 from dotenv import load_dotenv
 from flask import Flask, g, jsonify, render_template, request
+from flask_caching import Cache
 
 load_dotenv()
 OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
@@ -13,6 +14,7 @@ ROOT = os.path.dirname(__file__)
 DB_PATH = os.path.join(ROOT, "desastres.db")
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
+cache = Cache(app)
 
 
 def get_db():
@@ -120,6 +122,7 @@ def search():
 
 
 @app.route("/weather", methods=["GET"])
+@cache.cached(timeout=600, query_string=True)  # cache por cidade (via query_string)
 def get_weather():
     q = request.args.get("q", "").strip()
     if not q:
