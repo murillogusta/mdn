@@ -1,10 +1,108 @@
 [
     {
         "estado_id": 1,
-        "evento": "Cheia do Rio Acre — fev-mar 2015",
-        "clima_descricao": "Chuvas intensas na estação úmida; rios em cheia por vários dias/semana.",
-        "fonte": "Agência Brasil (cheia do Acre, fev-2015).",
+        "evento": "Cheias/inundações — 2010",
+        "clima_descricao": "Chuvas intensas e transbordamento de rios; alagamentos em Rio Branco e bacia do Rio Acre.",
+        "fonte": "Defesa Civil do Acre (relatórios 2010).",
+        "ano": 2010
+    },
+    {
+        "estado_id": 1,
+        "evento": "Enchentes — 2011",
+        "clima_descricao": "Chuvas intensas e elevação do Rio Acre; centenas de desabrigados em Rio Branco.",
+        "fonte": "Agência de Notícias do Acre (enchentes 2011).",
+        "ano": 2011
+    },
+    {
+        "estado_id": 1,
+        "evento": "Cheia ampla — 2012",
+        "clima_descricao": "Transbordamento de rios em vários municípios; 117 mil atingidos e perdas agrícolas significativas.",
+        "fonte": "Defesa Civil do Acre e SGB (cheia 2012).",
+        "ano": 2012
+    },
+    {
+        "estado_id": 1,
+        "evento": "Enchentes — 2013",
+        "clima_descricao": "Chuvas intensas e elevação do Rio Acre; danos locais e prejuízos não consolidados.",
+        "fonte": "Agência de Notícias do Acre (2013).",
+        "ano": 2013
+    },
+    {
+        "estado_id": 1,
+        "evento": "Enchentes — 2014",
+        "clima_descricao": "Chuvas fortes em Rio Branco e municípios ribeirinhos; perdas agrícolas e danos urbanos.",
+        "fonte": "Defesa Civil do Acre (2014).",
+        "ano": 2014
+    },
+    {
+        "estado_id": 1,
+        "evento": "Enchente histórica — 2015",
+        "clima_descricao": "Chuvas extremas; Rio Acre atingiu 18,40m em Rio Branco, Brasiléia e Xapuri; mais de 100 mil atingidos.",
+        "fonte": "Agência Brasil (cheia histórica, fev–mar 2015).",
         "ano": 2015
+    },
+    {
+        "estado_id": 1,
+        "evento": "Cheias localizadas — 2016",
+        "clima_descricao": "Chuvas sazonais e transbordamentos pontuais; danos à infraestrutura e agricultura.",
+        "fonte": "Defesa Civil do Acre (2016).",
+        "ano": 2016
+    },
+    {
+        "estado_id": 1,
+        "evento": "Cheias regionais — 2017",
+        "clima_descricao": "Chuvas e transbordamentos em municípios ribeirinhos; danos a habitação e agricultura.",
+        "fonte": "Defesa Civil do Acre (2017).",
+        "ano": 2017
+    },
+    {
+        "estado_id": 1,
+        "evento": "Inundações moderadas — 2018",
+        "clima_descricao": "Chuvas fortes em áreas ribeirinhas; perdas agrícolas e danos residenciais.",
+        "fonte": "Agência de Notícias do Acre (2018).",
+        "ano": 2018
+    },
+    {
+        "estado_id": 1,
+        "evento": "Queimadas e incêndios — 2019",
+        "clima_descricao": "Uso de fogo em áreas agrícolas durante a seca; milhares afetados por fumaça e destruição de pastagens.",
+        "fonte": "IPAM e UFAC (relatórios sobre queimadas 2019).",
+        "ano": 2019
+    },
+    {
+        "estado_id": 1,
+        "evento": "Recorde de queimadas — 2020",
+        "clima_descricao": "Secas intensas e queimadas recordes; 265 mil hectares queimados; grandes perdas agrícolas e florestais.",
+        "fonte": "Serviço Geológico do Brasil e IPAM (2020).",
+        "ano": 2020
+    },
+    {
+        "estado_id": 1,
+        "evento": "Cheias e fumaça — 2021",
+        "clima_descricao": "Chuvas e queimadas de menor intensidade; impactos combinados em saúde e agricultura.",
+        "fonte": "Defesa Civil do Acre (2021).",
+        "ano": 2021
+    },
+    {
+        "estado_id": 1,
+        "evento": "Queimadas e cheias leves — 2022",
+        "clima_descricao": "Focos de fogo e chuvas sazonais; perdas agrícolas e poluição atmosférica.",
+        "fonte": "Agência de Notícias do Acre (2022).",
+        "ano": 2022
+    },
+    {
+        "estado_id": 1,
+        "evento": "3ª maior enchente — 2023",
+        "clima_descricao": "Chuvas intensas elevaram o Rio Acre a cerca de 17m; danos urbanos e rurais, abrigos temporários.",
+        "fonte": "Defesa Civil do Acre (enchente 2023).",
+        "ano": 2023
+    },
+    {
+        "estado_id": 1,
+        "evento": "Cheias de março — 2024",
+        "clima_descricao": "Chuvas intensas elevaram o Rio Acre a ~17,8m; milhares afetados e prejuízo rural superior a R$40 milhões.",
+        "fonte": "Serviço Geológico do Brasil e Defesa Civil (cheias de março 2024).",
+        "ano": 2024
     },
     {
         "estado_id": 2,
@@ -764,10 +862,108 @@
     },
     {
         "estado_id": 22,
-        "evento": "Cheias do Rio Madeira — 2013/2014",
-        "clima_descricao": "Chuvas acima da média na estação chuvosa; elevação rápida do rio.",
-        "fonte": "Relatos sobre cheia histórica do Madeira.",
+        "evento": "Inundações / enchentes locais — 2010",
+        "clima_descricao": "Chuvas intensas e elevação de rios em Pimenta Bueno e outros municípios; desabrigos e perdas em plantações.",
+        "fonte": "Relatórios municipais de Rondônia (2010).",
+        "ano": 2010
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enchentes / enxurradas — 2011",
+        "clima_descricao": "Chuvas sazonais intensas nos municípios ribeirinhos; danos a habitações e pequenos produtores.",
+        "fonte": "Atlas Brasileiro de Desastres (2011).",
+        "ano": 2011
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enchentes localizadas — 2012",
+        "clima_descricao": "Transbordamentos de rios em diversas regiões ribeirinhas; perdas agrícolas e danos residenciais.",
+        "fonte": "Defesa Civil de Rondônia (2012).",
+        "ano": 2012
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias e inundações pontuais — 2013",
+        "clima_descricao": "Chuvas e elevação fluvial; danos a moradias e lavouras em municípios ribeirinhos.",
+        "fonte": "Agência de Notícias de Rondônia (2013).",
+        "ano": 2013
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheia histórica do Rio Madeira — 2014",
+        "clima_descricao": "Precipitação excepcional nas cabeceiras do Rio Madeira; mais de 150 mil pessoas atingidas em Porto Velho, Guajará-Mirim e região.",
+        "fonte": "Estudos da cheia do Madeira (2014); Atlas Brasileiro de Desastres.",
         "ano": 2014
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enchentes e efeitos pós-2014 — 2015",
+        "clima_descricao": "Chuvas e ajustes hidrológicos pós-cheia do Madeira; recuperação de infraestrutura e prejuízos locais.",
+        "fonte": "Relatórios da Defesa Civil de Rondônia (2015).",
+        "ano": 2015
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias e eventos pluviométricos — 2016",
+        "clima_descricao": "Chuvas sazonais em municípios ribeirinhos; danos residuais e obras de recuperação.",
+        "fonte": "Agência de Notícias de Rondônia (2016).",
+        "ano": 2016
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enxurradas e enchentes pontuais — 2017",
+        "clima_descricao": "Chuvas intensas de curta duração em diversos municípios; danos a vias, casas e lavouras.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (2017).",
+        "ano": 2017
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enchentes urbanas e rurais — 2018",
+        "clima_descricao": "Chuvas e elevação de rios em Porto Velho e áreas ribeirinhas; interrupção de serviços e danos residenciais.",
+        "fonte": "Defesa Civil de Rondônia (2018).",
+        "ano": 2018
+    },
+    {
+        "estado_id": 22,
+        "evento": "Queimadas / incêndios — 2019",
+        "clima_descricao": "Uso de fogo em manejo agrícola e incêndios florestais; poluição do ar e perdas de pastagens.",
+        "fonte": "INPE/Terrabrasilis e IPAM (queimadas 2019).",
+        "ano": 2019
+    },
+    {
+        "estado_id": 22,
+        "evento": "Recorde de focos de queimadas — 2020",
+        "clima_descricao": "Seca e uso intensivo do fogo; grandes áreas queimadas detectadas por satélite e prejuízos econômicos setoriais.",
+        "fonte": "INPE/Terrabrasilis (dados 2020).",
+        "ano": 2020
+    },
+    {
+        "estado_id": 22,
+        "evento": "Queimadas localizadas e enchentes pontuais — 2021",
+        "clima_descricao": "Mistura de seca e chuvas em áreas agrícolas; impactos na produção rural e saúde.",
+        "fonte": "Relatórios municipais (2021).",
+        "ano": 2021
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias locais e queimadas — 2022",
+        "clima_descricao": "Chuvas sazonais e focos de fogo; perdas agrícolas e poluição do ar em municípios ribeirinhos e rurais.",
+        "fonte": "Agência de Notícias de Rondônia (2022).",
+        "ano": 2022
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias e eventos hidrológicos regionais — 2023",
+        "clima_descricao": "Chuvas intensas na bacia do Madeira; desalojamentos pontuais e danos a residências e lavouras.",
+        "fonte": "Defesa Civil de Rondônia (cheias 2023).",
+        "ano": 2023
+    },
+    {
+        "estado_id": 22,
+        "evento": "Enchentes e queimadas sazonais — 2024",
+        "clima_descricao": "Estação chuvosa intensa e focos de fogo na seca; danos residenciais e agrícolas dispersos.",
+        "fonte": "Atlas Brasileiro de Desastres e INPE (2024).",
+        "ano": 2024
     },
     {
         "estado_id": 23,
