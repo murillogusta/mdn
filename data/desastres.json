@@ -755,13 +755,111 @@
         "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
         "ano": 2024
     },
-    {
-        "estado_id": 16,
-        "evento": "Enchentes/deslizamentos — março de 2011",
-        "clima_descricao": "Frentes/temporais com chuva intensa por vários dias; inundações e deslizamentos.",
-        "fonte": "Defesa Civil sobre desastre de 2011 no litoral do PR.",
-        "ano": 2011
-    },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2010,
+    "evento": "Cheias e inundações atingiram vários municípios, com destaque para Matinhos e o litoral. Cerca de 35 mil pessoas foram afetadas. Houve danos em residências e infraestrutura urbana.",
+    "fonte": "Atlas Brasileiro de Desastres (CEPED/UFSC) — Paraná, evento Matinhos 2010."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2011,
+    "evento": "Desastre das 'Águas de Março' no litoral — Antonina, Morretes e Paranaguá. Chuvas excepcionais causaram deslizamentos, enxurradas e prejuízos superiores a R$ 100 milhões.",
+    "fonte": "Defesa Civil PR / Gazeta do Povo / Governo do Paraná."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2012,
+    "evento": "Seca severa atingiu as regiões Oeste e Noroeste, com grandes prejuízos agrícolas em lavouras de soja, milho e feijão.",
+    "fonte": "Agroclima / Climatempo — prejuízos no agronegócio do Paraná por causa da seca (2012)."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2013,
+    "evento": "Chuvas e enchentes regionais afetaram municípios dos Campos Gerais e interior, causando danos a moradias e estradas municipais.",
+    "fonte": "Anuário da Defesa Civil do Paraná (2013)."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2014,
+    "evento": "Cheias históricas atingiram União da Vitória e Porto União, com destruição de pontes e milhares de desalojados. Impacto severo na bacia do Iguaçu.",
+    "fonte": "Gazeta do Povo / Diocese União da Vitória (2014)."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2015,
+    "evento": "Episódios de tornados e ventos fortes no Sudoeste e Oeste do estado. Diversos municípios decretaram emergência devido a destruição de moradias e plantações.",
+    "fonte": "Defesa Civil PR / portais regionais."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2016,
+    "evento": "Chuvas intensas e enxurradas pontuais atingiram municípios do interior e regiões metropolitanas, com danos materiais e interrupções de tráfego.",
+    "fonte": "Defesa Civil PR / boletins municipais."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2017,
+    "evento": "Temporais e vendavais afetaram cidades do interior, causando destelhamentos e queda de árvores. Ocorreram prejuízos agrícolas e urbanos.",
+    "fonte": "Defesa Civil do Paraná / cobertura jornalística."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2018,
+    "evento": "Chuvas intensas e alagamentos urbanos em várias cidades, com registros de desabrigados e danos à infraestrutura.",
+    "fonte": "Anuário de Desastres Naturais do Paraná (2018)."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2019,
+    "evento": "Temporais de verão com enxurradas e inundações em municípios do interior. Ocorreram desalojamentos e danos materiais.",
+    "fonte": "Defesa Civil PR / boletins regionais."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2020,
+    "evento": "Chuvas intensas e vendavais afetaram municípios do interior, com danos agrícolas e interrupções em estradas.",
+    "fonte": "Relatórios meteorológicos e Defesa Civil PR."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2021,
+    "evento": "Chuvas sazonais e enchentes pontuais em municípios do litoral e interior. Ocorreram danos a moradias e estradas locais.",
+    "fonte": "Boletins estaduais e Defesa Civil PR."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2022,
+    "evento": "Eventos de chuva intensa e vendavais provocaram alagamentos e prejuízos agrícolas, principalmente no norte e oeste do estado.",
+    "fonte": "Defesa Civil PR / Instituto Simepar."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2023,
+    "evento": "Temporais de verão e inundações localizadas afetaram municípios do interior, com desalojados e prejuízos econômicos regionais.",
+    "fonte": "Defesa Civil PR / imprensa regional."
+  },
+  {
+    "estado_id": 16,
+    "estado_nome": "Paraná",
+    "ano": 2024,
+    "evento": "Chuvas intensas e inundações em várias regiões, com destaque para o litoral. Ações preventivas e resposta rápida da Defesa Civil minimizaram impactos.",
+    "fonte": "Defesa Civil PR / Governo do Estado (2024)."
+  },
     {
         "estado_id": 17,
         "evento": "Enchentes em PE/AL — junho de 2010",
@@ -818,13 +916,111 @@
         "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
         "ano": 2022
     },
-    {
-        "estado_id": 19,
-        "evento": "Deslizamentos em Petrópolis — fev 2013",
-        "clima_descricao": "Chuvas extremamente intensas e concentradas em curto período; solo saturado.",
-        "fonte": "Reportagens sobre tragédia de Petrópolis 2013.",
-        "ano": 2013
-    },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2010,
+    "evento": "Chuvas intensas e deslizamentos em várias regiões, especialmente na Região Serrana. Episódios em janeiro e abril causaram dezenas de mortes, milhares de desalojados e danos urbanos e rurais.",
+    "fonte": "ReliefWeb (abr/2010) / Wikipédia — enchentes e deslizamentos de 2010."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2011,
+    "evento": "Enchentes e deslizamentos catastróficos na Região Serrana (Teresópolis, Nova Friburgo e Petrópolis). O desastre de janeiro resultou em cerca de 900 a 916 mortes, sendo um dos maiores da história do Brasil.",
+    "fonte": "Wikipédia — January 2011 Rio de Janeiro floods / PMC article on 2011 Serrana disaster."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2012,
+    "evento": "Chuvas sazonais causaram alagamentos e pequenos deslizamentos em áreas metropolitanas e municípios de risco. Houve desalojamentos pontuais.",
+    "fonte": "Boletins locais e reportagens regionais."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2013,
+    "evento": "Episódios de chuva intensa e alagamentos urbanos em pontos do interior e da Região Metropolitana, com danos materiais.",
+    "fonte": "Cobertura jornalística local."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2014,
+    "evento": "Chuvas volumosas em algumas micro-regiões causaram prejuízos pontuais, enquanto outras enfrentaram seca. Ocorreram deslizamentos e danos urbanos localizados.",
+    "fonte": "Relatórios meteorológicos e cobertura da imprensa."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2015,
+    "evento": "Crise hídrica regional entre 2014 e 2017 reduziu a oferta de água e afetou a agricultura e o abastecimento urbano. Impactos econômicos e sociais relevantes.",
+    "fonte": "Estudos sobre a seca 2014–2017 no Sudeste."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2016,
+    "evento": "Chuvas intensas de verão provocaram alagamentos em cidades metropolitanas e interioranas. Danos urbanos pontuais.",
+    "fonte": "Boletins municipais / Defesa Civil RJ."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2017,
+    "evento": "Chuvas localizadas causaram enxurradas e deslizamentos em encostas. Famílias desalojadas e prejuízos materiais em municípios da Baixada e interior.",
+    "fonte": "Imprensa regional e relatórios municipais."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2018,
+    "evento": "Temporais de verão e ventos fortes atingiram áreas costeiras e serranas. Houve queda de árvores, interrupções de energia e ressacas.",
+    "fonte": "Cobertura local e boletins meteorológicos."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2019,
+    "evento": "Temporais e alagamentos frequentes na capital e Baixada Fluminense, com mortes e grandes transtornos urbanos.",
+    "fonte": "Defesa Civil RJ / reportagens locais."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2020,
+    "evento": "Chuvas fortes e ressacas atingiram o litoral e a capital. Danos costeiros e alagamentos urbanos em bairros vulneráveis.",
+    "fonte": "AP News / Defesa Civil RJ (2020)."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2021,
+    "evento": "Chuvas intensas e enxurradas em municípios serranos e metropolitanos. Registros de afetados e abrigos emergenciais.",
+    "fonte": "Boletins municipais / imprensa local."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2022,
+    "evento": "Inundações e deslizamentos em Petrópolis em 15 de fevereiro causaram 231 mortes. Um dos maiores desastres climáticos do estado, com destruição de bairros e desabrigados.",
+    "fonte": "NHESS (2023) / Reuters / Wikipédia — Petrópolis 2022."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2023,
+    "evento": "Chuvas intensas e enchentes pontuais em regiões metropolitanas e serranas. Danos a moradias e interrupção de serviços.",
+    "fonte": "Defesa Civil RJ / cobertura jornalística local."
+  },
+  {
+    "estado_id": 19,
+    "estado_nome": "Rio de Janeiro",
+    "ano": 2024,
+    "evento": "Chuvas intensas e riscos de deslizamentos em áreas de encosta e Baixada. Ocorreram desalojamentos e ações preventivas de mitigação.",
+    "fonte": "Defesa Civil RJ / Governo do Estado / reportagens locais."
+  },
     {
         "estado_id": 20,
         "evento": "Alagamentos urbanos — vários anos",
@@ -853,13 +1049,111 @@
         "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
         "ano": 2022
     },
-    {
-        "estado_id": 21,
-        "evento": "Enchentes — abril-maio 2024",
-        "clima_descricao": "Sistemas frontais com chuva intensa por vários dias; rios em cheia e ampla inundação.",
-        "fonte": "Estudos sobre enchentes de 2024 no RS.",
-        "ano": 2024
-    },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2010,
+    "evento": "Chuvas fortes causaram enchentes em várias regiões, com danos a moradias e pontes. Espumoso registrou óbito e centenas de desalojados.",
+    "fonte": "Defesa Civil RS — boletim de janeiro de 2010."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2011,
+    "evento": "Enxurrada grave atingiu São Lourenço do Sul, com mortes e ampla destruição. Decretos de calamidade e forte mobilização local.",
+    "fonte": "PUCRS — estudo de caso sobre enxurrada de São Lourenço do Sul."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2012,
+    "evento": "Seca e estiagem afetaram fortemente a agricultura, com perdas de safra e impactos econômicos expressivos.",
+    "fonte": "Compilações regionais sobre estiagem 2011–2012."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2013,
+    "evento": "Chuvas e cheias atingiram o Vale do Taquari e outras bacias. Vários decretos municipais por desastres e danos em moradias e estradas.",
+    "fonte": "Atlas / FAMURS — compilações sobre danos 2013–2023."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2014,
+    "evento": "Chuvas localizadas e enchentes pontuais afetaram municípios ribeirinhos, com perdas locais e pedidos de apoio.",
+    "fonte": "Boletins estaduais e relatórios técnicos."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2015,
+    "evento": "Temporais de verão e vendavais causaram danos em municípios do litoral norte e interior, com quedas de árvores e interrupções de energia.",
+    "fonte": "Boletins meteorológicos regionais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2016,
+    "evento": "Chuvas fortes causaram cheias em várias regiões, com famílias desalojadas e danos a pontes e rodovias.",
+    "fonte": "Atlas / relatórios estaduais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2017,
+    "evento": "Enchentes e enxurradas afetaram municípios do Taquari e Jacuí. Chuvas intensas provocaram desalojamentos e prejuízos locais.",
+    "fonte": "Levantamentos estaduais / CEMADEN / Atlas de Desastres."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2018,
+    "evento": "Períodos de seca e temporais localizados causaram perdas agrícolas e danos urbanos pontuais.",
+    "fonte": "Relatórios setoriais e Atlas regionais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2019,
+    "evento": "Temporais e cheias urbanas atingiram Grande Porto Alegre e o Vale do Taquari, com mortes e prejuízos materiais.",
+    "fonte": "Boletins e reportagens municipais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2020,
+    "evento": "Chuvas intensas e enchentes sazonais em áreas urbanas e rurais, com danos a infraestrutura e agricultura.",
+    "fonte": "Relatórios técnicos regionais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2021,
+    "evento": "Chuvas intensas e enchentes em várias bacias causaram desabrigados e danos em infraestrutura.",
+    "fonte": "Boletins da Defesa Civil RS."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2022,
+    "evento": "Vendavais e chuvas fortes causaram danos em municípios do litoral e interior, com prejuízos rurais e urbanos.",
+    "fonte": "FAMURS — levantamento de desastres 2013–2023."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2023,
+    "evento": "Cheias severas em diversas bacias provocaram mortes, desabrigados e grandes prejuízos materiais.",
+    "fonte": "Relatórios FAMURS e boletins regionais."
+  },
+  {
+    "estado_id": 21,
+    "estado_nome": "Rio Grande do Sul",
+    "ano": 2024,
+    "evento": "Cheias catastróficas em maio afetaram dezenas de municípios, com centenas de mortos, desaparecidos e perdas econômicas imensas. Considerado um dos maiores desastres naturais do Brasil.",
+    "fonte": "Reuters / FAMURS / Governo do RS / MDR (2024)."
+  },
     {
         "estado_id": 22,
         "evento": "Inundações / enchentes locais — 2010",
@@ -1042,27 +1336,321 @@
         "fonte": "Defesa Civil, Agência Roraima",
         "ano": 2024
     },
-    {
-        "estado_id": 24,
-        "evento": "Enchentes Vale do Itajaí — nov 2008",
-        "clima_descricao": "Dias de chuva contínua e intensa; inundações e deslizamentos.",
-        "fonte": "Reportagens sobre enchentes de nov/2008 em SC.",
-        "ano": 2008
-    },
-    {
-        "estado_id": 25,
-        "evento": "Enchentes/deslizamentos Litoral Norte — fev 2023",
-        "clima_descricao": "Chuvas recorde em curtoperíodo (>600 mm/24h em alguns pontos), solo saturado.",
-        "fonte": "Notícias sobre chuvas e deslizamentos de fev/2023.",
-        "ano": 2023
-    },
-    {
-        "estado_id": 26,
-        "evento": "Estiagens no sertão e enchentes locais",
-        "clima_descricao": "Sertão: seca prolongada; litoral: pancadas intensas ocasionais.",
-        "fonte": "Relatórios sobre seca e eventos em Sergipe.",
-        "ano": null
-    },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2010,
+    "evento": "Chuvas fortes e alagamentos em municípios do Vale do Itajaí, Litoral e Serra. Acumulados intensos causaram transbordamentos de rios e desalojamentos locais.",
+    "fonte": "Defesa Civil SC — boletins regionais."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2011,
+    "evento": "Enchentes atingiram o Vale do Itajaí, com destaque para Blumenau e Rio do Sul. Chuvas intensas elevaram o Rio Itajaí e causaram 6 mortes e milhares de afetados.",
+    "fonte": "SindSegSC — histórico de enchentes e desastres naturais de Santa Catarina."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2012,
+    "evento": "Temporais e enxurradas localizadas atingiram municípios litorâneos e do Vale do Itajaí, com danos em vias e residências.",
+    "fonte": "Defesa Civil SC / reportagens locais."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2013,
+    "evento": "Chuvas intensas e alagamentos pontuais em municípios do Vale do Itajaí e Planalto Serrano. Famílias desalojadas e prejuízos urbanos.",
+    "fonte": "SindSegSC / portais de notícia regionais."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2014,
+    "evento": "Temporais sazonais e inundações em municípios do litoral e Vale do Itajaí. Defesa Civil atuou em ações emergenciais e recuperação de infraestrutura.",
+    "fonte": "Defesa Civil SC / imprensa local."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2015,
+    "evento": "Tornado atingiu Xanxerê e região Oeste, com ventos extremos que causaram destruição de 2.600 casas e duas mortes. Um dos eventos meteorológicos mais marcantes do ano.",
+    "fonte": "SindSegSC / cobertura sobre o tornado de Xanxerê."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2016,
+    "evento": "Chuvas intensas de verão geraram alagamentos em Florianópolis e municípios do Vale do Itajaí. Danos a infraestrutura urbana e residências.",
+    "fonte": "Defesa Civil SC / boletins municipais."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2017,
+    "evento": "Temporais com vendavais e alagamentos esporádicos atingiram o litoral e o Vale do Itajaí. Houve danos a imóveis e quedas de árvores.",
+    "fonte": "Notícias locais / Defesa Civil SC."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2018,
+    "evento": "Chuvas fortes causaram alagamentos em Itajaí, Balneário Camboriú e Planalto. Interrupções de serviços e danos materiais.",
+    "fonte": "Portais regionais / Defesa Civil SC."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2019,
+    "evento": "Temporais e enchentes localizadas atingiram Grande Florianópolis e Vale do Itajaí. Houve mortes e feridos em incidentes isolados.",
+    "fonte": "Boletins locais / reportagens estaduais."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2020,
+    "evento": "Ciclone extratropical atingiu diversas regiões do estado com ventos fortes e chuvas intensas. Houve 11 mortes no Sul do Brasil, sendo SC um dos mais afetados.",
+    "fonte": "SindSegSC — compilação de grandes desastres."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2021,
+    "evento": "Temporais de verão causaram enchentes e deslizamentos pontuais em municípios do Vale do Itajaí e litoral. Houve desalojados e danos em rodovias.",
+    "fonte": "Defesa Civil SC / imprensa local."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2022,
+    "evento": "Chuvas intensas em dezembro provocaram deslizamentos em Camboriú e cidades vizinhas, resultando em 2 mortes e centenas de desalojados.",
+    "fonte": "UOL / Reuters / imprensa local."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2023,
+    "evento": "Cheias históricas em outubro e novembro atingiram o Vale do Itajaí e Planalto. Onze mortes foram registradas e milhares ficaram desalojados.",
+    "fonte": "SindSegSC / reportagens sobre as cheias de 2023."
+  },
+  {
+    "estado_id": 24,
+    "estado_nome": "Santa Catarina",
+    "ano": 2024,
+    "evento": "Chuvas intensas e risco de deslizamentos continuaram em municípios do Vale do Itajaí, litoral e serras. Defesa Civil manteve monitoramento.",
+    "fonte": "Defesa Civil SC / SindSegSC."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2010,
+    "evento": "Temporais, enchentes e deslizamentos afetaram diversas áreas do estado, especialmente o litoral sul e a Região Metropolitana de São Paulo. Chuvas intensas durante a estação chuvosa causaram alagamentos e riscos de deslizamentos em vários municípios. Houve desalojamentos locais e danos a moradias e vias.",
+    "fonte": "Wikipédia / compilações jornalísticas sobre enchentes e deslizamentos no Sudeste em jan/2010."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2011,
+    "evento": "Chuvas e alagamentos pontuais em diversos municípios da Região Metropolitana e do interior. Precipitações localizadas causaram transtornos urbanos e pequenos prejuízos materiais.",
+    "fonte": "Defesa Civil SP / arquivos jornalísticos."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2012,
+    "evento": "Chuvas sazonais e enxurradas em pontos vulneráveis do estado. Pancadas intensas elevaram córregos urbanos, provocando alagamentos e interrupções de tráfego.",
+    "fonte": "Boletins locais / CEMADEN / Atlas histórico de desastres."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2013,
+    "evento": "Temporais e enchentes em dezembro afetaram áreas da RMSP e cidades do interior, dentro de um episódio regional de grande impacto no Sudeste. Chuvas intensas provocaram alagamentos e desalojamentos.",
+    "fonte": "Compilações sobre enchentes no Sudeste em 2013."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2014,
+    "evento": "Início da crise hídrica que atingiu fortemente a Região Metropolitana. Déficit pluviométrico severo reduziu drasticamente o nível dos reservatórios, afetando o abastecimento de milhões de pessoas.",
+    "fonte": "Agência Brasil / Sabesp / estudos acadêmicos sobre a crise hídrica 2014–2015."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2015,
+    "evento": "Continuação da crise hídrica com níveis críticos nos mananciais e forte impacto econômico e social. Restrições no consumo de água e programas de racionamento marcaram o período.",
+    "fonte": "Sabesp / estudos acadêmicos sobre o biênio 2014–2015."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2016,
+    "evento": "Chuvas de verão causaram alagamentos e enxurradas pontuais em municípios da RMSP e do interior. Houve retirada de famílias em áreas de risco e danos locais a infraestrutura.",
+    "fonte": "Boletins da Defesa Civil SP / reportagens locais."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2017,
+    "evento": "Temporais de verão provocaram alagamentos e deslizamentos localizados em cidades da RMSP e interior, causando danos materiais e interrupções de tráfego.",
+    "fonte": "Cobertura jornalística e boletins municipais."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2018,
+    "evento": "Episódios de chuva intensa e enchentes localizadas afetaram municípios diversos, inclusive o litoral, com ressacas e danos a moradias e transporte.",
+    "fonte": "Matérias e boletins da Defesa Civil."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2019,
+    "evento": "Temporais severos em março causaram alagamentos e deslizamentos em bairros da capital e municípios do ABC. Houve mortes, desaparecimentos e grandes prejuízos locais.",
+    "fonte": "Cobertura jornalística / Corpo de Bombeiros / Defesa Civil."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2020,
+    "evento": "Temporais de verão e vendavais provocaram alagamentos em áreas urbanas, com registros de danos materiais e dificuldades na resposta por conta da pandemia.",
+    "fonte": "Reportagens locais e boletins da Defesa Civil."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2021,
+    "evento": "Chuvas intensas e temporais causaram desabrigados e danos em municípios da RMSP e interior. Houve mortes em episódios pontuais e necessidade de ações emergenciais.",
+    "fonte": "G1 / CNN / Corpo de Bombeiros / Defesa Civil SP."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2022,
+    "evento": "Temporais e enchentes localizadas em várias regiões, com mortes e feridos em incidentes pontuais. Solos saturados provocaram riscos de deslizamentos.",
+    "fonte": "CEMADEN / INMET / Defesa Civil SP."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2023,
+    "evento": "Temporais e enxurradas localizadas provocaram danos a residências e vias. O padrão de verões com eventos extremos continuou em vários municípios.",
+    "fonte": "Cobertura jornalística local / Defesa Civil."
+  },
+  {
+    "estado_id": 25,
+    "estado_nome": "São Paulo",
+    "ano": 2024,
+    "evento": "Chuvas localizadas e temporais de verão atingiram municípios vulneráveis da RMSP e do interior. Houve desalojados e danos pontuais, mas ações preventivas foram intensificadas.",
+    "fonte": "Boletins da Defesa Civil SP / CEMADEN / Atlas de desastres."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2010,
+    "evento": "Chuvas torrenciais e enchentes em abril e maio afetaram diversos municípios, inclusive Aracaju e áreas ribeirinhas. Alagamentos urbanos e transbordamentos de córregos deixaram milhares de pessoas afetadas e exigiram ações de reconstrução.",
+    "fonte": "Governo do Estado de Sergipe — nota sobre entrega de kits a municípios atingidos pelas chuvas de 2010."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2011,
+    "evento": "Chuvas intensas entre maio e junho provocaram alagamentos urbanos em Aracaju e região metropolitana. Ocorreram transtornos e desalojamentos pontuais, com mobilização da Defesa Civil e prefeituras.",
+    "fonte": "Cobertura jornalística local — Prefeitura e Governo de Sergipe."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2012,
+    "evento": "Ações de recuperação de barragens e reservatórios rurais marcaram o período, como medida preventiva e de mitigação frente à variabilidade climática e risco de estiagens.",
+    "fonte": "Governo de Sergipe — programas de recuperação de pequenas barragens (2012–2013)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2013,
+    "evento": "Chuvas sazonais causaram enchentes localizadas em municípios litorâneos e urbanos. Alagamentos e transbordamentos foram registrados, exigindo ações de limpeza e assistência às famílias.",
+    "fonte": "Atlas de Desastres em Sergipe — Defesa Civil Estadual."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2014,
+    "evento": "Seca prolongada levou 14 municípios a serem reconhecidos em situação de emergência. O interior do estado sofreu escassez hídrica, perdas agrícolas e impactos sociais relevantes.",
+    "fonte": "Agência Brasil — portaria federal de emergência em 14 municípios de Sergipe (16/04/2014)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2015,
+    "evento": "Estiagem persistente atingiu o Alto Sertão sergipano, afetando municípios como Carira, Poço Redondo e Canindé de São Francisco. A seca prejudicou a agricultura e pecuária, gerando decretos de emergência.",
+    "fonte": "Infonet — notícia sobre emergência em nove municípios sergipanos (01/07/2015)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2016,
+    "evento": "Chuvas de verão causaram alagamentos pontuais em Aracaju e municípios litorâneos. Áreas com drenagem deficiente registraram prejuízos materiais e remoção de famílias de risco.",
+    "fonte": "Defesa Civil municipal e Atlas de Desastres em Sergipe."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2017,
+    "evento": "Chuvas intensas em áreas de encosta de Aracaju causaram risco de deslizamentos e retirada preventiva de moradores. Defesa Civil atuou com planos de contingência e obras de mitigação.",
+    "fonte": "Mapeamento de áreas de risco de Aracaju — Plano de Contingência (2017)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2018,
+    "evento": "O estado apresentou variabilidade climática com chuvas no litoral e seca no sertão. Alagamentos urbanos e prejuízos agrícolas pontuais foram relatados.",
+    "fonte": "Plano Estadual de Defesa Civil (2021) / relatórios regionais."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2019,
+    "evento": "Chuvas de verão causaram alagamentos urbanos em Aracaju e municípios da região metropolitana. Defesa Civil intensificou ações preventivas e monitoramento de áreas de risco.",
+    "fonte": "Prefeitura de Aracaju — Defesa Civil municipal (2019)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2020,
+    "evento": "Risco de transbordamento do Rio Poxim levou à emissão de alertas preventivos. Chuvas aumentaram os níveis da barragem, mas não houve rompimento. Defesa Civil monitorou a situação.",
+    "fonte": "BancárioSE — alerta sobre o Rio Poxim (2020)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2021,
+    "evento": "Chuvas de verão causaram alagamentos em Aracaju e Estância, enquanto o sertão enfrentou baixa pluviosidade. A Defesa Civil realizou ações de prevenção e remoção de famílias em risco.",
+    "fonte": "Prefeitura de Aracaju / Defesa Civil municipal."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2022,
+    "evento": "Episódios de chuva concentrada provocaram elevação de córregos e desalojamento de famílias em pontos vulneráveis. Houve mobilização emergencial e limpeza de vias afetadas.",
+    "fonte": "Governo do Estado de Sergipe / Tribunal de Contas — análise sobre vulnerabilidades (2022)."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2023,
+    "evento": "Chuvas de verão e alagamentos intermitentes atingiram Aracaju e municípios costeiros. O interior registrou trechos de seca, mantendo o padrão misto de precipitação.",
+    "fonte": "Plano Estadual de Defesa Civil (2021) / publicações da Defesa Civil SE."
+  },
+  {
+    "estado_id": 26,
+    "estado_nome": "Sergipe",
+    "ano": 2024,
+    "evento": "Chuvas sazonais e estiagem alternaram-se em diferentes regiões. O governo estadual executou ações de prevenção a enchentes em Maruim e monitoramento no sertão.",
+    "fonte": "Governo de Sergipe — ações de prevenção a enchentes em Maruim (2024)."
+  },
     {
         "estado_id": 27,
         "evento": "Secas predominantes / cheias locais",
