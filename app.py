@@ -2,12 +2,19 @@
 import os
 import sqlite3
 
+import requests
+from dotenv import load_dotenv
 from flask import Flask, g, jsonify, render_template, request
+from flask_caching import Cache
+
+load_dotenv()
+OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 
 ROOT = os.path.dirname(__file__)
 DB_PATH = os.path.join(ROOT, "desastres.db")
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
+cache = Cache(app)
 
 
 def get_db():
@@ -46,7 +53,7 @@ def list_states():
     db = get_db()
     cur = db.cursor()
     cur.execute(
-        "SELECT * FROM estados join desastres ON estados.id = desastres.estado_id ORDER BY estado"
+        "SELECT estados.*, count(desastres.id) as total_disasters FROM estados right join desastres ON estados.id = desastres.estado_id GROUP BY estados.id ORDER BY estado"
     )
     rows = [row_to_dict(r) for r in cur.fetchall()]
     return jsonify(rows)
@@ -57,13 +64,39 @@ def get_state(uf):
     db = get_db()
     cur = db.cursor()
     cur.execute(
-        "SELECT * FROM estados join desastres ON estados.id = desastres.estado_id WHERE uf = ? COLLATE NOCASE",
+        "SELECT estados.*, count(desastres.id) as total_disasters FROM estados join desastres ON estados.id = desastres.estado_id WHERE uf = ? COLLATE NOCASE",
         (uf.upper(),),
     )
     row = cur.fetchone()
     if not row:
         return jsonify({"error": "Not found"}), 404
     return jsonify(row_to_dict(row))
+
+
+@app.route("/disasters", methods=["GET"])
+def list_disasters():
+    """Retorna lista completa de desastres."""
+    db = get_db()
+    cur = db.cursor()
+    cur.execute(
+        "SELECT desastres.*, estados.estado, estados.uf, estados.capital FROM desastres JOIN estados ON desastres.estado_id = estados.id ORDER BY ano DESC"
+    )
+    rows = [row_to_dict(r) for r in cur.fetchall()]
+    return jsonify(rows)
+
+
+@app.route("/states/<string:uf>/disasters", methods=["GET"])
+def get_state_disasters(uf):
+    db = get_db()
+    cur = db.cursor()
+    cur.execute(
+        "SELECT * FROM desastres JOIN estados ON desastres.estado_id = estados.id WHERE uf = ? COLLATE NOCASE ORDER BY ano DESC",
+        (uf.upper(),),
+    )
+    rows = [row_to_dict(r) for r in cur.fetchall()]
+    if not rows:
+        return jsonify({"error": "Not found"}), 404
+    return jsonify(rows)
 
 
 @app.route("/search", methods=["GET"])
@@ -86,6 +119,28 @@ def search():
     )
     rows = [row_to_dict(r) for r in cur.fetchall()]
     return jsonify(rows)
+
+
+@app.route("/weather", methods=["GET"])
+@cache.cached(timeout=600, query_string=True)  # cache por cidade (via query_string)
+def get_weather():
+    q = request.args.get("q", "").strip()
+    if not q:
+        return jsonify({"error": "Query is required"}), 400
+
+    weather_data = requests.get(
+        "https://api.openweathermap.org/data/2.5/weather",
+        params={
+            "q": q,
+            "appid": OPENWEATHERMAP_API_KEY,
+            "units": "metric",
+            "lang": "pt_br",
+        },
+    ).json()
+    if weather_data.get("cod") != 200:
+        return jsonify({"error": "City not found"}), 404
+
+    return jsonify(weather_data)
 
 
 if __name__ == "__main__":

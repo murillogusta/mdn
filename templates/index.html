@@ -171,6 +171,30 @@
     <h2>Mapa Interativo</h2>
     <div id="map"></div>
 
+    <h2>Lista de Desastres Naturais</h2>
+    <div id="tableHeader" style="max-width:1000px; margin: 0 auto 10px auto; text-align: center;">
+      <p id="tableStatus" style="background:#e4f1ed; padding:10px; border-radius:8px; margin:0; font-weight:bold; color:#2f7a6f;">
+        Clique em um estado no mapa para ver seus desastres
+      </p>
+      <button id="showAllBtn" onclick="showAllDisasters()" style="display:none; margin-top:10px; padding:8px 16px; background:#2f7a6f; color:white; border:none; border-radius:5px; cursor:pointer;">
+        Mostrar Todos os Desastres
+      </button>
+    </div>
+    <div style="overflow-x:auto; max-width:1000px; margin: 0 auto 30px auto; overflow-y: auto; max-height: 40vh;">
+      <table id="disasterTable" style="width:100%; border-collapse:collapse; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+        <thead style="background:#e4f1ed;">
+          <tr>
+            <th style="padding:10px; border-bottom:1px solid #cde5dd; text-align:center;">Ano</th>
+            <th style="padding:10px; border-bottom:1px solid #cde5dd;">Evento</th>
+            <th style="padding:10px; border-bottom:1px solid #cde5dd; text-align:center;">Estado</th>
+            <th style="padding:10px; border-bottom:1px solid #cde5dd;">Descrição Climática</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- As linhas serão preenchidas dinamicamente via JavaScript -->
+        </tbody>
+      </table>
+    </div>
     <h2>Quantidade de eventos por ano:</h2>
     <canvas id="barChart" width="600" height="400"></canvas>
 
