@@ -34,8 +34,11 @@ def close_connection(exception):
 def row_to_dict(row):
     return {k: row[k] for k in row.keys()}
 
-
 @app.route("/")
+def pag_inicial():
+    return render_template("pag_inicial.html")
+
+@app.route("/mapa")
 def home():
     return render_template("index.html")
 
