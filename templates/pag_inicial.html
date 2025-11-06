@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.D.N. — Monitoramento de Desastres Naturais</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f5f8fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #004d7a, #008793, #00bf72);
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-icon {
+            font-weight: bold;
+            font-size: 1.8em;
+            letter-spacing: 1px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            color: #004d7a;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #007a73;
+            margin-top: 30px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007a73;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #005f57;
+        }
+
+        footer {
+            background-color: #003c5a;
+            color: #ddd;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon">M.D.N.</div>
+            <div>Monitoramento de Desastres Naturais — Brasil</div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Bem-vindo ao Monitoramento de Desastres Naturais (M.D.N.)</h1>
+        <p>
+            O <strong>Monitoramento de Desastres Naturais (M.D.N.)</strong> é uma iniciativa voltada à observação,
+            prevenção e análise dos principais desastres naturais que afetam o território brasileiro.
+            Nosso objetivo é fornecer informações atualizadas, confiáveis e acessíveis sobre eventos naturais
+            que impactam comunidades, ecossistemas e infraestruturas.
+        </p>
+
+        <section>
+            <h2>Desastres Naturais no Brasil</h2>
+            <p>
+                O Brasil, embora não esteja localizado em zonas de alta atividade sísmica ou vulcânica, enfrenta
+                frequentemente <strong>desastres hidrometeorológicos</strong>, como enchentes, deslizamentos de terra,
+                secas prolongadas e queimadas. Esses fenômenos são intensificados por mudanças climáticas, desmatamento
+                e ocupação desordenada de áreas de risco.
+            </p>
+            <p>
+                Estados como Minas Gerais, Rio de Janeiro, Santa Catarina e Amazonas frequentemente registram
+                situações críticas envolvendo chuvas intensas e deslizamentos. Já o Centro-Oeste e o Nordeste
+                enfrentam secas severas que afetam o abastecimento de água, a produção agrícola e a biodiversidade.
+            </p>
+        </section>
+
+        <section>
+            <h2>Consequências e Impactos Ambientais</h2>
+            <p>
+                Os desastres naturais têm consequências sociais, econômicas e ambientais significativas.
+                Além das perdas humanas e materiais, eles afetam o equilíbrio ecológico,
+                provocando erosão, destruição de habitats e contaminação de rios e solos.
+            </p>
+            <p>
+                A longo prazo, os impactos ambientais podem levar à perda da biodiversidade e
+                à alteração dos ciclos naturais, dificultando a recuperação de ecossistemas e
+                comprometendo a sustentabilidade de diversas regiões do país.
+            </p>
+        </section>
+
+        <section>
+            <h2>Monitoramento e Prevenção</h2>
+            <p>
+                O M.D.N. integra dados de satélite, sensores climáticos e relatórios de campo para
+                identificar áreas de risco e antecipar eventos extremos. O monitoramento constante
+                permite a emissão de alertas e o planejamento de ações preventivas que podem salvar vidas
+                e minimizar prejuízos.
+            </p>
+        </section>
+
+        <div style="text-align: center;">
+            <a href="{{ url_for('home') }}" class="button">Acessar o Mapa de Desastres</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Monitoramento de Desastres Naturais (M.D.N.) — Todos os direitos reservados.
+    </footer>
+</body>
+</html>

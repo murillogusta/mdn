@@ -1,24 +1,318 @@
 [
+     {
+    "estado_id": 1,
+    "evento": "Cheia do Rio Acre — mar 2010",
+    "clima_descricao": "Chuvas intensas durante o verão amazônico provocaram o transbordamento do Rio Acre e alagamentos em Rio Branco.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; Defesa Civil do Acre",
+    "ano": 2010
+},
+{
+    "estado_id": 1,
+    "evento": "Enchentes e alagamentos urbanos — fev 2011",
+    "clima_descricao": "Chuvas persistentes elevaram o nível dos rios, inundando bairros de Rio Branco e Sena Madureira.",
+    "fonte": "G1 AC; Defesa Civil estadual",
+    "ano": 2011
+},
+{
+    "estado_id": 1,
+    "evento": "Cheias e deslizamentos — mar 2012",
+    "clima_descricao": "Fortes chuvas causaram alagamentos generalizados e deslizamentos de terra em áreas ribeirinhas.",
+    "fonte": "Atlas Brasileiro de Desastres; Defesa Civil AC",
+    "ano": 2012
+},
+{
+    "estado_id": 1,
+    "evento": "Enchentes e prejuízos agrícolas — fev 2013",
+    "clima_descricao": "Rios transbordaram afetando comunidades rurais e provocando perdas nas plantações de subsistência.",
+    "fonte": "Agência Brasil; boletins estaduais",
+    "ano": 2013
+},
+{
+    "estado_id": 1,
+    "evento": "Cheia severa do Rio Acre — fev 2014",
+    "clima_descricao": "Chuvas intensas elevaram o rio a níveis críticos, alagando mais de 40 bairros em Rio Branco.",
+    "fonte": "G1 — 'Rio Acre atinge cota histórica de 17,9 m em 2014'",
+    "ano": 2014
+},
+{
+    "estado_id": 1,
+    "evento": "Cheia do Rio Acre — fev-mar 2015",
+    "clima_descricao": "Chuvas intensas na estação úmida causaram cheia histórica e dezenas de milhares de desabrigados.",
+    "fonte": "Defesa Civil do Acre; Atlas Brasileiro de Desastres",
+    "ano": 2015
+},
+{
+    "estado_id": 1,
+    "evento": "Período seco e queimadas — set 2016",
+    "clima_descricao": "Falta de chuvas e ventos fortes favoreceram o aumento de focos de calor em todo o estado.",
+    "fonte": "INPE; boletins de queimadas 2016",
+    "ano": 2016
+},
+{
+    "estado_id": 1,
+    "evento": "Chuvas fortes e transbordamentos — fev 2017",
+    "clima_descricao": "Precipitações intensas elevaram o nível de rios, causando inundações em Cruzeiro do Sul e Tarauacá.",
+    "fonte": "Defesa Civil do Acre; portais locais",
+    "ano": 2017
+},
+{
+    "estado_id": 1,
+    "evento": "Queimadas e estiagem — ago 2018",
+    "clima_descricao": "Seca acentuada e alta concentração de fumaça afetaram a capital e municípios do interior.",
+    "fonte": "INPE; G1 Acre; dados ambientais",
+    "ano": 2018
+},
+{
+    "estado_id": 1,
+    "evento": "Chuvas fortes e enchentes — mar 2019",
+    "clima_descricao": "Rios Acre e Tarauacá transbordaram, desalojando centenas de famílias.",
+    "fonte": "G1 AC; Defesa Civil estadual",
+    "ano": 2019
+},
+{
+    "estado_id": 1,
+    "evento": "Queimadas e fumaça — set 2020",
+    "clima_descricao": "O estado enfrentou aumento de focos de incêndio e fumaça intensa durante a seca amazônica.",
+    "fonte": "INPE; CNN Brasil; Relatórios ambientais",
+    "ano": 2020
+},
+{
+    "estado_id": 1,
+    "evento": "Chuvas e cheias urbanas — fev 2021",
+    "clima_descricao": "Precipitação acumulada acima da média provocou enchentes em Rio Branco e Sena Madureira.",
+    "fonte": "Defesa Civil AC; Atlas de Desastres Naturais",
+    "ano": 2021
+},
+{
+    "estado_id": 1,
+    "evento": "Cheia do Rio Acre — mar 2022",
+    "clima_descricao": "O nível do rio ultrapassou 17 metros, inundando bairros e áreas rurais da capital.",
+    "fonte": "G1 AC; Defesa Civil estadual",
+    "ano": 2022
+},
+{
+    "estado_id": 1,
+    "evento": "Seca e fumaça — ago 2023",
+    "clima_descricao": "A estiagem intensa gerou aumento de focos de incêndio e redução da umidade do ar.",
+    "fonte": "INPE; Climatempo; portais locais",
+    "ano": 2023
+},
+{
+    "estado_id": 1,
+    "evento": "Cheias e fumaça — fev-set 2024",
+    "clima_descricao": "O estado enfrentou cheias históricas no início do ano e, meses depois, forte crise de fumaça causada por incêndios.",
+    "fonte": "G1 AC; Le Monde; Relatórios ambientais 2024",
+    "ano": 2024
+},
     {
-        "estado_id": 1,
-        "evento": "Cheia do Rio Acre — fev-mar 2015",
-        "clima_descricao": "Chuvas intensas na estação úmida; rios em cheia por vários dias/semana.",
-        "fonte": "Agência Brasil (cheia do Acre, fev-2015).",
-        "ano": 2015
-    },
-    {
-        "estado_id": 2,
-        "evento": "Enchentes em Alagoas e Pernambuco — junho de 2010",
-        "clima_descricao": "Precipitação muito acima da média por vários dias; rios e bacias transbordaram.",
-        "fonte": "Relatos sobre as enchentes de junho/2010.",
+    "estado_id": 2,
+    "evento": "Chuvas intensas e enchentes — jun 2010",
+    "clima_descricao": "Chuvas excepcionais provocaram enchentes históricas, destruindo pontes e casas em diversos municípios, incluindo União dos Palmares e Branquinha.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; Defesa Civil AL",
+    "ano": 2010
+},
+{
+    "estado_id": 2,
+    "evento": "Reconstrução pós-enchente — 2011",
+    "clima_descricao": "Ano marcado pela recuperação das cidades atingidas pela catástrofe de 2010, com chuvas moderadas e alagamentos localizados.",
+    "fonte": "G1 AL; Defesa Civil estadual",
+    "ano": 2011
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas intensas e enchentes em municípios do interior — 2012",
+    "clima_descricao": "Precipitações fortes causaram transbordamento de rios e deixaram centenas de desabrigados.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; CPRM",
+    "ano": 2012
+},
+{
+    "estado_id": 2,
+    "evento": "Seca prolongada e estiagem no sertão — 2013",
+    "clima_descricao": "Déficit hídrico afetou fortemente a agropecuária e o abastecimento de água nas regiões do Agreste e Sertão.",
+    "fonte": "Agência Brasil; dados da ANA",
+    "ano": 2013
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas fortes e deslizamentos — 2014",
+    "clima_descricao": "Precipitações intensas provocaram deslizamentos de encostas e alagamentos em Maceió e cidades do litoral norte.",
+    "fonte": "Defesa Civil AL; portais de notícias locais",
+    "ano": 2014
+},
+{
+    "estado_id": 2,
+    "evento": "Seca e baixo volume de reservatórios — 2015",
+    "clima_descricao": "Chuvas abaixo da média agravaram a situação hídrica, com racionamento em diversos municípios do Agreste.",
+    "fonte": "ANA; G1 AL; estudos de recursos hídricos",
+    "ano": 2015
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas intensas e enxurradas — 2016",
+    "clima_descricao": "Tempestades repentinas causaram enxurradas e alagamentos na capital e na Zona da Mata.",
+    "fonte": "Defesa Civil estadual; imprensa local",
+    "ano": 2016
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas e alagamentos — 2017",
+    "clima_descricao": "Fortes chuvas provocaram inundações em dezenas de cidades e deixaram milhares de pessoas desabrigadas.",
+    "fonte": "G1 — 'Chuvas deixam 26 mil pessoas desalojadas em Alagoas' (2017)",
+    "ano": 2017
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas intensas e desabrigados — 2018",
+    "clima_descricao": "Precipitações acumuladas no mês de maio causaram enchentes em Maceió, Marechal Deodoro e outras cidades.",
+    "fonte": "Defesa Civil AL; G1 AL",
+    "ano": 2018
+},
+{
+    "estado_id": 2,
+    "evento": "Seca parcial e irregularidade de chuvas — 2019",
+    "clima_descricao": "Irregularidade nas chuvas afetou reservatórios e a produção agrícola no sertão alagoano.",
+    "fonte": "ANA; boletins meteorológicos regionais",
+    "ano": 2019
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas fortes e alagamentos — 2020",
+    "clima_descricao": "Eventos pluviométricos intensos provocaram enchentes em Maceió e em municípios do litoral sul.",
+    "fonte": "Defesa Civil AL; G1 AL",
+    "ano": 2020
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas fortes e erosões urbanas — 2021",
+    "clima_descricao": "Tempestades com grandes volumes de água causaram alagamentos e deslizamentos na capital.",
+    "fonte": "Defesa Civil estadual; reportagens regionais",
+    "ano": 2021
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas severas e enchentes — jun 2022",
+    "clima_descricao": "Temporal afetou mais de 50 municípios e deixou dezenas de milhares de pessoas desalojadas.",
+    "fonte": "CNN Brasil — 'Chuvas fortes atingem Alagoas e deixam mais de 33 mil desalojados' (2022)",
+    "ano": 2022
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas intensas e deslizamentos — 2023",
+    "clima_descricao": "Precipitações acima da média causaram alagamentos e deslizamentos em áreas de encosta em Maceió.",
+    "fonte": "G1 AL; Defesa Civil estadual",
+    "ano": 2023
+},
+{
+    "estado_id": 2,
+    "evento": "Chuvas fortes e enchentes — 2024",
+    "clima_descricao": "Temporais entre abril e maio provocaram transbordamentos de rios e danos à infraestrutura urbana.",
+    "fonte": "CNN Brasil; Defesa Civil AL (2024)",
+    "ano": 2024
+},
+   {
+        "estado_id": 3,
+        "evento": "Chuvas intensas e alagamentos urbanos",
+        "clima_descricao": "Chuvas intensas somadas a marés altas/estuarinas e drenagem insuficiente.",
+        "fonte": "Defesa Civil AP / Imprensa local",
         "ano": 2010
     },
     {
         "estado_id": 3,
-        "evento": "Inundações/enchentes urbanas recorrentes — episódios 2000s–2020s",
+        "evento": "Deslizamentos pontuais e alagamentos",
         "clima_descricao": "Chuvas intensas somadas a marés altas/estuarinas e drenagem insuficiente.",
-        "fonte": "Atlas/estudo sobre inundações no Amapá.",
+        "fonte": "Relatórios municipais",
+        "ano": 2011
+    },
+    {
+        "estado_id": 3,
+        "evento": "Inundações em áreas ribeirinhas",
+        "clima_descricao": "Laranjal do Jari: Transbordamento do rio Jari - Casas submersas, danos à saúde pública.",
+        "fonte": "Relatórios municipais",
+        "ano": 2012
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias sazonais e erosões urbanas",
+        "clima_descricao": "Chuvas acima da média pluviométrica; desabrigamento e destruição parcial de residências.",
+        "fonte": "Imprensa local",
+        "ano": 2013
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e enxurradas",
+        "clima_descricao": "Período de chuvas fortes; danos em ruas e pontes de madeira.",
+        "fonte": "Boletins locais",
+        "ano": 2014
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchentes no Vale do Jari",
+        "clima_descricao": "Rio Jari subiu acima da cota de alerta; evacuação de áreas ribeirinhas.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2015
+    },
+    {
+        "estado_id": 3,
+        "evento": "Chuvas fortes e enxurradas urbanas",
+        "clima_descricao": "Chuva concentrada em poucas horas; perdas materiais e danos em residências.",
+        "fonte": "Portal G1 / Defesa Civil",
+        "ano": 2016
+    },
+    {
+        "estado_id": 3,
+        "evento": "Alagamentos urbanos e erosões",
+        "clima_descricao": "Temporal e falha na drenagem; casas danificadas e ruas interditadas.",
+        "fonte": "Prefeitura de Macapá",
+        "ano": 2017
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enxurradas e alagamentos",
+        "clima_descricao": "Chuvas persistentes e cheias do rio; desalojamento e prejuízos à agricultura local.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2018
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e erosões costeiras",
+        "clima_descricao": "Ação de maré alta combinada a chuvas fortes; erosão de margens e destruição de passarelas.",
+        "fonte": "Relatórios estaduais",
+        "ano": 2019
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchentes e cheias urbanas",
+        "clima_descricao": "Chuvas concentradas e falhas na drenagem; danos pontuais em bairros ribeirinhos.",
+        "fonte": "Defesa Civil AP",
         "ano": 2020
+    },
+    {
+        "estado_id": 3,
+        "evento": "Enchente do Rio Jari",
+        "clima_descricao": "Chuvas intensas e subida rápida do rio; destruição de pontes e ruas, evacuação de famílias.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 3,
+        "evento": "Alagamentos e erosão de margens fluviais",
+        "clima_descricao": "Chuvas intensas e falhas de drenagem; perda de estruturas e vias locais.",
+        "fonte": "Prefeitura de Mazagão",
+        "ano": 2022
+    },
+    {
+        "estado_id": 3,
+        "evento": "Temporal e vendavais com destruição de telhados",
+        "clima_descricao": "Ventos fortes e chuvas torrenciais; casas destelhadas, quedas de árvores e postes.",
+        "fonte": "Agência Amapá / Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 3,
+        "evento": "Cheias e deslizamentos de solo",
+        "clima_descricao": "Chuvas acima da média e saturação do solo; deslizamentos e casas destruídas.",
+        "fonte": "Boletins Defesa Civil / G1 / Agência Brasil",
+        "ano": 2024
     },
     {
         "estado_id": 4,
@@ -28,11 +322,158 @@
         "ano": 2021
     },
     {
+        "estado_id": 4,
+        "evento": "Enchentes — cheia do Rio Negro / processo de enchente 2010",
+        "clima_descricao": "Estação chuvosa intensa elevou cotas do Rio Negro; causou alagamentos de bairros, prejuízos a bens domésticos e comércio ribeirinho, interrupção de serviços e transporte fluvial.",
+        "fonte": "SGB+1",
+        "ano": 2010
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias/enchentes sazonais — continuidade de danos hidrológicos",
+        "clima_descricao": "Chuvas intensas e regime hidrológico fluvial elevado; desalojamento e perdas de safras; dificuldades de abastecimento local.",
+        "fonte": "SGB+1",
+        "ano": 2011
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheia extrema do Rio Negro — 2011/2012",
+        "clima_descricao": "Cheia histórica (~29,97 m); inundações prolongadas, danos em infraestrutura e moradias; necessidade de ações emergenciais.",
+        "fonte": "SGB+1",
+        "ano": 2012
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes e variações hidrológicas",
+        "clima_descricao": "Regime hidrológico ainda elevado; alagamentos localizados e perdas agrícolas; isolamento temporário de comunidades ribeirinhas.",
+        "fonte": "Portal do Marcos Santos",
+        "ano": 2013
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias e enchentes relevantes",
+        "clima_descricao": "Chuvas intensas e elevação das cotas fluviais; alagamento urbano e rural, danos à infraestrutura e moradias.",
+        "fonte": "InfoAmazonia",
+        "ano": 2014
+    },
+    {
+        "estado_id": 4,
+        "evento": "Eventos hidrometeorológicos (enchentes/variações locais)",
+        "clima_descricao": "Estações chuvosas acima da média; interrupções de transporte fluvial e perdas agrícolas.",
+        "fonte": "ResearchGate",
+        "ano": 2015
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes sazonais / eventos locais",
+        "clima_descricao": "Regime de chuvas com transbordamentos e acúmulo; danos à moradia e economia doméstica.",
+        "fonte": "InfoAmazonia",
+        "ano": 2016
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheias e alagamentos locais",
+        "clima_descricao": "Chuvas intensas e elevação de níveis fluviais; perda de bens e interrupção de serviços locais.",
+        "fonte": "InfoAmazonia",
+        "ano": 2017
+    },
+    {
+        "estado_id": 4,
+        "evento": "Queimadas e enchentes locais intercaladas",
+        "clima_descricao": "Períodos de estiagem e queimadas seguidos por chuvas intensas; degradação ambiental e prejuízo à subsistência de comunidades locais.",
+        "fonte": "Greenpeace+1",
+        "ano": 2018
+    },
+    {
+        "estado_id": 4,
+        "evento": "Incidentes locais (enchentes e riscos geológicos) e seca episódica",
+        "clima_descricao": "Variabilidade climática com episódios concentrados; perdas agrícolas e danos locais.",
+        "fonte": "Jornal da Sociedade Meteorológica Americana",
+        "ano": 2019
+    },
+    {
+        "estado_id": 4,
+        "evento": "Queimadas e eventos hidrológicos durante a pandemia",
+        "clima_descricao": "Combinação de estiagem e aumento de queimadas; perda de vegetação e deterioração da qualidade do ar.",
+        "fonte": "Greenpeace",
+        "ano": 2020
+    },
+    {
+        "estado_id": 4,
+        "evento": "Cheia recorde do Rio Negro — 2021",
+        "clima_descricao": "Cheia extrema (~29,98 m); alagamento de bairros, milhares de desalojados e danos à infraestrutura.",
+        "fonte": "Amazônia Real+1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 4,
+        "evento": "Enchentes de 2022 — nova cheia extrema",
+        "clima_descricao": "Precipitação acima da média devido ao La Niña; repetição de inundações e prejuízos a moradias e comércio.",
+        "fonte": "Amazônia Real",
+        "ano": 2022
+    },
+    {
+        "estado_id": 4,
+        "evento": "Seca extrema e colapso geológico — Vila de Arumã (Beruri)",
+        "clima_descricao": "Seca recorde combinada a erosão e afundamento; destruição de casas e deslocamento de famílias.",
+        "fonte": "Sumauma+1",
+        "ano": 2023
+    },
+    {
+        "estado_id": 4,
+        "evento": "Eventos hidrometeorológicos — enchentes sazonais e estiagem localizada",
+        "clima_descricao": "Chuvas intensas e pontos de alagamento intercalados com períodos secos; prejuízos a moradias e lavouras.",
+        "fonte": "Prefeitura Municipal de Manaus+1",
+        "ano": 2024
+    },
+    {
         "estado_id": 5,
         "evento": "Enchentes no sul/centro-sul — dez 2021",
         "clima_descricao": "Múltiplos dias de chuva muito intensa; precipitação fora da média e prolongada.",
         "fonte": "Notícias e análises sobre as chuvas de dez/2021.",
         "ano": 2021
+    },
+    {
+        "estado_id": 5,
+        "evento": "Chuvas intensas e enchentes — 2010",
+        "clima_descricao": "Temporais causaram alagamentos e danos em Ilhéus e Itabuna; centenas de desalojados.",
+        "fonte": "G1 Bahia, Defesa Civil",
+        "ano": 2010
+    },
+    {
+        "estado_id": 5,
+        "evento": "Seca prolongada — 2012",
+        "clima_descricao": "Baixa pluviosidade atingiu grande parte do semiárido; prejuízos à agropecuária.",
+        "fonte": "INMET, ANA",
+        "ano": 2012
+    },
+    {
+        "estado_id": 5,
+        "evento": "Enchentes no extremo sul — 2014",
+        "clima_descricao": "Chuvas intensas e cheias de rios; famílias desalojadas e danos em pontes.",
+        "fonte": "Defesa Civil Bahia",
+        "ano": 2014
+    },
+    {
+        "estado_id": 5,
+        "evento": "Seca e estiagem — 2016",
+        "clima_descricao": "Déficit hídrico e perdas agrícolas no sertão baiano; impacto prolongado.",
+        "fonte": "INMET, ANA",
+        "ano": 2016
+    },
+    {
+        "estado_id": 5,
+        "evento": "Enchentes no sul e centro-sul — 2021",
+        "clima_descricao": "Chuvas muito acima da média; inundações amplas, milhares de desabrigados.",
+        "fonte": "Defesa Civil, Agência Brasil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 5,
+        "evento": "Chuvas intensas — 2023",
+        "clima_descricao": "Temporal causou inundações urbanas e danos em estradas.",
+        "fonte": "G1 Bahia",
+        "ano": 2023
     },
     {
         "estado_id": 6,
@@ -42,26 +483,362 @@
         "ano": 1877
     },
     {
-        "estado_id": 7,
-        "evento": "Alagamentos urbanos — episódios recentes",
-        "clima_descricao": "Regime: seca intercalada com pancadas convectivas muito intensas que geram alagamentos.",
-        "fonte": "Estudos sobre temporais e alagamentos no DF.",
+        "estado_id": 6,
+        "evento": "Seca severa — 2012",
+        "clima_descricao": "Estiagem prolongada afetou o abastecimento de água e produção agrícola.",
+        "fonte": "INMET, FUNCEME",
+        "ano": 2012
+    },
+    {
+        "estado_id": 6,
+        "evento": "Chuvas intensas — 2014",
+        "clima_descricao": "Precipitação acima da média; alagamentos em Fortaleza e municípios do interior.",
+        "fonte": "G1 Ceará",
+        "ano": 2014
+    },
+    {
+        "estado_id": 6,
+        "evento": "Seca prolongada — 2017",
+        "clima_descricao": "Registros de chuvas escassas e açudes em níveis críticos; prejuízo à agricultura.",
+        "fonte": "FUNCEME, ANA",
+        "ano": 2017
+    },
+    {
+        "estado_id": 6,
+        "evento": "Chuvas fortes e enchentes — 2020",
+        "clima_descricao": "Temporais causaram inundações e deslizamentos em áreas de encosta.",
+        "fonte": "Defesa Civil, INMET",
         "ano": 2020
     },
     {
-        "estado_id": 8,
-        "evento": "Enchentes e deslizamentos — dez 2013",
-        "clima_descricao": "Chuvas persistentes e intensas sobre encostas; solo saturado e movimentos de massa.",
-        "fonte": "Relatórios sobre as chuvas de dez/2013 no ES.",
-        "ano": 2013
+        "estado_id": 6,
+        "evento": "Seca e estiagem — 2022",
+        "clima_descricao": "Redução significativa das chuvas; perdas agrícolas e racionamento de água.",
+        "fonte": "FUNCEME, ANA",
+        "ano": 2022
     },
     {
-        "estado_id": 9,
-        "evento": "Enxurradas urbanas — ex.: Anápolis, 2021",
-        "clima_descricao": "Chuvas fortes e concentradas em curto período (enxurradas urbanas).",
-        "fonte": "Reportes sobre enxurrada em Anápolis (2021).",
-        "ano": 2021
+        "estado_id": 6,
+        "evento": "Chuvas intensas e alagamentos — 2024",
+        "clima_descricao": "Temporais atingiram Fortaleza e interior; dezenas de famílias desalojadas.",
+        "fonte": "Agência Brasil, G1 Ceará",
+        "ano": 2024
     },
+    {
+    "estado_id": 7,
+    "evento": "Chuvas intensas e alagamentos urbanos — 2010",
+    "clima_descricao": "Pancadas de chuva causaram alagamentos em diversas regiões administrativas de Brasília.",
+    "fonte": "Atlas Brasileiro de Desastres; matérias locais",
+    "ano": 2010
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e raios — 2011",
+    "clima_descricao": "Tempestades com forte atividade elétrica provocaram feridos e danos em eventos ao ar livre.",
+    "fonte": "Correio Braziliense; relatórios meteorológicos",
+    "ano": 2011
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas de verão e alagamentos — 2012",
+    "clima_descricao": "Precipitações intensas geraram alagamentos em Ceilândia, Estrutural e Lago Norte.",
+    "fonte": "Estudo 'Panorama dos Alagamentos no DF' (ResearchGate)",
+    "ano": 2012
+},
+{
+    "estado_id": 7,
+    "evento": "Período chuvoso com quedas de árvores — 2013",
+    "clima_descricao": "Chuvas fortes e ventos derrubaram árvores e causaram transtornos em áreas de risco.",
+    "fonte": "Correio Braziliense — outubro/2013",
+    "ano": 2013
+},
+{
+    "estado_id": 7,
+    "evento": "Temporal com raios e feridos — 2014",
+    "clima_descricao": "Tempestade elétrica com mais de 370 raios atingiu evento público e feriu dezenas de pessoas.",
+    "fonte": "Correio Braziliense — 'Temporal em Brasília teve 370 raios...'",
+    "ano": 2014
+},
+{
+    "estado_id": 7,
+    "evento": "Granizo e ventos fortes — 2015",
+    "clima_descricao": "Temporal destelhou casas e deixou mais de 450 pessoas afetadas em Vila Basevi e Lago Oeste.",
+    "fonte": "Metrópoles; Correio Braziliense (07/10/2015)",
+    "ano": 2015
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas de verão e desalojamentos — 2016",
+    "clima_descricao": "Pancadas intensas provocaram alagamentos e deixaram famílias desalojadas em áreas urbanas.",
+    "fonte": "Agência Brasil — 'Chuva no DF deixa pelo menos sete famílias desalojadas'",
+    "ano": 2016
+},
+{
+    "estado_id": 7,
+    "evento": "Seca e incêndios florestais — 2017",
+    "clima_descricao": "Período de baixa umidade registrou mais de 4.700 ocorrências de fogo em vegetação no DF.",
+    "fonte": "Agência Brasília; Corpo de Bombeiros DF",
+    "ano": 2017
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e alagamentos urbanos — 2018",
+    "clima_descricao": "Chuvas de outubro provocaram inundações em Vicente Pires e Ceilândia.",
+    "fonte": "Metrópoles — 'Chuva retorna e escancara velhos problemas de infraestrutura'",
+    "ano": 2018
+},
+{
+    "estado_id": 7,
+    "evento": "Enchentes urbanas isoladas — 2019",
+    "clima_descricao": "Chuvas intensas causaram alagamentos em regiões administrativas de baixa topografia.",
+    "fonte": "ResearchGate — 'Panorama dos Alagamentos no DF'",
+    "ano": 2019
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas sazonais e pandemia — 2020",
+    "clima_descricao": "Eventos de chuva ocorreram durante medidas sanitárias, exigindo respostas emergenciais adaptadas.",
+    "fonte": "Boletins Defesa Civil DF; reportagens locais",
+    "ano": 2020
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas intensas e inundações urbanas — 2021",
+    "clima_descricao": "Tempestades convectivas causaram alagamentos em Ceilândia e Lago Norte.",
+    "fonte": "Defesa Civil DF; matérias locais",
+    "ano": 2021
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e alagamentos localizados — 2022",
+    "clima_descricao": "Chuvas concentradas provocaram inundações e desabrigados em Samambaia e Ceilândia.",
+    "fonte": "Boletins da Defesa Civil DF; cobertura jornalística",
+    "ano": 2022
+},
+{
+    "estado_id": 7,
+    "evento": "Enchentes urbanas e granizo — 2023",
+    "clima_descricao": "Chuvas intensas em outubro/novembro causaram alagamentos em Vicente Pires e Estrutural.",
+    "fonte": "Defesa Civil DF; Correio Braziliense; Metrópoles",
+    "ano": 2023
+},
+{
+    "estado_id": 7,
+    "evento": "Eventos climáticos variados — 2024",
+    "clima_descricao": "Ano marcado por tempestades, incêndios florestais e prejuízo acumulado de R$ 39 milhões ao DF na década.",
+    "fonte": "Metrópoles — 'Desastres climáticos deram prejuízo de R$ 39 milhões ao DF em 10 anos' (2024)",
+    "ano": 2024
+},
+   {
+    "estado_id": 8,
+    "evento": "Chuvas intensas e inundações — 2010",
+    "clima_descricao": "Fortes chuvas no verão provocaram alagamentos e enxurradas em cidades do sul e centro do estado.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; Defesa Civil ES",
+    "ano": 2010
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas intensas e deslizamentos — 2011",
+    "clima_descricao": "Precipitações acima da média causaram deslizamentos e enchentes em municípios serranos e litorâneos.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; CPRM",
+    "ano": 2011
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas localizadas e enxurradas — 2012",
+    "clima_descricao": "Episódios de chuva intensa em áreas urbanas causaram inundações e danos estruturais.",
+    "fonte": "Defesa Civil ES; boletins regionais",
+    "ano": 2012
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e alagamentos — 2013",
+    "clima_descricao": "O estado enfrentou um dos maiores desastres de sua história, com enchentes generalizadas e 24 mortes.",
+    "fonte": "G1 — 'Chuvas de 2013 deixam 24 mortos e mais de 60 mil desabrigados no ES'",
+    "ano": 2013
+},
+{
+    "estado_id": 8,
+    "evento": "Estiagem e crise hídrica — 2014",
+    "clima_descricao": "Chuvas abaixo da média afetaram o abastecimento de água e reduziram o volume de reservatórios.",
+    "fonte": "Jornal A Gazeta — 'Crise hídrica no Espírito Santo 2014–2015'",
+    "ano": 2014
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e erosões urbanas — 2015",
+    "clima_descricao": "Precipitações fortes provocaram erosões e quedas de muros em Vitória e Cariacica.",
+    "fonte": "Defesa Civil ES; G1 ES",
+    "ano": 2015
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas de verão e deslizamentos — 2016",
+    "clima_descricao": "Tempestades causaram deslizamentos em regiões serranas e transbordamento de rios.",
+    "fonte": "Defesa Civil ES; Atlas CEPED",
+    "ano": 2016
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas concentradas e inundações — 2017",
+    "clima_descricao": "Fortes chuvas afetaram a Grande Vitória e cidades do norte capixaba, com pontos de alagamento.",
+    "fonte": "Defesa Civil ES; G1 ES",
+    "ano": 2017
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e enchentes no norte — 2018",
+    "clima_descricao": "Cidades como Linhares e Colatina registraram enchentes e famílias desalojadas.",
+    "fonte": "Defesa Civil ES; reportagens locais",
+    "ano": 2018
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e alagamentos urbanos — 2019",
+    "clima_descricao": "Eventos intensos de precipitação provocaram inundações em Vitória e Vila Velha.",
+    "fonte": "Boletins Defesa Civil ES; G1 ES",
+    "ano": 2019
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas fortes e deslizamentos — 2020",
+    "clima_descricao": "Janeiro registrou temporais com deslizamentos em Iconha e Alfredo Chaves, deixando mortos e desabrigados.",
+    "fonte": "G1 ES — 'Chuva causa deslizamentos e mortes no sul do estado'",
+    "ano": 2020
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas intensas e alagamentos — 2021",
+    "clima_descricao": "Precipitações acima da média provocaram enchentes e danos em rodovias e áreas urbanas.",
+    "fonte": "Defesa Civil ES; relatórios estaduais",
+    "ano": 2021
+},
+{
+    "estado_id": 8,
+    "evento": "Enchentes generalizadas e mortes — 2022",
+    "clima_descricao": "Fortes chuvas em dezembro causaram grandes enchentes no sul e sudoeste do estado, com vítimas fatais.",
+    "fonte": "CNN Brasil — 'Chuvas intensas no ES deixam mortos e desabrigados' (2022)",
+    "ano": 2022
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e deslizamentos — 2023",
+    "clima_descricao": "Chuvas intensas atingiram cidades serranas como Domingos Martins e Santa Leopoldina.",
+    "fonte": "G1 ES; Defesa Civil estadual",
+    "ano": 2023
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas fortes e deslizamentos — 2024",
+    "clima_descricao": "Temporais entre março e abril causaram deslizamentos, alagamentos e dezenas de desabrigados.",
+    "fonte": "CNN Brasil; Defesa Civil ES (2024)",
+    "ano": 2024
+},
+     {
+    "estado_id": 9,
+    "evento": "Chuvas intensas e enchentes urbanas — 2010",
+    "clima_descricao": "Pancadas fortes na quadra chuvosa provocaram alagamentos em Goiânia, Anápolis e municípios ribeirinhos.",
+    "fonte": "Atlas Brasileiro de Desastres; Globoplay",
+    "ano": 2010
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas fortes e enxurradas — 2011",
+    "clima_descricao": "Frentes convectivas causaram chuvas intensas e transbordamentos em áreas do sudeste e centro-sul goiano.",
+    "fonte": "Boletins e reportagens regionais",
+    "ano": 2011
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas localizadas e enchentes pontuais — 2012",
+    "clima_descricao": "Episódios típicos de verão geraram alagamentos e desabrigados em cidades ribeirinhas.",
+    "fonte": "Atlas histórico de desastres (CEPED/UFSC)",
+    "ano": 2012
+},
+{
+    "estado_id": 9,
+    "evento": "Seca agrícola severa — 2013",
+    "clima_descricao": "Déficit pluviométrico prolongado reduziu a produção agrícola, com perda de até 800 mil toneladas de soja.",
+    "fonte": "Canal Rural; Gazeta do Povo (relatos sobre seca de 2013)",
+    "ano": 2013
+},
+{
+    "estado_id": 9,
+    "evento": "Enchentes localizadas e variabilidade hidrológica — 2014",
+    "clima_descricao": "Chuvas intensas afetaram cidades como Anápolis e Cidade de Goiás, causando danos em áreas urbanas.",
+    "fonte": "Globoplay — cobertura regional de enchentes",
+    "ano": 2014
+},
+{
+    "estado_id": 9,
+    "evento": "Seca prolongada e prejuízos agrícolas — 2015",
+    "clima_descricao": "Baixa pluviosidade comprometeu a segunda safra e gerou perdas significativas no agronegócio.",
+    "fonte": "Relatórios agrícolas e cooperativas (Comigo/FAEG)",
+    "ano": 2015
+},
+{
+    "estado_id": 9,
+    "evento": "Temporais e estragos urbanos — 2016",
+    "clima_descricao": "Chuvas de verão causaram enxurradas e quedas de muros em Catalão e Goiânia.",
+    "fonte": "Bom Dia GO; reportagens locais",
+    "ano": 2016
+},
+{
+    "estado_id": 9,
+    "evento": "Tempestades de granizo e ventos fortes — 2017",
+    "clima_descricao": "Eventos convectivos com granizo atingiram municípios do sudoeste e centro-sul, danificando lavouras e telhados.",
+    "fonte": "Boletins meteorológicos regionais",
+    "ano": 2017
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas fortes e enxurradas — 2018",
+    "clima_descricao": "Precipitação intensa em Goiânia e Anápolis causou enxurradas rápidas e danos a vias públicas.",
+    "fonte": "Mídia local; reportagens de TV e rádios regionais",
+    "ano": 2018
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas sazonais e enchentes menores — 2019",
+    "clima_descricao": "Pancadas de verão causaram transbordamentos em córregos e alagamentos urbanos.",
+    "fonte": "Boletins locais e cobertura jornalística regional",
+    "ano": 2019
+},
+{
+    "estado_id": 9,
+    "evento": "Secas e chuvas variáveis — 2020",
+    "clima_descricao": "Ano marcado por alternância de períodos de estiagem e chuvas fortes em diferentes microrregiões.",
+    "fonte": "Relatórios CONAB e históricos agrícolas estaduais",
+    "ano": 2020
+},
+{
+    "estado_id": 9,
+    "evento": "Enxurrada severa em Anápolis — 2021",
+    "clima_descricao": "Chuva intensa causou enxurrada que inundou residências; caso ganhou repercussão nacional.",
+    "fonte": "Reuters Fact-Check (vídeo de enxurrada em Anápolis 2021)",
+    "ano": 2021
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas e alagamentos urbanos — 2022",
+    "clima_descricao": "Precipitação intensa em Goiânia e municípios vizinhos provocou enchentes e danos estruturais.",
+    "fonte": "Boletins municipais e cobertura de imprensa regional",
+    "ano": 2022
+},
+{
+    "estado_id": 9,
+    "evento": "Temporais e ventos fortes — 2023",
+    "clima_descricao": "Episódios de chuva intensa com rajadas de vento causaram destelhamentos e quedas de árvores em várias cidades.",
+    "fonte": "Defesa Civil GO; jornais locais",
+    "ano": 2023
+},
+{
+    "estado_id": 9,
+    "evento": "Seca extrema e incêndios em áreas rurais — 2024",
+    "clima_descricao": "Baixa pluviosidade e altas temperaturas causaram incêndios e perdas agrícolas significativas em Goiás.",
+    "fonte": "INPE; reportagens ambientais 2024",
+    "ano": 2024
+},
     {
         "estado_id": 10,
         "evento": "Cheias e inundações costeiras/urbanas — 2000s–2010s",
@@ -70,26 +847,355 @@
         "ano": 2010
     },
     {
-        "estado_id": 11,
-        "evento": "Cheias sazonais no Pantanal / secas 2019–2020",
-        "clima_descricao": "Estação chuvosa com enchentes prolongadas; em anos de seca, déficit hídrico favorece incêndios.",
-        "fonte": "Relatos sobre Pantanal (secas e incêndios 2020).",
-        "ano": 2020
+        "estado_id": 10,
+        "evento": "Enchentes e deslizamentos",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios, alagamentos e deslizamentos em áreas de encosta.",
+        "fonte": "G1 Maranhão / Defesa Civil",
+        "ano": 2015
+    },
+     {
+        "estado_id": 10,
+        "evento": "Chuvas fortes e inundações — fev 2018",
+        "clima_descricao": "Chuvas intensas desde fevereiro causaram transbordamento de rios, enchentes, queda de árvores e danos à infraestrutura.",
+        "fonte": "Defesa Civil do Maranhão / Agência Brasil",
+        "ano": 2018
     },
     {
-        "estado_id": 12,
-        "evento": "Pantanal: incêndios/seca — 2020/2024",
-        "clima_descricao": "Estiagem severa em anos recentes, secas prolongadas que favoreceram queimadas; anos chuvosos trazem enchentes.",
-        "fonte": "Reportagens sobre incêndios / seca no Pantanal (MS).",
-        "ano": 2020
+        "estado_id": 10,
+        "evento": "Chuvas intensas e enchentes — mar 2022",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios, destruição de pontes e estradas, e invasão de casas.",
+        "fonte": "UOL Notícias",
+        "ano": 2022
     },
     {
-        "estado_id": 13,
-        "evento": "Enchentes e deslizamentos — 2011/2013/2025",
-        "clima_descricao": "Chuvas intensas e persistentes sobre encostas; precipitação concentrada por dias que satura o solo.",
-        "fonte": "Relatos sobre enchentes e deslizamentos em MG.",
-        "ano": 2025
+        "estado_id": 10,
+        "evento": "Chuvas e deslizamentos — abr 2023",
+        "clima_descricao": "Chuvas fortes elevaram o nível dos rios; enxurradas arrastaram veículos e causaram deslizamentos de terra.",
+        "fonte": "UOL Notícias",
+        "ano": 2023
     },
+    {
+        "estado_id": 10,
+        "evento": "Chuvas intensas e destruição de estradas — mar 2024",
+        "clima_descricao": "Chuvas fortes elevaram rios, causando alagamentos e destruição de vias de acesso.",
+        "fonte": "O Imparcial",
+        "ano": 2024
+    },
+     {
+    "estado_id": 11,
+    "evento": "Chuvas intensas / enchentes e vendaval local — 2010",
+    "clima_descricao": "Chuvas fortes na estação úmida provocaram alagamentos urbanos e vendavais em municípios como Cuiabá e Rondonópolis.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; Globoplay (alagamentos e vendavais 2010)",
+    "ano": 2010
+},
+{
+    "estado_id": 11,
+    "evento": "Estiagem e queimadas iniciais — 2011",
+    "clima_descricao": "Período de seca moderada com ocorrência de queimadas em áreas agrícolas e do Pantanal mato-grossense.",
+    "fonte": "Relatórios estaduais de queimadas; Revista FT (monitoramento de focos de calor)",
+    "ano": 2011
+},
+{
+    "estado_id": 11,
+    "evento": "Estiagem / impactos agrícolas — 2012",
+    "clima_descricao": "Déficit de chuva afetou safras e reservatórios rurais nas regiões Oeste e Norte do estado.",
+    "fonte": "Relatórios agrícolas e estudos setoriais (CONAB / agências estaduais)",
+    "ano": 2012
+},
+{
+    "estado_id": 11,
+    "evento": "Enchentes localizadas no Norte e Noroeste — 2013",
+    "clima_descricao": "Chuvas intensas causaram transbordamento de córregos e inundações em Sinop e municípios vizinhos.",
+    "fonte": "Boletins locais e G1 MT / Globoplay",
+    "ano": 2013
+},
+{
+    "estado_id": 11,
+    "evento": "Queimadas e focos de calor — 2014",
+    "clima_descricao": "Período seco com focos de incêndio em áreas do Pantanal e cerrado mato-grossense.",
+    "fonte": "Relatórios ambientais e Revista FT (focos de calor 2016–2021)",
+    "ano": 2014
+},
+{
+    "estado_id": 11,
+    "evento": "Chuvas intensas na estação chuvosa — 2015",
+    "clima_descricao": "Pancadas de chuva causaram alagamentos em Cuiabá e municípios ribeirinhos.",
+    "fonte": "Defesa Civil MT; CNM.org.br",
+    "ano": 2015
+},
+{
+    "estado_id": 11,
+    "evento": "Queimadas e risco alto no Pantanal — 2016",
+    "clima_descricao": "Aumento de focos de incêndio e seca relativa afetaram áreas de transição e pecuária.",
+    "fonte": "Monitoramento de focos de calor (INPE / estudos ambientais)",
+    "ano": 2016
+},
+{
+    "estado_id": 11,
+    "evento": "Enchentes localizadas e temporais com ventos fortes — 2017",
+    "clima_descricao": "Chuvas contínuas causaram transbordamento de rios e prejuízos em Sinop e Sorriso.",
+    "fonte": "Defesa Civil MT; CNM.org.br",
+    "ano": 2017
+},
+{
+    "estado_id": 11,
+    "evento": "Estiagem em partes do estado — 2018",
+    "clima_descricao": "Redução de chuva afetou safras no Oeste e Norte, causando perdas agrícolas.",
+    "fonte": "Relatórios agropecuários e análises setoriais",
+    "ano": 2018
+},
+{
+    "estado_id": 11,
+    "evento": "Chuvas e alagamentos locais — 2019",
+    "clima_descricao": "Episódios de chuva intensa geraram alagamentos em Cuiabá, Várzea Grande e municípios do Norte.",
+    "fonte": "G1 MT / Globoplay",
+    "ano": 2019
+},
+{
+    "estado_id": 11,
+    "evento": "Incêndios no Pantanal — 2020",
+    "clima_descricao": "Ano histórico de queimadas no Pantanal, com grande impacto ambiental e perdas econômicas.",
+    "fonte": "INPE; CNN Brasil; relatórios ambientais",
+    "ano": 2020
+},
+{
+    "estado_id": 11,
+    "evento": "Chuvas intensas em trechos — 2021",
+    "clima_descricao": "Sistemas convectivos provocaram pancadas fortes e alagamentos em municípios do centro-norte e leste.",
+    "fonte": "Boletins da Defesa Civil MT; reportagens locais",
+    "ano": 2021
+},
+{
+    "estado_id": 11,
+    "evento": "Chuvas fortes e inundações localizadas — 2022",
+    "clima_descricao": "Precipitação intensa causou danos em estradas e prejuízos agrícolas em Sinop e regiões vizinhas.",
+    "fonte": "Defesa Civil MT; reportagens regionais",
+    "ano": 2022
+},
+{
+    "estado_id": 11,
+    "evento": "Chuvas intensas e enchentes pontuais — 2023",
+    "clima_descricao": "Períodos de chuva severa causaram alagamentos e danos à infraestrutura em municípios do Norte e Leste.",
+    "fonte": "CNM.org.br; Defesa Civil MT",
+    "ano": 2023
+},
+{
+    "estado_id": 11,
+    "evento": "Queimadas e enchentes sazonais — 2024",
+    "clima_descricao": "Aumento expressivo de focos de incêndio no Pantanal e chuvas extremas em meses isolados agravadas pelo El Niño.",
+    "fonte": "INPE; CNN Brasil; Le Monde (2024)",
+    "ano": 2024
+},
+    {
+    "estado_id": 12,
+    "evento": "Chuvas intensas / enchentes sazonais — 2010",
+    "clima_descricao": "Chuvas fortes na quadra chuvosa provocaram alagamentos em Campo Grande e municípios ribeirinhos.",
+    "fonte": "Atlas Brasileiro de Desastres (CEPED/UFSC)",
+    "ano": 2010
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas intensas com enchentes em várias cidades — 2011",
+    "clima_descricao": "Acumulados elevados causaram enchentes e queda de pontes em diversas cidades do leste sul-mato-grossense.",
+    "fonte": "MidiaMax — 'Chuva afeta 60 mil e deixa rastro de prejuízos em 13 cidades de MS'",
+    "ano": 2011
+},
+{
+    "estado_id": 12,
+    "evento": "Inundações pontuais e variabilidade hídrica — 2012",
+    "clima_descricao": "Séries de episódios pluviais concentrados geraram alagamentos e limpeza urbana em municípios.",
+    "fonte": "Atlas Brasileiro de Desastres (CEPED/UFSC)",
+    "ano": 2012
+},
+{
+    "estado_id": 12,
+    "evento": "Cheias e variação do Rio Paraguai — 2013",
+    "clima_descricao": "Chuvas convectivas causaram enchentes em microbacias e níveis variáveis no Rio Paraguai.",
+    "fonte": "Campo Grande News — 'Rio Paraguai atinge menor nível desde 2012'",
+    "ano": 2013
+},
+{
+    "estado_id": 12,
+    "evento": "Variabilidade pluviométrica e queimadas ocasionais — 2014",
+    "clima_descricao": "Alternância entre secas em algumas regiões e chuvas fortes em outras, com focos de incêndio no Pantanal.",
+    "fonte": "IMASUL / relatórios regionais",
+    "ano": 2014
+},
+{
+    "estado_id": 12,
+    "evento": "Tempestades severas e ventos fortes — 2015",
+    "clima_descricao": "Frente convectiva em dezembro provocou chuva torrencial e ventos fortes no sul do estado.",
+    "fonte": "Capital News; ResearchGate (tempestade de 5 dez 2015)",
+    "ano": 2015
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas severas no início do ano — 2016",
+    "clima_descricao": "Sistema de instabilidade causou enchentes em dezenas de municípios, afetando 67 mil pessoas.",
+    "fonte": "Agência Brasil — 'Chuvas em MS afetam 67 mil pessoas'",
+    "ano": 2016
+},
+{
+    "estado_id": 12,
+    "evento": "Alta ocorrência de desastres naturais — 2017",
+    "clima_descricao": "Ano marcado por vendavais, incêndios e granizo; cerca de 100 ocorrências até setembro.",
+    "fonte": "Defesa Civil MS; Enova (retrospectiva 2017)",
+    "ano": 2017
+},
+{
+    "estado_id": 12,
+    "evento": "Inundações em diversas cidades — 2018",
+    "clima_descricao": "Chuvas intensas provocaram alagamentos em cerca de 60% dos municípios do estado.",
+    "fonte": "Campo Grande News; IBGE Munic 2017",
+    "ano": 2018
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas sazonais e enxurradas locais — 2019",
+    "clima_descricao": "Instabilidades convectivas causaram enxurradas em Coxim, Três Lagoas e Campo Grande.",
+    "fonte": "Cobertura jornalística regional e boletins municipais",
+    "ano": 2019
+},
+{
+    "estado_id": 12,
+    "evento": "Queimadas e incêndios no Pantanal — 2020",
+    "clima_descricao": "Seca severa gerou incêndios de grande escala no Pantanal sul-mato-grossense.",
+    "fonte": "INPE; relatórios ambientais nacionais e internacionais",
+    "ano": 2020
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas localizadas e impacto de secas — 2021",
+    "clima_descricao": "Episódios de chuva pontual e persistência de focos de calor em regiões do Pantanal.",
+    "fonte": "IMASUL; Defesa Civil MS",
+    "ano": 2021
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas fora de época e alagamentos localizados — 2022",
+    "clima_descricao": "Precipitações intensas provocaram enchentes pontuais e danos a estradas e lavouras.",
+    "fonte": "IMASUL — Sala de Situação; boletins regionais",
+    "ano": 2022
+},
+{
+    "estado_id": 12,
+    "evento": "Chuvas intensas e risco de incêndios — 2023",
+    "clima_descricao": "Ocorreram enchentes pontuais no início do ano e focos de fogo no final do período seco.",
+    "fonte": "Defesa Civil MS; IMASUL; reportagens regionais",
+    "ano": 2023
+},
+{
+    "estado_id": 12,
+    "evento": "Incêndios no Pantanal e seca extrema — 2024",
+    "clima_descricao": "Seca prolongada e El Niño intensificaram incêndios; centenas de milhares de hectares queimados.",
+    "fonte": "Reuters; Le Monde; INPE (2024)",
+    "ano": 2024
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas intensas e enchentes — 2010",
+    "clima_descricao": "Chuvas fortes causaram alagamentos em Belo Horizonte e cheias nas bacias do Rio Doce.",
+    "fonte": "Atlas Brasileiro de Desastres; Defesa Civil MG",
+    "ano": 2010
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas intensas e deslizamentos na Zona da Mata — 2011",
+    "clima_descricao": "Precipitação acima da média provocou deslizamentos e transbordamento de córregos em cidades do leste mineiro.",
+    "fonte": "CPRM; Defesa Civil MG; Emater-MG",
+    "ano": 2011
+},
+{
+    "estado_id": 13,
+    "evento": "Cheias e estiagem alternadas — 2012",
+    "clima_descricao": "Regiões do Rio Doce sofreram enchentes, enquanto o norte do estado enfrentou déficit hídrico.",
+    "fonte": "Relatório de Recursos Hídricos MG; CPRM",
+    "ano": 2012
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas intensas e enxurradas — 2013",
+    "clima_descricao": "Precipitação intensa gerou enxurradas e elevação de córregos em municípios do Vale do Rio Doce.",
+    "fonte": "Boletins regionais e Atlas CEPED",
+    "ano": 2013
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas fortes e cheias localizadas — 2014",
+    "clima_descricao": "Zonas de Convergência causaram enchentes em diversas bacias; vários municípios decretaram emergência.",
+    "fonte": "Defesa Civil MG; relatórios hidrológicos",
+    "ano": 2014
+},
+{
+    "estado_id": 13,
+    "evento": "Rompimento da Barragem de Fundão (Mariana) — 2015",
+    "clima_descricao": "Colapso da barragem da Samarco liberou milhões de m³ de rejeitos, devastando Bento Rodrigues e o Rio Doce.",
+    "fonte": "Governo Federal; Linha do Tempo Mariana; Planalto.gov.br",
+    "ano": 2015
+},
+{
+    "estado_id": 13,
+    "evento": "Temporais de verão e enxurradas — 2016",
+    "clima_descricao": "Sistemas convectivos provocaram chuvas intensas, alagamentos e danos a moradias em várias regiões.",
+    "fonte": "Boletins da Defesa Civil MG",
+    "ano": 2016
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas e enxurradas em microbacias — 2017",
+    "clima_descricao": "Chuvas concentradas em curto período causaram danos em municípios do centro e leste de Minas.",
+    "fonte": "Defesa Civil MG; relatórios municipais",
+    "ano": 2017
+},
+{
+    "estado_id": 13,
+    "evento": "Cheias e estiagem agrícola — 2018",
+    "clima_descricao": "Enquanto o norte enfrentava seca, o leste registrou enchentes e prejuízos em lavouras.",
+    "fonte": "Relatórios de recursos hídricos e Defesa Civil",
+    "ano": 2018
+},
+{
+    "estado_id": 13,
+    "evento": "Rompimento da Barragem de Brumadinho — 2019",
+    "clima_descricao": "Colapso da barragem da Vale liberou milhões de m³ de lama, resultando em 272 mortes e destruição ambiental.",
+    "fonte": "Governo de Minas; ANDES; relatórios oficiais sobre Brumadinho",
+    "ano": 2019
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas sazonais intensas — 2020",
+    "clima_descricao": "Temporais de verão causaram alagamentos e desabrigados em diversos municípios.",
+    "fonte": "Boletins Defesa Civil MG; relatórios regionais 2020",
+    "ano": 2020
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas extremas e enchentes — 2021",
+    "clima_descricao": "Precipitações contínuas provocaram enchentes e deslizamentos em várias regiões do estado.",
+    "fonte": "Defesa Civil MG; CEMADEN",
+    "ano": 2021
+},
+{
+    "estado_id": 13,
+    "evento": "Enchentes generalizadas — 2022",
+    "clima_descricao": "Chuvas severas entre dezembro e fevereiro afetaram centenas de cidades e causaram dezenas de mortes.",
+    "fonte": "Plano de Resposta a Enchentes; boletins estaduais",
+    "ano": 2022
+},
+{
+    "estado_id": 13,
+    "evento": "Chuvas intensas e cheias pontuais — 2023",
+    "clima_descricao": "Eventos de verão causaram enchentes localizadas e prejuízos em infraestrutura urbana e rural.",
+    "fonte": "Defesa Civil MG; apurações jornalísticas locais",
+    "ano": 2023
+},
+{
+    "estado_id": 13,
+    "evento": "Eventos climáticos variados — 2024",
+    "clima_descricao": "Episódios de chuva, deslizamentos e estiagens pontuais afetaram diferentes regiões mineiras.",
+    "fonte": "Boletins oficiais 2024; Defesa Civil MG",
+    "ano": 2024
+},
     {
         "estado_id": 14,
         "evento": "Cheias fluviais e inundações — ex.: 2012",
@@ -98,18 +1204,270 @@
         "ano": 2012
     },
     {
+        "estado_id": 14,
+        "evento": "Enchentes no sudoeste do Pará",
+        "clima_descricao": "Chuvas intensas elevaram níveis dos rios; desalojamento e perda de lavouras.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2010
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca prolongada",
+        "clima_descricao": "Baixo volume de chuvas; perdas agrícolas e falta de água.",
+        "fonte": "Agência Pará",
+        "ano": 2011
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias do Rio Tocantins",
+        "clima_descricao": "Chuvas intensas e transbordamento; destruição de casas ribeirinhas.",
+        "fonte": "Defesa Civil",
+        "ano": 2012
+    },
+    {
+        "estado_id": 14,
+        "evento": "Deslizamentos em áreas de encosta",
+        "clima_descricao": "Chuvas fortes causaram deslizamentos e danos em moradias.",
+        "fonte": "G1 Pará",
+        "ano": 2013
+    },
+    {
+        "estado_id": 14,
+        "evento": "Inundações urbanas",
+        "clima_descricao": "Chuvas torrenciais e drenagem precária; alagamentos e danos urbanos.",
+        "fonte": "Prefeitura de Ananindeua",
+        "ano": 2014
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias no Baixo Amazonas",
+        "clima_descricao": "Chuvas acima da média; perda de plantações e transporte fluvial prejudicado.",
+        "fonte": "Defesa Civil",
+        "ano": 2015
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca severa e queimadas",
+        "clima_descricao": "Prolongada estiagem; problemas respiratórios e perdas agrícolas.",
+        "fonte": "IBAMA, Defesa Civil",
+        "ano": 2016
+    },
+    {
+        "estado_id": 14,
+        "evento": "Enchentes no Marajó",
+        "clima_descricao": "Chuvas fortes e marés altas; perdas em gado e lavouras.",
+        "fonte": "Agência Pará",
+        "ano": 2017
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias históricas no Rio Tapajós",
+        "clima_descricao": "Chuvas prolongadas; casas destruídas e evacuação em massa.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2018
+    },
+    {
+        "estado_id": 14,
+        "evento": "Tempestades com vendaval",
+        "clima_descricao": "Chuvas intensas e ventos fortes; destelhamento e danos elétricos.",
+        "fonte": "CPRM",
+        "ano": 2019
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias do Rio Tocantins",
+        "clima_descricao": "Chuvas intensas e barragens cheias; enchentes urbanas.",
+        "fonte": "Defesa Civil",
+        "ano": 2020
+    },
+    {
+        "estado_id": 14,
+        "evento": "Seca e queimadas recordes",
+        "clima_descricao": "Baixa pluviosidade e queimadas; perda de pastagem e poluição do ar.",
+        "fonte": "INPE, Defesa Civil",
+        "ano": 2021
+    },
+    {
+        "estado_id": 14,
+        "evento": "Inundação e cheia recorde",
+        "clima_descricao": "Chuvas fortes no Amazonas e Tapajós; destruição de casas e escolas.",
+        "fonte": "G1 Pará",
+        "ano": 2022
+    },
+    {
+        "estado_id": 14,
+        "evento": "Enxurradas em municípios do sudeste",
+        "clima_descricao": "Chuvas torrenciais; desabrigados e estragos em pontes.",
+        "fonte": "Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 14,
+        "evento": "Cheias e deslizamentos",
+        "clima_descricao": "Chuvas intensas e solo saturado; deslizamentos e alagamentos urbanos.",
+        "fonte": "Agência Pará, G1",
+        "ano": 2024
+    },
+    {
         "estado_id": 15,
         "evento": "Enchentes litorâneas e estiagens no sertão — 2010s",
         "clima_descricao": "Litoral: chuvas intensas; Sertão: períodos de seca prolongada.",
         "fonte": "Relatórios sobre enchentes e estiagens na PB.",
         "ano": 2010
     },
+     {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2010",
+        "clima_descricao": "Estiagem prolongada e chuvas abaixo da média em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2010
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2011",
+        "clima_descricao": "Chuvas intensas provocaram o transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2011
+    },
+    {
+        "estado_id": 15,
+        "evento": "Alagamentos urbanos — 2012",
+        "clima_descricao": "Chuvas fortes geraram alagamentos urbanos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2012
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2013",
+        "clima_descricao": "Estiagem prolongada reduziu os níveis de reservatórios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2013
+    },
+    {
+        "estado_id": 15,
+        "evento": "Crise hídrica — 2014",
+        "clima_descricao": "Condições climáticas desfavoráveis agravaram a crise hídrica.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2014
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2015",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2015
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2016",
+        "clima_descricao": "Prolongamento da estiagem em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2016
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2017",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2017
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2018",
+        "clima_descricao": "Longo período de estiagem.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2018
+    },
+    {
+        "estado_id": 15,
+        "evento": "Alagamentos urbanos — 2019",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos em áreas urbanas.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2019
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2020",
+        "clima_descricao": "Estiagem prolongada afetou o interior.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2020
+    },
+    {
+        "estado_id": 15,
+        "evento": "Enchente urbana — 2021",
+        "clima_descricao": "Chuvas fortes causaram transbordamento de rios.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2021
+    },
+    {
+        "estado_id": 15,
+        "evento": "Chuvas intensas — maio 2022",
+        "clima_descricao": "Chuvas intensas no mês de maio causaram alagamentos urbanos.",
+        "fonte": "An Attribution Study of Very Intense Rainfall Events in Eastern Northeast Brazil (2022)",
+        "ano": 2022
+    },
+    {
+        "estado_id": 15,
+        "evento": "Seca prolongada — 2023",
+        "clima_descricao": "Estiagem prolongada com baixos índices pluviométricos.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2023
+    },
+    {
+        "estado_id": 15,
+        "evento": "Chuvas intensas — 2024",
+        "clima_descricao": "Chuvas intensas em áreas urbanas causaram desabrigos e danos à infraestrutura.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2024
+    },
     {
         "estado_id": 16,
-        "evento": "Enchentes/deslizamentos — março de 2011",
-        "clima_descricao": "Frentes/temporais com chuva intensa por vários dias; inundações e deslizamentos.",
-        "fonte": "Defesa Civil sobre desastre de 2011 no litoral do PR.",
+        "evento": "Desastre Águas de Março — Litoral do Paraná",
+        "clima_descricao": "Chuvas extremamente intensas em 11 de março de 2011 provocaram enchentes generalizadas, deslizamentos e erosões no litoral (Antonina, Paranaguá, Morretes, Guaratuba). Mais de 10.000 pessoas desabrigadas/afetadas, queda de pontes e mortes registradas; municípios com infraestrutura severamente danificada.",
+        "fonte": "Defesa Civil do Estado do Paraná; Agência Estadual de Notícias (AEN) — Governo do Paraná (boletins e relatório 'Desastre de 2011 - Águas de Março').",
         "ano": 2011
+    },
+    {
+        "estado_id": 16,
+        "evento": "Enchentes e alagamentos generalizados — junho de 2014",
+        "clima_descricao": "Período de fortes chuvas que afetou grande parte do estado em junho de 2014: mais de 100 municípios atingidos, centenas de milhares de pessoas afetadas, mortes e danos materiais massivos; diversos municípios decretaram estado de emergência.",
+        "fonte": "Relatórios e boletins da Defesa Civil do Paraná; cobertura do Governo do Estado e veículos que reproduziram balanços oficiais (boletins estaduais).",
+        "ano": 2014
+    },
+    {
+        "estado_id": 16,
+        "evento": "Temporais, tornados e estragos — 2015 (várias ocorrências ao longo do ano)",
+        "clima_descricao": "Em 2015 o estado registrou múltiplos episódios de chuva intensa, ventos fortes e tornados localizados (incluindo deslizamentos, quedas de casas e rodovias interrompidas). Relatórios estaduais apontam centenas de municípios com ocorrências e prejuízos estimados em dezenas a centenas de milhões de reais.",
+        "fonte": "Boletins da Defesa Civil do Paraná e cobertura da imprensa que usa os balanços oficiais (Gazeta do Povo / relatórios estaduais).",
+        "ano": 2015
+    },
+    {
+        "estado_id": 16,
+        "evento": "Ocorrências de granizo e tempestades severas — anos recentes (registro e estudos, p.ex. 2016–2018)",
+        "clima_descricao": "Regiões metropolitanas, especialmente a RMC (Região Metropolitana de Curitiba), registraram episódios frequentes de granizo e tempestades severas com danos a veículos, telhados e lavouras; relatos e estudos técnicos da Defesa Civil e institutos meteorológicos documentam repetição e impactos.",
+        "fonte": "Estudos técnicos e relatórios que utilizam dados da Defesa Civil do Paraná e Simepar (pesquisas sobre precipitação de granizo na RMC).",
+        "ano": 2016
+    },
+    {
+        "estado_id": 16,
+        "evento": "Estiagem/hidrossecas severas na Bacia Paraná-Prata — pico em 2021",
+        "clima_descricao": "Períodos de estiagem prolongada (2019–2021) afetaram reservatórios, agricultura e geração hidrelétrica; o Governo do Estado decretou situação de emergência para dezenas de municípios e a região enfrentou perdas de safra e risco de racionamento energético.",
+        "fonte": "Governo do Estado do Paraná / SEDest (notícias governamentais), CEMADEN e boletins da ANA/Simepar citando impactos da seca na Bacia Paraná-Prata (relatórios oficiais).",
+        "ano": 2021
+    },
+    {
+        "estado_id": 16,
+        "evento": "Temporais e tornados — outubro/novembro de 2023",
+        "clima_descricao": "Sequência de temporais em outubro/novembro de 2023 afetou dezenas de municípios (mais de 100 cidades notificadas em alguns boletins), com milhares de pessoas atingidas, desabrigados, casas danificadas, quedas de árvores e interrupções de rodovias; Defesa Civil estadual e municipais emitiram notas e decretos de emergência para municípios impactados.",
+        "fonte": "Boletins e notas da Defesa Civil do Paraná e reportagens que citam os números oficiais (AEN / Agência Brasil / Corpo de Bombeiros e boletins estaduais).",
+        "ano": 2023
+    },
+     {
+        "estado_id": 16,
+        "evento": "Tempestades e alagamentos no Litoral do Paraná — janeiro 2024",
+        "clima_descricao": "Séries de chuvas intensas e tempestades entre 20 e 23 de janeiro de 2024 atingiram o Litoral (Matinhos, Guaratuba, Pontal do Paraná e municípios vizinhos). Boletins oficiais registraram milhares de pessoas afetadas (ex.: Matinhos: 15.321 pessoas afetadas, 300 desalojadas; Guaratuba: 2.700 pessoas afetadas, 16 desabrigadas e 136 desalojadas; Pontal do Paraná: ~3.000 pessoas afetadas), centenas de residências danificadas, interdições parciais de rodovias e abrigos municipais acionados. Municípios declararam situação de emergência e houve decretos estaduais homologando emergências (ex.: Matinhos).",
+        "fonte": "Boletins e páginas da Defesa Civil do Paraná (Ocorrências Litoral — janeiro/2024), Decreto estadual n.º 4.699/2024 (homologação da situação de emergência em Matinhos), Comunicado do Corpo de Bombeiros e alertas do INMET.",
+        "ano": 2024
     },
     {
         "estado_id": 17,
@@ -119,11 +1477,74 @@
         "ano": 2010
     },
     {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — jun 2010",
+        "clima_descricao": "Chuvas intensas causaram transbordamento de rios e deslizamentos de encostas.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais (UFSC, 2020)",
+        "ano": 2010
+    },
+    {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas causaram alagamentos e instabilidade de encostas.",
+        "fonte": "An Attribution Study of Very Intense Rainfall Events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 17,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas extremas provocaram transbordamento de rios e deslizamentos em encostas urbanas.",
+        "fonte": "Flash Floods and Landslides in Recife, Northeast Brazil (2022)",
+        "ano": 2022
+    },
+    {
         "estado_id": 18,
         "evento": "Seca intensa — 2012–2015",
         "clima_descricao": "Estiagens prolongadas; quando chove, episódios concentrados geram alagamentos locais.",
         "fonte": "Monitor de Secas (Piauí).",
         "ano": 2015
+    },
+    {
+        "estado_id": 18,
+        "evento": "Seca prolongada — 2010",
+        "clima_descricao": "Falta de chuvas regulares em todo o estado.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais",
+        "ano": 2010
+    },
+    {
+        "estado_id": 18,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas causaram alagamentos e deslizamentos de terra.",
+        "fonte": "An attribution study of very intense rainfall events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 18,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
+        "ano": 2022
+    },
+    {
+        "estado_id": 19,
+        "evento": "Enchentes, inundações e deslizamentos — abril de 2010",
+        "clima_descricao": "Chuvas intensas entre 5 e 10 de abril de 2010 causaram alagamentos generalizados e deslizamentos em municípios do Grande Rio e Niterói; balanços iniciais registraram centenas de mortos e milhares de desalojados/desabrigados, com impactos severos em infraestrutura urbana e rodovias.",
+        "fonte": "Boletins da Defesa Civil e cobertura oficial (relatos e balanços publicados pela imprensa e memórias institucionais).",
+        "ano": 2010
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas extremas e deslizamentos — Região Serrana (11–13 de janeiro de 2011)",
+        "clima_descricao": "Chuvas torrenciais concentradas na Região Serrana (Nova Friburgo, Teresópolis, Petrópolis) geraram enchentes e deslizamentos em massa, resultando em elevado número de óbitos (balances oficiais apontam ordens de centenas — ~900) e dezenas de milhares de pessoas afetadas/desabrigadas; grandes danos à malha viária e redes de abastecimento.",
+        "fonte": "Relatório técnico/avaliações sobre a tragédia na Região Serrana (ENAP) e boletins da Defesa Civil do Estado do RJ.",
+        "ano": 2011
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e novos deslizamentos na Região Serrana — abril 2012",
+        "clima_descricao": "Novas precipitações muito acima da média em curtos períodos provocaram deslizamentos e enchentes na Região Serrana com registros de mortes e pessoas desalojadas; Defesa Civil estadual emitiu alertas e atuou em operações de resposta.",
+        "fonte": "Boletins e notas da Defesa Civil do Estado do RJ e cobertura da Agência Brasil sobre ocorrências na serra em 2012.",
+        "ano": 2012
     },
     {
         "estado_id": 19,
@@ -133,6 +1554,69 @@
         "ano": 2013
     },
     {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — jan 2015",
+        "clima_descricao": "Precipitações acima da média em janeiro de 2015 causaram deslizamentos e alagamentos em várias regiões do estado, com dezenas de mortes e milhares de pessoas afetadas; Defesa Civil estadual emitiu alertas e coordenou ações de resposta.",
+        "fonte": "Boletins da Defesa Civil do Estado do RJ e reportagens que documentaram os impactos das chuvas de janeiro de 2015.",
+        "ano": 2015
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — fev 2016",
+        "clima_descricao": "Novas precipitações intensas em fevereiro de 2016 provocaram deslizamentos e enchentes em diversas áreas urbanas, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual atuou em operações de emergência.",
+        "fonte": "Relatórios e boletins da Defesa Civil do Estado do RJ sobre as ocorrências de fevereiro de 2016.",
+        "ano": 2016
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — fev 2018",
+        "clima_descricao": "Chuvas fortes em fevereiro de 2018 causaram deslizamentos e alagamentos em várias regiões do estado, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual emitiu alertas e coordenou ações de resposta.",
+        "fonte": "Boletins da Defesa Civil do Estado do RJ e reportagens sobre os impactos das chuvas de fevereiro de 2018.",
+        "ano": 2018
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — abr 2019",
+        "clima_descricao": "Precipitações acima da média em abril de 2019 causaram deslizamentos e alagamentos em várias regiões do estado, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual emitiu alertas e coordenou ações de resposta.",
+        "fonte": "Boletins da Defesa Civil do Estado do RJ e reportagens que documentaram os impactos das chuvas de abril de 2019.",
+        "ano": 2019
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — jan 2020",
+        "clima_descricao": "Novas precipitações intensas em janeiro de 2020 provocaram deslizamentos e enchentes em diversas áreas urbanas, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual atuou em operações de emergência.",
+        "fonte": "Relatórios e boletins da Defesa Civil do Estado do RJ sobre as ocorrências de janeiro de 2020.",
+        "ano": 2020
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — fev 2021",
+        "clima_descricao": "Chuvas fortes em fevereiro de 2021 causaram deslizamentos e alagamentos em várias regiões do estado, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual emitiu alertas e coordenou ações de resposta.",
+        "fonte": "Boletins da Defesa Civil do Estado do RJ e reportagens sobre os impactos das chuvas de fevereiro de 2021.",
+        "ano": 2021
+    },
+    {
+        "estado_id": 19,
+        "evento": "Chuvas intensas e deslizamentos — mar 2022",
+        "clima_descricao": "Precipitações acima da média em março de 2022 causaram deslizamentos e alagamentos em várias regiões do estado, resultando em mortes e milhares de pessoas afetadas; Defesa Civil estadual emitiu alertas e coordenou ações de resposta.",
+        "fonte": "Boletins da Defesa Civil do Estado do RJ e reportagens que documentaram os impactos das chuvas de março de 2022.",
+        "ano": 2022
+    },
+    {
+        "estado_id": 19,
+        "evento": "Sazonalidade de temporais e cheias — 2023 (episódios dispersos)",
+        "clima_descricao": "Série de temporais no verão de 2022/2023 e ao longo de 2023 com ocorrências de vendavais, alagamentos e riscos de movimentos de massa em áreas predispostas; vários municípios contabilizaram atendimentos e acionamentos da Defesa Civil.",
+        "fonte": "Planos e boletins do Plano de Contingência da Defesa Civil RJ (versão 2023/2024) e relatórios operacionais estaduais.",
+        "ano": 2023
+    },
+    {
+        "estado_id": 19,
+        "evento": "Monitoramento e episódios de chuva / alertas de 2024 (verão 2023/2024)",
+        "clima_descricao": "Na temporada 2023/2024 a Defesa Civil estadual lançou planos de contingência e mapas de suscetibilidade; ocorreram múltiplos alertas e episódios de chuva intensa com alagamentos e deslizamentos localizados durante o período chuvoso, motivando decretos municipais pontuais e mobilização de abrigos.",
+        "fonte": "Plano de Contingência da Defesa Civil do Estado do RJ para chuvas intensas (versão 2023/2024) e boletins operacionais.",
+        "ano": 2024
+    },
+    {
         "estado_id": 20,
         "evento": "Alagamentos urbanos — vários anos",
         "clima_descricao": "Pancadas fortes na estação chuvosa; drenagem vulnerável.",
@@ -140,11 +1624,88 @@
         "ano": null
     },
     {
-        "estado_id": 21,
-        "evento": "Enchentes — abril-maio 2024",
-        "clima_descricao": "Sistemas frontais com chuva intensa por vários dias; rios em cheia e ampla inundação.",
-        "fonte": "Estudos sobre enchentes de 2024 no RS.",
-        "ano": 2024
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — jun 2010",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Atlas Brasileiro de Desastres Naturais",
+        "ano": 2010
+    },
+    {
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — maio 2017",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "An attribution study of very intense rainfall events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 20,
+        "evento": "Enchentes e deslizamentos — maio 2022",
+        "clima_descricao": "Chuvas intensas provocaram alagamentos e deslizamentos de terra.",
+        "fonte": "Flash floods and landslides in Recife, Northeast Brazil",
+        "ano": 2022
+    },
+  {
+    "estado_id": 21,
+    "evento": "Chuvas intensas e transtornos — início de janeiro de 2010",
+    "clima_descricao": "Chuvas fortes no começo de 2010 causaram inundações, danos em área rural e urbana, dezenas de residências destruídas e centenas danificadas; Defesa Civil estadual divulgou boletins operacionais de resposta ao evento.",
+    "fonte": "Boletim Defesa Civil RS — atualização sobre situação dos municípios (6 jan 2010).",
+    "ano": 2010
+  },
+  {
+    "estado_id": 21,
+    "evento": "Períodos de seca e impactos agrícolas — 2012–2013 (seca regional)",
+    "clima_descricao": "Eventos de seca hidrológica afetaram bacias do Sul e provocaram perdas agrícolas localizadas e redução de vazões em afluentes; estudos técnicos apontam severidade da seca em 2012/2013 na região Sul do Brasil.",
+    "fonte": "Artigos e relatórios técnicos sobre secas na Região Sul (relato de seca 2012/2013).",
+    "ano": 2013
+  },
+  {
+    "estado_id": 21,
+    "evento": "Chuvas intensas e enchentes — junho/julho de 2014",
+    "clima_descricao": "Sistema de chuva persistente provocou inundações no norte e noroeste do RS, elevando rios a níveis extremos; dezenas de municípios atingidos e centenas de pessoas encaminhadas a abrigos municipais conforme boletins estaduais.",
+    "fonte": "Boletins / notas do Governo do Estado (Defesa Civil RS) sobre as chuvas de junho/julho de 2014.",
+    "ano": 2014
+  },
+  {
+    "estado_id": 21,
+    "evento": "Chuvas intensas na Região Oeste — outubro de 2016",
+    "clima_descricao": "Chuvas localizadas causaram alagamentos e transtornos em municípios da Região Oeste; medições pontuais registraram volumes elevados (ex.: Uruguaiana registrou 99,1 mm em um dia) e Defesa Civil emitiu relatórios de atendimento.",
+    "fonte": "Boletim da Defesa Civil RS — ocorrência de 15 de outubro de 2016 (região Oeste).",
+    "ano": 2016
+  },
+  {
+    "estado_id": 21,
+    "evento": "Temporal, vendavais e deslizamentos — 30 de agosto de 2018",
+    "clima_descricao": "Temporal com ventania, granizo e chuva intensa afetou o interior do estado (evento de 30/08/2018), gerando estragos em residências, queda de árvores e abrigos acionados em diversos municípios; boletins municipais e estaduais listaram municípios e residências atingidas.",
+    "fonte": "Boletim Defesa Civil RS — atualização sobre municípios atingidos pelas chuvas (04/09/2018).",
+    "ano": 2018
+  },
+  {
+    "estado_id": 21,
+    "evento": "Período acumulado de ocorrências (estudo) — 2003–2021",
+    "clima_descricao": "Estudo oficial da Defesa Civil do RS documenta milhares de ocorrências de desastres naturais entre 2003–2021 (enchentes, enxurradas, estiagens, vendavais) e descreve impacto estrutural e econômico em grande parte dos municípios do estado.",
+    "fonte": "Relatório técnico/estudo 'Desastres Naturais no RS: ocorrências 2003–2021' (Defesa Civil / governo do RS).",
+    "ano": 2021
+  },
+  {
+    "estado_id": 21,
+    "evento": "Ciclone extratropical / temporais com perdas humanas — junho de 2023",
+    "clima_descricao": "Ciclone extratropical e sistemas associados em junho de 2023 produzirem chuvas intensas e vendavais; boletins estaduais apontaram mortes e significativos prejuízos locais — considerado um dos piores episódios de chuva em quatro décadas para o RS em termos de mortalidade naquele período.",
+    "fonte": "Boletins e nota da Defesa Civil do RS sobre o episódio de junho de 2023.",
+    "ano": 2023
+  },
+  {
+    "estado_id": 21,
+    "evento": "Enchentes históricas e crise humanitária — abril-maio de 2024",
+    "clima_descricao": "Cheias e inundações a partir do final de abril de 2024 atingiram centenas de municípios do RS, deslocaram centenas de milhares de pessoas (estimativas das fontes variam entre centenas de milhares a mais de 600 mil desalojados/desabrigados), provocaram dezenas/centenas de óbitos e ampla mobilização federal/estadual; cobertura inclui boletins da Defesa Civil, checagens de mídia e relatórios sobre o impacto econômico e social.",
+    "fonte": "Boletins Defesa Civil RS e checagens/relatórios da imprensa sobre as cheias históricas de abril/maio de 2024 (várias notas oficiais e análises).",
+    "ano": 2024
+  },
+    {
+        "estado_id": 22,
+        "evento": "Cheias do Rio Madeira — 2012",
+        "clima_descricao": "Chuvas intensas na bacia do Rio Madeira; transbordamentos urbanos.",
+        "fonte": "Relatórios sobre cheias do Rio Madeira.",
+        "ano": 2012
     },
     {
         "estado_id": 22,
@@ -154,6 +1715,41 @@
         "ano": 2014
     },
     {
+        "estado_id": 22,
+        "evento": "Seca severa — 2015",
+        "clima_descricao": "Período de estiagem prolongada; redução de vazão de rios e prejuízos à agricultura e pecuária.",
+        "fonte": "IBGE, Defesa Civil",
+        "ano": 2015
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias do Rio Madeira — 2017",
+        "clima_descricao": "Chuvas intensas elevaram o nível do Rio Madeira, causando transbordamentos urbanos e danos em residências ribeirinhas.",
+        "fonte": "Defesa Civil, G1 Rondônia",
+        "ano": 2017
+    },
+    {
+        "estado_id": 22,
+        "evento": "Seca severa — 2019",
+        "clima_descricao": "Baixa pluviosidade e estiagem prolongada provocaram escassez hídrica em comunidades rurais.",
+        "fonte": "Agência Rondônia, INMET",
+        "ano": 2019
+    },
+    {
+        "estado_id": 22,
+        "evento": "Cheias do Rio Madeira — 2021",
+        "clima_descricao": "Nível do Rio Madeira superou cota de alerta; alagamento de bairros, famílias desalojadas e prejuízos urbanos.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 22,
+        "evento": "Seca extrema — 2023",
+        "clima_descricao": "Estiagem prolongada afetou o abastecimento hídrico e a agricultura local.",
+        "fonte": "INMET, Agência Rondônia",
+        "ano": 2023
+    },
+    {
         "estado_id": 23,
         "evento": "Cheias do Rio Branco — 2011",
         "clima_descricao": "Chuvas intensas na bacia do Rio Branco; transbordamentos urbanos.",
@@ -161,11 +1757,144 @@
         "ano": 2011
     },
     {
+        "estado_id": 23,
+        "evento": "Cheias no Rio Branco — 2011",
+        "clima_descricao": "Chuvas intensas elevaram o nível do Rio Branco, causando transbordamentos urbanos e danos em residências ribeirinhas.",
+        "fonte": "Defesa Civil, G1 Roraima",
+        "ano": 2011
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca severa — 2012",
+        "clima_descricao": "Período de estiagem prolongada; redução de vazão de rios e prejuízos à agricultura e pecuária.",
+        "fonte": "IBGE, Defesa Civil",
+        "ano": 2012
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes e alagamentos urbanos — 2013",
+        "clima_descricao": "Chuvas acima da média causaram inundações em bairros de Boa Vista e interrupções de vias.",
+        "fonte": "Folha BV, Defesa Civil",
+        "ano": 2013
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca e queimadas — 2015",
+        "clima_descricao": "Estiagem severa favoreceu incêndios florestais em áreas rurais e reservas; prejuízos ambientais e à saúde.",
+        "fonte": "IBAMA, INPE",
+        "ano": 2015
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes no Rio Branco — 2017",
+        "clima_descricao": "Chuvas prolongadas causaram alagamentos e evacuação de famílias ribeirinhas.",
+        "fonte": "Defesa Civil Roraima",
+        "ano": 2017
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca e falta d'água — 2019",
+        "clima_descricao": "Baixa pluviosidade e estiagem prolongada provocaram escassez hídrica em comunidades rurais.",
+        "fonte": "Agência Roraima, INMET",
+        "ano": 2019
+    },
+    {
+        "estado_id": 23,
+        "evento": "Cheia do Rio Branco — 2021",
+        "clima_descricao": "Nível do Rio Branco superou cota de alerta; alagamento de bairros, famílias desalojadas e prejuízos urbanos.",
+        "fonte": "Defesa Civil, G1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 23,
+        "evento": "Seca extrema e queimadas — 2022",
+        "clima_descricao": "Estiagem prolongada e focos de incêndio em áreas de vegetação; prejuízos ambientais e risco à fauna.",
+        "fonte": "INPE, IBAMA, Amazônia Real",
+        "ano": 2022
+    },
+    {
+        "estado_id": 23,
+        "evento": "Chuvas intensas e inundações — 2023",
+        "clima_descricao": "Precipitação acima da média em Boa Vista e municípios do interior; danos em vias e residências.",
+        "fonte": "Folha BV, Defesa Civil",
+        "ano": 2023
+    },
+    {
+        "estado_id": 23,
+        "evento": "Enchentes e alagamentos urbanos — 2024",
+        "clima_descricao": "Chuvas intensas elevaram os níveis dos rios; registros de desabrigados e danos materiais.",
+        "fonte": "Defesa Civil, Agência Roraima",
+        "ano": 2024
+    },
+    {
         "estado_id": 24,
         "evento": "Enchentes Vale do Itajaí — nov 2008",
         "clima_descricao": "Dias de chuva contínua e intensa; inundações e deslizamentos.",
         "fonte": "Reportagens sobre enchentes de nov/2008 em SC.",
         "ano": 2008
+    },
+    {
+        "estado_id": 24,
+        "evento": "Enchentes Vale do Itajaí — jun 2011",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; rios transbordaram.",
+        "fonte": "Relatórios sobre enchentes de jun/2011 em SC.",
+        "ano": 2011
+    },
+    {
+        "estado_id": 24,
+        "evento": "Enchentes Vale do Itajaí — out 2015",
+        "clima_descricao": "Chuvas intensas causaram inundações e deslizamentos.",
+        "fonte": "Relatórios sobre enchentes de out/2015 em SC.",
+        "ano": 2015
+    },
+    {
+        "estado_id": 24,
+        "evento": "Enchentes Vale do Itajaí — mar 2020",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; rios transbordaram.",
+        "fonte": "Relatórios sobre enchentes de mar/2020 em SC.",
+        "ano": 2020
+    },
+    {
+        "estado_id": 24,
+        "evento": "Enchentes Vale do Itajaí — jun 2023",
+        "clima_descricao": "Chuvas intensas causaram inundações e deslizamentos.",
+        "fonte": "Relatórios sobre enchentes de jun/2023 em SC.",
+        "ano": 2023
+    },
+    {
+        "estado_id": 25,
+        "evento": "Enchentes/deslizamentos Litoral Norte — jan 2011",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; solo saturado.",
+        "fonte": "Relatórios sobre enchentes de jan/2011.",
+        "ano": 2011
+    },
+    {
+        "estado_id": 25,
+        "evento": "Enchentes/deslizamentos Litoral Norte — mar 2013",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; solo saturado.",
+        "fonte": "Relatórios sobre enchentes de mar/2013.",
+        "ano": 2013
+    },
+    {
+        "estado_id": 25,
+        "evento": "Enchentes/deslizamentos Litoral Norte — mar 2015",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; solo saturado.",
+        "fonte": "Relatórios sobre enchentes de mar/2015.",
+        "ano": 2015
+    },
+    {
+        "estado_id": 25,
+        "evento": "Enchentes/deslizamentos Litoral Norte — mai 2017",
+        "clima_descricao": "Chuvas intensas em curtoperíodo; solo saturado.",
+        "fonte": "An attribution study of very intense rainfall events in 2017",
+        "ano": 2017
+    },
+    {
+        "estado_id": 25,
+        "evento": "Enchentes/deslizamentos Litoral Norte — mai 2022",
+        "clima_descricao": "Chuvas extremas provocaram transbordamento de rios e deslizamentos em encostas urbanas.",
+        "fonte": "Flash Floods and Landslides in Recife, Northeast Brazil (2022)",
+        "ano": 2022
     },
     {
         "estado_id": 25,
@@ -176,10 +1905,59 @@
     },
     {
         "estado_id": 26,
-        "evento": "Estiagens no sertão e enchentes locais",
-        "clima_descricao": "Sertão: seca prolongada; litoral: pancadas intensas ocasionais.",
-        "fonte": "Relatórios sobre seca e eventos em Sergipe.",
-        "ano": null
+        "evento": "Enchentes no Sergipe — 2011",
+        "clima_descricao": "Chuvas intensas causaram alagamentos em áreas urbanas e rurais do estado.",
+        "fonte": "Defesa Civil Sergipe",
+        "ano": 2011
+    },
+    {
+        "estado_id": 26,
+        "evento": "Enchentes em Aracaju",
+        "clima_descricao": "Chuvas intensas causaram alagamentos em áreas urbanas de Aracaju.",
+        "fonte": "Defesa Civil Sergipe",
+        "ano": 2012
+    },
+    {
+        "estado_id": 26,
+        "evento": "Seca prolongada",
+        "clima_descricao": "Estiagem severa afetou a agricultura e o abastecimento hídrico em várias regiões do estado.",
+        "fonte": "ANA, INMET",
+        "ano": 2014
+    },
+    {
+        "estado_id": 26,
+        "evento": "Enchentes e alagamentos",
+        "clima_descricao": "Chuvas acima da média provocaram inundações em áreas urbanas e rurais.",
+        "fonte": "Defesa Civil, G1 Sergipe",
+        "ano": 2016
+    },
+    {
+        "estado_id": 26,
+        "evento": "Seca severa",
+        "clima_descricao": "Déficit de chuva prolongado; impactos na agricultura e pecuária; aumento de queimadas.",
+        "fonte": "INPE, IBAMA",
+        "ano": 2018
+    },
+    {
+        "estado_id": 26,
+        "evento": "Enchentes em municípios do interior",
+        "clima_descricao": "Chuvas intensas e transbordamento de rios; interdições e famílias desalojadas.",
+        "fonte": "Defesa Civil, Portal G1",
+        "ano": 2021
+    },
+    {
+        "estado_id": 26,
+        "evento": "Seca e queimadas",
+        "clima_descricao": "Estiagem prolongada e calor extremo; aumento de focos de incêndio e danos ambientais.",
+        "fonte": "INPE, Defesa Civil Sergipe",
+        "ano": 2022
+    },
+    {
+        "estado_id": 26,
+        "evento": "Chuvas intensas e alagamentos",
+        "clima_descricao": "Temporais e precipitação elevada; danos em infraestrutura e desabrigados em municípios ribeirinhos.",
+        "fonte": "Agência Sergipe",
+        "ano": 2024
     },
     {
         "estado_id": 27,
@@ -187,5 +1965,55 @@
         "clima_descricao": "Períodos secos longos seguidos da estação chuvosa intensa.",
         "fonte": "Relatórios sobre enchentes e secas no Tocantins.",
         "ano": null
+    },
+    {
+        "estado_id": 27,
+        "evento": "Cheias e alagamentos — 2011",
+        "clima_descricao": "Chuvas intensas causaram elevação de rios e inundações em municípios do norte do estado.",
+        "fonte": "Defesa Civil Tocantins",
+        "ano": 2011
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca e estiagem prolongada — 2013",
+        "clima_descricao": "Período seco afetou a produção agrícola e o abastecimento hídrico em comunidades rurais.",
+        "fonte": "ANA, INMET",
+        "ano": 2013
+    },
+    {
+        "estado_id": 27,
+        "evento": "Enchentes e transbordamentos — 2015",
+        "clima_descricao": "Chuvas acima da média provocaram cheias e alagamentos em áreas urbanas e rurais.",
+        "fonte": "Defesa Civil, G1 Tocantins",
+        "ano": 2015
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca severa — 2017",
+        "clima_descricao": "Déficit de chuva prolongado; impactos na agricultura e pecuária; aumento de queimadas.",
+        "fonte": "INPE, IBAMA",
+        "ano": 2017
+    },
+    {
+        "estado_id": 27,
+        "evento": "Enchentes no norte do estado — 2020",
+        "clima_descricao": "Chuvas intensas e transbordamento de rios; interdições e famílias desalojadas.",
+        "fonte": "Defesa Civil, Portal G1",
+        "ano": 2020
+    },
+    {
+        "estado_id": 27,
+        "evento": "Seca e queimadas — 2023",
+        "clima_descricao": "Estiagem prolongada e calor extremo; aumento de focos de incêndio e danos ambientais.",
+        "fonte": "INPE, Defesa Civil Tocantins",
+        "ano": 2023
+    },
+    {
+        "estado_id": 27,
+        "evento": "Chuvas intensas e alagamentos — 2024",
+        "clima_descricao": "Temporais e precipitação elevada; danos em infraestrutura e desabrigados em municípios ribeirinhos.",
+        "fonte": "Agência Tocantins",
+        "ano": 2024
     }
+
 ]
