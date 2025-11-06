@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const s = stateByUF[uf];
 
       layer.on({
-<<<<<<< HEAD
   click: async (e) => {
     const selectedYear = yearFilter.value;
     if (selectedYear && (!s || s.ano != selectedYear)) {
@@ -136,48 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
-=======
-        mouseover: e => e.target.setStyle({ weight:2, color:"#2f6b46", fillColor:"#a9d9a1" }),
-        mouseout: e => geojsonLayer.resetStyle(e.target),
-        click: async e => {
-          const selectedYear = yearFilter.value;
-          
-          // Filter disasters for the clicked state
-          const stateDisasters = filterDisastersByState(uf);
-          const weatherData = await getCurrentWheather(uf);
-          
-          if (selectedYear && (!s || !s.ano == selectedYear)) {
-            layer.bindPopup(`<div class="disaster-card">Nenhum desastre em ${selectedYear} para ${feature.properties.nome}</div>`).openPopup();
-            // Still populate table with state disasters (all years)
-            populateDisasterTable(stateDisasters, feature.properties.nome);            
-            scrollToTable();
-            return;
-          }
-          if (!s) {
-            layer.bindPopup(`<div class="disaster-card">Nenhum dado disponível para ${feature.properties.nome}</div>`).openPopup();
-            return;
-          }
-
-          const cardHTML = `
-            <div class="disaster-card">
-              <h3>${s.estado} (${s.uf})</h3>
-              <div><b>Capital:</b> ${s.capital}</div>
-              <div><b>Desastres:</b> ${count_disasters(s.uf)}</div>
-              <div style="margin-top: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9;">
-                ${weatherData || '<i>Dados de clima indisponíveis</i>'}
-              </div>
-              <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
-                <i>Clique para ver detalhes na tabela abaixo</i>
-              </div>
-            </div>`;
-          layer.bindPopup(cardHTML).openPopup();
-          
-          // Populate table with disasters from clicked state
-          populateDisasterTable(stateDisasters, feature.properties.nome);
-          scrollToTable();
-        }
-      });
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     }
 
     geojsonLayer = L.geoJSON(geoData, { style, onEachFeature }).addTo(map);

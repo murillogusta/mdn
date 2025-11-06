@@ -1,9 +1,6 @@
 [
-<<<<<<< HEAD
-     {
-=======
    {
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
+
     "estado_id": 1,
     "evento": "Cheia do Rio Acre — mar 2010",
     "clima_descricao": "Chuvas intensas durante o verão amazônico provocaram o transbordamento do Rio Acre e alagamentos em Rio Branco.",
@@ -108,11 +105,7 @@
     "fonte": "G1 AC; Le Monde; Relatórios ambientais 2024",
     "ano": 2024
 },
-<<<<<<< HEAD
     {
-=======
-{
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 2,
     "evento": "Chuvas intensas e enchentes — jun 2010",
     "clima_descricao": "Chuvas excepcionais provocaram enchentes históricas, destruindo pontes e casas em diversos municípios, incluindo União dos Palmares e Branquinha.",
@@ -217,10 +210,6 @@
     "fonte": "CNN Brasil; Defesa Civil AL (2024)",
     "ano": 2024
 },
-<<<<<<< HEAD
-=======
-
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
    {
         "estado_id": 3,
         "evento": "Chuvas intensas e alagamentos urbanos",
@@ -1174,7 +1163,6 @@
         "fonte": "Relatos sobre alagamentos e inundações em São Luís.",
         "ano": 2010
     },
-<<<<<<< HEAD
     {
         "estado_id": 10,
         "evento": "Enchentes e deslizamentos",
@@ -1182,8 +1170,6 @@
         "fonte": "G1 Maranhão / Defesa Civil",
         "ano": 2015
     },
-=======
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
      {
         "estado_id": 10,
         "evento": "Chuvas fortes e inundações — fev 2018",
@@ -1212,11 +1198,7 @@
         "fonte": "O Imparcial",
         "ano": 2024
     },
-<<<<<<< HEAD
      {
-=======
-    {
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 11,
     "evento": "Chuvas intensas / enchentes e vendaval local — 2010",
     "clima_descricao": "Chuvas fortes na estação úmida provocaram alagamentos urbanos e vendavais em municípios como Cuiabá e Rondonópolis.",
@@ -1321,11 +1303,7 @@
     "fonte": "INPE; CNN Brasil; Le Monde (2024)",
     "ano": 2024
 },
-<<<<<<< HEAD
     {
-=======
-{
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 12,
     "evento": "Chuvas intensas / enchentes sazonais — 2010",
     "clima_descricao": "Chuvas fortes na quadra chuvosa provocaram alagamentos em Campo Grande e municípios ribeirinhos.",
@@ -2300,7 +2278,6 @@
     },
     {
         "estado_id": 27,
-<<<<<<< HEAD
         "evento": "Secas predominantes / cheias locais",
         "clima_descricao": "Períodos secos longos seguidos da estação chuvosa intensa.",
         "fonte": "Relatórios sobre enchentes e secas no Tocantins.",
@@ -2308,8 +2285,6 @@
     },
     {
         "estado_id": 27,
-=======
->>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
         "evento": "Cheias e alagamentos — 2011",
         "clima_descricao": "Chuvas intensas causaram elevação de rios e inundações em municípios do norte do estado.",
         "fonte": "Defesa Civil Tocantins",
