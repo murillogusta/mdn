@@ -1,5 +1,9 @@
 [
+<<<<<<< HEAD
      {
+=======
+   {
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 1,
     "evento": "Cheia do Rio Acre — mar 2010",
     "clima_descricao": "Chuvas intensas durante o verão amazônico provocaram o transbordamento do Rio Acre e alagamentos em Rio Branco.",
@@ -104,7 +108,11 @@
     "fonte": "G1 AC; Le Monde; Relatórios ambientais 2024",
     "ano": 2024
 },
+<<<<<<< HEAD
     {
+=======
+{
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 2,
     "evento": "Chuvas intensas e enchentes — jun 2010",
     "clima_descricao": "Chuvas excepcionais provocaram enchentes históricas, destruindo pontes e casas em diversos municípios, incluindo União dos Palmares e Branquinha.",
@@ -209,6 +217,10 @@
     "fonte": "CNN Brasil; Defesa Civil AL (2024)",
     "ano": 2024
 },
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
    {
         "estado_id": 3,
         "evento": "Chuvas intensas e alagamentos urbanos",
@@ -524,6 +536,322 @@
         "fonte": "Agência Brasil, G1 Ceará",
         "ano": 2024
     },
+   {
+    "estado_id": 7,
+    "evento": "Chuvas intensas e alagamentos urbanos — 2010",
+    "clima_descricao": "Pancadas de chuva causaram alagamentos em diversas regiões administrativas de Brasília.",
+    "fonte": "Atlas Brasileiro de Desastres; matérias locais",
+    "ano": 2010
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e raios — 2011",
+    "clima_descricao": "Tempestades com forte atividade elétrica provocaram feridos e danos em eventos ao ar livre.",
+    "fonte": "Correio Braziliense; relatórios meteorológicos",
+    "ano": 2011
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas de verão e alagamentos — 2012",
+    "clima_descricao": "Precipitações intensas geraram alagamentos em Ceilândia, Estrutural e Lago Norte.",
+    "fonte": "Estudo 'Panorama dos Alagamentos no DF' (ResearchGate)",
+    "ano": 2012
+},
+{
+    "estado_id": 7,
+    "evento": "Período chuvoso com quedas de árvores — 2013",
+    "clima_descricao": "Chuvas fortes e ventos derrubaram árvores e causaram transtornos em áreas de risco.",
+    "fonte": "Correio Braziliense — outubro/2013",
+    "ano": 2013
+},
+{
+    "estado_id": 7,
+    "evento": "Temporal com raios e feridos — 2014",
+    "clima_descricao": "Tempestade elétrica com mais de 370 raios atingiu evento público e feriu dezenas de pessoas.",
+    "fonte": "Correio Braziliense — 'Temporal em Brasília teve 370 raios...'",
+    "ano": 2014
+},
+{
+    "estado_id": 7,
+    "evento": "Granizo e ventos fortes — 2015",
+    "clima_descricao": "Temporal destelhou casas e deixou mais de 450 pessoas afetadas em Vila Basevi e Lago Oeste.",
+    "fonte": "Metrópoles; Correio Braziliense (07/10/2015)",
+    "ano": 2015
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas de verão e desalojamentos — 2016",
+    "clima_descricao": "Pancadas intensas provocaram alagamentos e deixaram famílias desalojadas em áreas urbanas.",
+    "fonte": "Agência Brasil — 'Chuva no DF deixa pelo menos sete famílias desalojadas'",
+    "ano": 2016
+},
+{
+    "estado_id": 7,
+    "evento": "Seca e incêndios florestais — 2017",
+    "clima_descricao": "Período de baixa umidade registrou mais de 4.700 ocorrências de fogo em vegetação no DF.",
+    "fonte": "Agência Brasília; Corpo de Bombeiros DF",
+    "ano": 2017
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e alagamentos urbanos — 2018",
+    "clima_descricao": "Chuvas de outubro provocaram inundações em Vicente Pires e Ceilândia.",
+    "fonte": "Metrópoles — 'Chuva retorna e escancara velhos problemas de infraestrutura'",
+    "ano": 2018
+},
+{
+    "estado_id": 7,
+    "evento": "Enchentes urbanas isoladas — 2019",
+    "clima_descricao": "Chuvas intensas causaram alagamentos em regiões administrativas de baixa topografia.",
+    "fonte": "ResearchGate — 'Panorama dos Alagamentos no DF'",
+    "ano": 2019
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas sazonais e pandemia — 2020",
+    "clima_descricao": "Eventos de chuva ocorreram durante medidas sanitárias, exigindo respostas emergenciais adaptadas.",
+    "fonte": "Boletins Defesa Civil DF; reportagens locais",
+    "ano": 2020
+},
+{
+    "estado_id": 7,
+    "evento": "Chuvas intensas e inundações urbanas — 2021",
+    "clima_descricao": "Tempestades convectivas causaram alagamentos em Ceilândia e Lago Norte.",
+    "fonte": "Defesa Civil DF; matérias locais",
+    "ano": 2021
+},
+{
+    "estado_id": 7,
+    "evento": "Temporais e alagamentos localizados — 2022",
+    "clima_descricao": "Chuvas concentradas provocaram inundações e desabrigados em Samambaia e Ceilândia.",
+    "fonte": "Boletins da Defesa Civil DF; cobertura jornalística",
+    "ano": 2022
+},
+{
+    "estado_id": 7,
+    "evento": "Enchentes urbanas e granizo — 2023",
+    "clima_descricao": "Chuvas intensas em outubro/novembro causaram alagamentos em Vicente Pires e Estrutural.",
+    "fonte": "Defesa Civil DF; Correio Braziliense; Metrópoles",
+    "ano": 2023
+},
+{
+    "estado_id": 7,
+    "evento": "Eventos climáticos variados — 2024",
+    "clima_descricao": "Ano marcado por tempestades, incêndios florestais e prejuízo acumulado de R$ 39 milhões ao DF na década.",
+    "fonte": "Metrópoles — 'Desastres climáticos deram prejuízo de R$ 39 milhões ao DF em 10 anos' (2024)",
+    "ano": 2024
+},
+ {
+    "estado_id": 8,
+    "evento": "Chuvas intensas e inundações — 2010",
+    "clima_descricao": "Fortes chuvas no verão provocaram alagamentos e enxurradas em cidades do sul e centro do estado.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; Defesa Civil ES",
+    "ano": 2010
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas intensas e deslizamentos — 2011",
+    "clima_descricao": "Precipitações acima da média causaram deslizamentos e enchentes em municípios serranos e litorâneos.",
+    "fonte": "Atlas Brasileiro de Desastres Naturais; CPRM",
+    "ano": 2011
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas localizadas e enxurradas — 2012",
+    "clima_descricao": "Episódios de chuva intensa em áreas urbanas causaram inundações e danos estruturais.",
+    "fonte": "Defesa Civil ES; boletins regionais",
+    "ano": 2012
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e alagamentos — 2013",
+    "clima_descricao": "O estado enfrentou um dos maiores desastres de sua história, com enchentes generalizadas e 24 mortes.",
+    "fonte": "G1 — 'Chuvas de 2013 deixam 24 mortos e mais de 60 mil desabrigados no ES'",
+    "ano": 2013
+},
+{
+    "estado_id": 8,
+    "evento": "Estiagem e crise hídrica — 2014",
+    "clima_descricao": "Chuvas abaixo da média afetaram o abastecimento de água e reduziram o volume de reservatórios.",
+    "fonte": "Jornal A Gazeta — 'Crise hídrica no Espírito Santo 2014–2015'",
+    "ano": 2014
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e erosões urbanas — 2015",
+    "clima_descricao": "Precipitações fortes provocaram erosões e quedas de muros em Vitória e Cariacica.",
+    "fonte": "Defesa Civil ES; G1 ES",
+    "ano": 2015
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas de verão e deslizamentos — 2016",
+    "clima_descricao": "Tempestades causaram deslizamentos em regiões serranas e transbordamento de rios.",
+    "fonte": "Defesa Civil ES; Atlas CEPED",
+    "ano": 2016
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas concentradas e inundações — 2017",
+    "clima_descricao": "Fortes chuvas afetaram a Grande Vitória e cidades do norte capixaba, com pontos de alagamento.",
+    "fonte": "Defesa Civil ES; G1 ES",
+    "ano": 2017
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e enchentes no norte — 2018",
+    "clima_descricao": "Cidades como Linhares e Colatina registraram enchentes e famílias desalojadas.",
+    "fonte": "Defesa Civil ES; reportagens locais",
+    "ano": 2018
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e alagamentos urbanos — 2019",
+    "clima_descricao": "Eventos intensos de precipitação provocaram inundações em Vitória e Vila Velha.",
+    "fonte": "Boletins Defesa Civil ES; G1 ES",
+    "ano": 2019
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas fortes e deslizamentos — 2020",
+    "clima_descricao": "Janeiro registrou temporais com deslizamentos em Iconha e Alfredo Chaves, deixando mortos e desabrigados.",
+    "fonte": "G1 ES — 'Chuva causa deslizamentos e mortes no sul do estado'",
+    "ano": 2020
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas intensas e alagamentos — 2021",
+    "clima_descricao": "Precipitações acima da média provocaram enchentes e danos em rodovias e áreas urbanas.",
+    "fonte": "Defesa Civil ES; relatórios estaduais",
+    "ano": 2021
+},
+{
+    "estado_id": 8,
+    "evento": "Enchentes generalizadas e mortes — 2022",
+    "clima_descricao": "Fortes chuvas em dezembro causaram grandes enchentes no sul e sudoeste do estado, com vítimas fatais.",
+    "fonte": "CNN Brasil — 'Chuvas intensas no ES deixam mortos e desabrigados' (2022)",
+    "ano": 2022
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas e deslizamentos — 2023",
+    "clima_descricao": "Chuvas intensas atingiram cidades serranas como Domingos Martins e Santa Leopoldina.",
+    "fonte": "G1 ES; Defesa Civil estadual",
+    "ano": 2023
+},
+{
+    "estado_id": 8,
+    "evento": "Chuvas fortes e deslizamentos — 2024",
+    "clima_descricao": "Temporais entre março e abril causaram deslizamentos, alagamentos e dezenas de desabrigados.",
+    "fonte": "CNN Brasil; Defesa Civil ES (2024)",
+    "ano": 2024
+},
+
+   {
+    "estado_id": 9,
+    "evento": "Chuvas intensas e enchentes urbanas — 2010",
+    "clima_descricao": "Pancadas fortes na quadra chuvosa provocaram alagamentos em Goiânia, Anápolis e municípios ribeirinhos.",
+    "fonte": "Atlas Brasileiro de Desastres; Globoplay",
+    "ano": 2010
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas fortes e enxurradas — 2011",
+    "clima_descricao": "Frentes convectivas causaram chuvas intensas e transbordamentos em áreas do sudeste e centro-sul goiano.",
+    "fonte": "Boletins e reportagens regionais",
+    "ano": 2011
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas localizadas e enchentes pontuais — 2012",
+    "clima_descricao": "Episódios típicos de verão geraram alagamentos e desabrigados em cidades ribeirinhas.",
+    "fonte": "Atlas histórico de desastres (CEPED/UFSC)",
+    "ano": 2012
+},
+{
+    "estado_id": 9,
+    "evento": "Seca agrícola severa — 2013",
+    "clima_descricao": "Déficit pluviométrico prolongado reduziu a produção agrícola, com perda de até 800 mil toneladas de soja.",
+    "fonte": "Canal Rural; Gazeta do Povo (relatos sobre seca de 2013)",
+    "ano": 2013
+},
+{
+    "estado_id": 9,
+    "evento": "Enchentes localizadas e variabilidade hidrológica — 2014",
+    "clima_descricao": "Chuvas intensas afetaram cidades como Anápolis e Cidade de Goiás, causando danos em áreas urbanas.",
+    "fonte": "Globoplay — cobertura regional de enchentes",
+    "ano": 2014
+},
+{
+    "estado_id": 9,
+    "evento": "Seca prolongada e prejuízos agrícolas — 2015",
+    "clima_descricao": "Baixa pluviosidade comprometeu a segunda safra e gerou perdas significativas no agronegócio.",
+    "fonte": "Relatórios agrícolas e cooperativas (Comigo/FAEG)",
+    "ano": 2015
+},
+{
+    "estado_id": 9,
+    "evento": "Temporais e estragos urbanos — 2016",
+    "clima_descricao": "Chuvas de verão causaram enxurradas e quedas de muros em Catalão e Goiânia.",
+    "fonte": "Bom Dia GO; reportagens locais",
+    "ano": 2016
+},
+{
+    "estado_id": 9,
+    "evento": "Tempestades de granizo e ventos fortes — 2017",
+    "clima_descricao": "Eventos convectivos com granizo atingiram municípios do sudoeste e centro-sul, danificando lavouras e telhados.",
+    "fonte": "Boletins meteorológicos regionais",
+    "ano": 2017
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas fortes e enxurradas — 2018",
+    "clima_descricao": "Precipitação intensa em Goiânia e Anápolis causou enxurradas rápidas e danos a vias públicas.",
+    "fonte": "Mídia local; reportagens de TV e rádios regionais",
+    "ano": 2018
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas sazonais e enchentes menores — 2019",
+    "clima_descricao": "Pancadas de verão causaram transbordamentos em córregos e alagamentos urbanos.",
+    "fonte": "Boletins locais e cobertura jornalística regional",
+    "ano": 2019
+},
+{
+    "estado_id": 9,
+    "evento": "Secas e chuvas variáveis — 2020",
+    "clima_descricao": "Ano marcado por alternância de períodos de estiagem e chuvas fortes em diferentes microrregiões.",
+    "fonte": "Relatórios CONAB e históricos agrícolas estaduais",
+    "ano": 2020
+},
+{
+    "estado_id": 9,
+    "evento": "Enxurrada severa em Anápolis — 2021",
+    "clima_descricao": "Chuva intensa causou enxurrada que inundou residências; caso ganhou repercussão nacional.",
+    "fonte": "Reuters Fact-Check (vídeo de enxurrada em Anápolis 2021)",
+    "ano": 2021
+},
+{
+    "estado_id": 9,
+    "evento": "Chuvas e alagamentos urbanos — 2022",
+    "clima_descricao": "Precipitação intensa em Goiânia e municípios vizinhos provocou enchentes e danos estruturais.",
+    "fonte": "Boletins municipais e cobertura de imprensa regional",
+    "ano": 2022
+},
+{
+    "estado_id": 9,
+    "evento": "Temporais e ventos fortes — 2023",
+    "clima_descricao": "Episódios de chuva intensa com rajadas de vento causaram destelhamentos e quedas de árvores em várias cidades.",
+    "fonte": "Defesa Civil GO; jornais locais",
+    "ano": 2023
+},
+{
+    "estado_id": 9,
+    "evento": "Seca extrema e incêndios em áreas rurais — 2024",
+    "clima_descricao": "Baixa pluviosidade e altas temperaturas causaram incêndios e perdas agrícolas significativas em Goiás.",
+    "fonte": "INPE; reportagens ambientais 2024",
+    "ano": 2024
+},
     {
     "estado_id": 7,
     "evento": "Chuvas intensas e alagamentos urbanos — 2010",
@@ -846,6 +1174,7 @@
         "fonte": "Relatos sobre alagamentos e inundações em São Luís.",
         "ano": 2010
     },
+<<<<<<< HEAD
     {
         "estado_id": 10,
         "evento": "Enchentes e deslizamentos",
@@ -853,6 +1182,8 @@
         "fonte": "G1 Maranhão / Defesa Civil",
         "ano": 2015
     },
+=======
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
      {
         "estado_id": 10,
         "evento": "Chuvas fortes e inundações — fev 2018",
@@ -881,7 +1212,11 @@
         "fonte": "O Imparcial",
         "ano": 2024
     },
+<<<<<<< HEAD
      {
+=======
+    {
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 11,
     "evento": "Chuvas intensas / enchentes e vendaval local — 2010",
     "clima_descricao": "Chuvas fortes na estação úmida provocaram alagamentos urbanos e vendavais em municípios como Cuiabá e Rondonópolis.",
@@ -986,7 +1321,11 @@
     "fonte": "INPE; CNN Brasil; Le Monde (2024)",
     "ano": 2024
 },
+<<<<<<< HEAD
     {
+=======
+{
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
     "estado_id": 12,
     "evento": "Chuvas intensas / enchentes sazonais — 2010",
     "clima_descricao": "Chuvas fortes na quadra chuvosa provocaram alagamentos em Campo Grande e municípios ribeirinhos.",
@@ -1961,6 +2300,7 @@
     },
     {
         "estado_id": 27,
+<<<<<<< HEAD
         "evento": "Secas predominantes / cheias locais",
         "clima_descricao": "Períodos secos longos seguidos da estação chuvosa intensa.",
         "fonte": "Relatórios sobre enchentes e secas no Tocantins.",
@@ -1968,6 +2308,8 @@
     },
     {
         "estado_id": 27,
+=======
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
         "evento": "Cheias e alagamentos — 2011",
         "clima_descricao": "Chuvas intensas causaram elevação de rios e inundações em municípios do norte do estado.",
         "fonte": "Defesa Civil Tocantins",

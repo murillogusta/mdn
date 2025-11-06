@@ -11,7 +11,11 @@ Como rodar (VS Code / terminal):
 1) python -m venv venv
 2) Ative venv: venv\Scripts\activate (Windows) ou source venv/bin/activate (Linux/Mac)
 3) pip install -r requirements.txt
+<<<<<<< HEAD
 4) pip install requests flask flask-caching python-dotenv
+=======
+4) copy example.env .env
+>>>>>>> 0e5663a6205aadd5314cd8c18fd7e95d02ce09f1
 5) python init_db.py   # cria desastres.db
 6) python app.py       # inicia servidor em http://127.0.0.1:5000
 Observações:
