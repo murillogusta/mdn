@@ -39,7 +39,49 @@
       th { background: #e4f1ed; padding: 10px; border-bottom: 1px solid #cde5dd; text-align:center; }
       td { padding: 10px; border-bottom: 1px solid #f0f0f0; text-align:center; }
       .container {max-width: 900px; margin: 0 auto 30px auto;}
-      .table-container {max-height: 260px; overflow-y: auto; border-radius: 10px; margin: 0 auto; width: 90%; max-width: 900px;}
+      .table-container {
+  max-height: 300px;       
+  overflow-y: auto;        
+  overflow-x: auto;        
+  border-radius: 10px;
+  margin: 0 auto;          
+  width: 1000px;           
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid #cde5dd;
+  background-color: #ffffff; /* fundo neutro */
+}
+
+.table-container table {
+  width: 100%;            
+  border-collapse: collapse;
+  table-layout: auto;      
+}
+
+.table-container th,
+.table-container td {
+  text-align: center;
+  padding: 8px 12px;
+  word-wrap: break-word;   
+  width: 140px;        
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* cabeçalho fixo verde */
+.table-container thead th {
+  position: sticky;
+  top: 0;
+  background-color: #4CAF50; /* verde */
+  color: #ffffff;             /* texto branco */
+  font-weight: 600;
+  z-index: 5;
+  box-shadow: inset 0 -2px 0 0 #333, inset 0 2px 0 0 #333, inset 2px 0 0 0 #333, inset -2px 0 0 0 #333;
+  border-radius: 6px 6px 0 0; /* cantos superiores arredondados */
+}
+
+
+
+
       footer { background-color: #003c5a; color: #ddd; text-align: center; padding: 15px; font-size: 0.9em; margin-top: 40px; }
 
 
@@ -253,6 +295,10 @@
             <th>Grupo</th>
             <th>FERIDOS</th>
             <th>MORTOS</th>
+            <th>Valor Obras</th>
+            <th>Total Danos Materiais</th>
+            <th>Data Evento</th>
+
           </tr>
         </thead>
         <tbody></tbody>

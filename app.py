@@ -81,17 +81,19 @@ def get_municipios():
     cur = db.cursor()
 
     query = """
-        SELECT 
-            Nome_Municipio,
-            Sigla_UF,
-            descricao_tipologia,
-            grupo_de_desastre,
-            Data_Evento,
-            DH_FERIDOS,
-            DH_MORTOS
-        FROM municipios
-        WHERE 1=1
-    """
+    SELECT 
+        Nome_Municipio,
+        Sigla_UF,
+        descricao_tipologia,
+        grupo_de_desastre,
+        Data_Evento,
+        DH_FERIDOS,
+        DH_MORTOS,
+        DM_Obras_de_Infra_Valor,
+        DM_total_danos_materiais
+    FROM municipios
+    WHERE 1=1
+"""
     params = []
 
     if estado:

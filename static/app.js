@@ -1,3 +1,18 @@
+// ---------------------------
+// 🔹 Função para corrigir valores financeiros
+// ---------------------------
+function corrigirValoresFinanceiros(dados) {
+  const colunas = ["DM_Obras_de_Infra_Valor", "DM_total_danos_materiais"];
+  return dados.map(item => {
+    colunas.forEach(col => {
+      if (item[col]) {
+        item[col] = parseFloat(item[col].replace(",", ".")) || 0;
+      }
+    });
+    return item;
+  });
+}
+
 // static/app.js
 document.addEventListener("DOMContentLoaded", () => {
   const API_MUNICIPIOS = "/api/municipios";
@@ -571,22 +586,33 @@ function exibirAnalise(anos, valores, rows = []) {
   }
 
   function appendToTable(rows) {
-    const tbody = document.querySelector("#disasterTable tbody");
-    rows.forEach(item => {
-      const ano = item.Data_Evento ? item.Data_Evento.slice(-4) : "";
-      const tr = document.createElement("tr");
-      tr.innerHTML = `
-        <td>${ano}</td>
-        <td>${item.Nome_Municipio || "—"}</td>
-        <td>${item.Sigla_UF || "—"}</td>
-        <td style="text-align:left;">${item.descricao_tipologia || "—"}</td>
-        <td>${item.grupo_de_desastre || "—"}</td>
-        <td>${item.DH_FERIDOS != null ? item.DH_FERIDOS : 0}</td>
-        <td>${item.DH_MORTOS != null ? item.DH_MORTOS : 0}</td>
-      `;
-      tbody.appendChild(tr);
-    });
-  }
+  const tbody = document.querySelector("#disasterTable tbody");
+  rows.forEach(item => {
+    const ano = item.Data_Evento ? item.Data_Evento.slice(-4) : "";
+    
+    function formatMoeda(valor) {
+  const numero = Number(valor);
+  if (isNaN(numero)) return "—";
+  return new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(numero);
+}
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${ano}</td>
+      <td>${item.Nome_Municipio || "—"}</td>
+      <td>${item.Sigla_UF || "—"}</td>
+      <td style="text-align:left;">${item.descricao_tipologia || "—"}</td>
+      <td>${item.grupo_de_desastre || "—"}</td>
+      <td>${item.DH_FERIDOS != null ? item.DH_FERIDOS : 0}</td>
+      <td>${item.DH_MORTOS != null ? item.DH_MORTOS : 0}</td>
+      <td>${formatMoeda(item.DM_Obras_de_Infra_Valor)}</td>
+      <td>${formatMoeda(item.DM_total_danos_materiais)}</td>
+      <td>${item.Data_Evento || "—"}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 
   // scroll infinito
   const tableContainer = document.querySelector(".table-container");
@@ -621,25 +647,29 @@ function exibirAnalise(anos, valores, rows = []) {
   // ---------------------------
   if (applyBtn) {
   applyBtn.addEventListener("click", async () => {
-    currentOffset = 0; 
-    allLoaded = false;
+  currentOffset = 0; 
+  allLoaded = false;
 
-    const estado = estadoFilter ? estadoFilter.value : "";
-    const municipio = municipioFilter ? municipioFilter.value : "";
-    const ano = anoFilter ? anoFilter.value : "";
+  const estado = estadoFilter ? estadoFilter.value : "";
+  const municipio = municipioFilter ? municipioFilter.value : "";
+  const ano = anoFilter ? anoFilter.value : "";
 
-    const params = { limit: PAGE_SIZE, offset: currentOffset };
-    if (estado) params.estado = estado;
-    if (municipio) params.cidade = municipio;
-    if (ano) params.ano = ano;
+  const params = { limit: PAGE_SIZE, offset: currentOffset };
+  if (estado) params.estado = estado;
+  if (municipio) params.cidade = municipio;
+  if (ano) params.ano = ano;
 
-    const registros = await fetchRegistros(params);
+  const registros = await fetchRegistros(params);
 
-    atualizarTabela(registros.rows);
+  let rows = registros.rows || [];
+  // 🔹 Corrige os valores financeiros
+  rows = corrigirValoresFinanceiros(rows);
 
-    // 🔥 SOLUCIONA O PROBLEMA DO GRÁFICO
-    updateChart(registros.rows);
-  });
+  atualizarTabela(rows);
+
+  updateChart(rows);
+});
+
 }
 
 
@@ -742,17 +772,20 @@ async function updateMapFilters() {
     const registros = await fetchRegistros({ limit: PAGE_SIZE, offset: 0 });
     municipiosCache = registros.rows || [];
 
+    // 🔹 Corrige os valores financeiros antes de exibir
+    municipiosCache = corrigirValoresFinanceiros(municipiosCache);
+
     atualizarTabela(municipiosCache);
 
-    initChart();                 // ← OBRIGATÓRIO
+    initChart();
     await updateChart(municipiosCache);
-
 
     updateMapFilters();
   } catch (err) {
     console.error("Erro ao carregar dados iniciais:", err);
   }
 }
+
 
 
 loadAll();
