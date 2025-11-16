@@ -9,137 +9,178 @@
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       crossorigin=""
     />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='styles.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
 
     <style>
-      
       body {
-            margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background-color: #f5f8fa;
-            color: #222;
-            line-height: 1.6;
-        }
-
-      header {
-            background: linear-gradient(90deg, #004d7a, #008793, #00bf72);
-            color: #fff;
-            padding: 20px 40px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .logo-icon {
-            font-weight: bold;
-            font-size: 1.8em;
-            letter-spacing: 1px;
-        }
-
-      /* Logotipo à esquerda */
-      .logo {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
-      .logo-icon {
-        background: white;
-        color: #2f7a6f;
-        font-weight: bold;
-        border-radius: 50%;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.1rem;
-      }
-
-      h1 {
-        text-align: center;
-        font-size: 2.2rem;
-        color: #28594d;
-        margin-top: 30px;
-        letter-spacing: 1px;
-        font-weight: 700;
-        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-      }
-
-      h2 {
-        color: #2e4e4a;
-        text-align: center;
-        margin-top: 40px;
-      }
-
-      #yearFilter {
-        padding: 5px;
-        border-radius: 6px;
-        border: none;
-        font-size: 0.95rem;
-      }
-
-      /* Caixa de resumo acima do mapa */
-      .resumo {
-        max-width: 900px;
-        margin: 25px auto;
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 12px;
-        padding: 25px 30px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-        font-size: 1.05rem;
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: #f5f8fa;
+        color: #222;
         line-height: 1.6;
-        color: #274a42;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
-      .resumo:hover {
-        transform: scale(1.01);
-        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+      header {
+        background: linear-gradient(90deg, #004d7a, #008793, #00bf72);
+        color: #fff;
+        padding: 20px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
+      .logo { display:flex; align-items:center; gap:10px; }
+      .logo-icon { background:white; color:#2f7a6f; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; }
+      #map { height: 500px; width: 90%; max-width: 1200px; margin: 20px auto; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); border: 2px solid #cde5dd; }
+      .controls { max-width:1000px; margin: 12px auto; display:flex; gap:10px; align-items:center; justify-content:center; flex-wrap:wrap; }
+      select, input { padding:8px; border-radius:6px; border:1px solid #ccc; }
+      button { padding:8px 12px; border-radius:6px; border:none; background:#2f7a6f; color:white; cursor:pointer; }
+      table {width: 100%; max-width: 900px; margin: 0 auto; border-collapse: collapse; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);}
+      th { background: #e4f1ed; padding: 10px; border-bottom: 1px solid #cde5dd; text-align:center; }
+      td { padding: 10px; border-bottom: 1px solid #f0f0f0; text-align:center; }
+      .container {max-width: 900px; margin: 0 auto 30px auto;}
+      .table-container {max-height: 260px; overflow-y: auto; border-radius: 10px; margin: 0 auto; width: 90%; max-width: 900px;}
+      footer { background-color: #003c5a; color: #ddd; text-align: center; padding: 15px; font-size: 0.9em; margin-top: 40px; }
 
-      /* Centraliza e melhora o mapa */
-      #map {
-        height: 500px;
-        width: 90%;
-        max-width: 1000px;
-        margin: 20px auto;
-        border-radius: 12px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        border: 2px solid #cde5dd;
-        display: block;
-        transition: transform 0.3s ease;
-      }
-      #map:hover {
-        transform: scale(1.005);
-      }
 
-      #barChart {
-        display: block;
-        margin: 20px auto;
-        background-color: #ffffff;
-        border-radius: 12px;
-        padding: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-      }
+      
 
-      footer {
-            background-color: #003c5a;
-            color: #ddd;
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9em;
-            margin-top: 60px;
-        }
+      /* ======== Card de Estado (compacto e móvel) ======== */
+.disaster-card {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 16px 20px;
+  width: 260px;
+  z-index: 1000;
+  font-family: "Segoe UI", sans-serif;
+  color: #222;
+  animation: fadeIn 0.25s ease-out;
+  border: 1px solid #dbe7e3;
+}
+
+.disaster-card h3 {
+  margin: 0 0 8px 0;
+  color: #008793;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.disaster-card div {
+  margin-bottom: 4px;
+  font-size: 0.9em;
+}
+
+.disaster-card hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 6px 0;
+}
+
+/* Animação para aparecer */
+@keyframes fadeInCard {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Animação para desaparecer */
+@keyframes fadeOutCard {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.9); }
+}
+
+.disaster-card {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 16px 20px;
+  width: 260px;
+  z-index: 1000;
+  font-family: "Segoe UI", sans-serif;
+  color: #222;
+  border: 1px solid #dbe7e3;
+
+  /* animação inicial */
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInCard 0.25s forwards;
+}
+
+.disaster-card.fade-out {
+  animation: fadeOutCard 0.25s forwards;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: transparent;
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove fundo e borda do popup do Leaflet */
+.leaflet-popup-content-wrapper,
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Remove a ponta do popup */
+.leaflet-popup-tip,
+.custom-popup .leaflet-popup-tip {
+  background: transparent;
+}
+
+/* Ajusta conteúdo interno */
+.leaflet-popup-content,
+.custom-popup .leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.map-filter-box {
+  margin: 10px auto;
+  padding: 10px 15px;
+  background: #ffffff;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.map-filter-box label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+
+.map-filter-box select,
+.map-filter-box input {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  min-width: 120px;
+}
+
+
+
     </style>
   </head>
 
@@ -147,68 +188,89 @@
     <header>
       <div class="logo">
         <div class="logo-icon">🌎</div>
-        <span>M.D.N. — Brasil</span>
-      </div>
-
-      <div style="margin-left: auto">
-        Ano:
-        <select id="yearFilter" multiple>
-          <option value="">Todos</option>
-        </select>
+        <div>
+          <div style="font-weight:700;">M.D.N. — Brasil</div>
+          <div style="font-size:12px;">Monitoramento de Desastres Naturais</div>
+        </div>
       </div>
     </header>
 
-    <h1>Monitoramento de Desastres Naturais</h1>
+    <h1 style="text-align:center; margin-top:18px;">Visualização de Desastres por Município</h1>
 
-    <!-- 🔹 Espaço para o resumo acima do mapa -->
-    <div class="resumo">
-      <p>
-        <!-- Aqui você pode inserir um texto de apresentação sobre o sistema, 
-        explicando o propósito do monitoramento e prevenção de desastres naturais. -->
-        Este sistema permite visualizar e analisar o clima, temperatura e eventos naturais ocorridos em todo o Brasil, 
-        promovendo a conscientização e a prevenção de desastres ambientais.
-      </p>
-    </div>
+    <div id="mapFilters" class="map-filter-box">
+  <label>Ano (mapa):
+  <select id="mapAnoFilter" multiple style="min-width:120px;">
+    <option value="">Todos</option>
+  </select>
+</label>
 
-    <h2>Mapa Interativo</h2>
+
+  <label>Estado:
+    <select id="mapEstadoFilter">
+      <option value="">Todos</option>
+    </select>
+  </label>
+</div>
+
     <div id="map"></div>
 
-    <h2>Lista de Desastres Naturais</h2>
-    <div id="tableHeader" style="max-width:1000px; margin: 0 auto 10px auto; text-align: center;">
-      <p id="tableStatus" style="background:#e4f1ed; padding:10px; border-radius:8px; margin:0; font-weight:bold; color:#2f7a6f;">
-        Clique em um estado no mapa para ver seus desastres
-      </p>
-      <button id="showAllBtn" onclick="showAllDisasters()" style="display:none; margin-top:10px; padding:8px 16px; background:#2f7a6f; color:white; border:none; border-radius:5px; cursor:pointer;">
-        Mostrar Todos os Desastres
-      </button>
+
+
+    <!-- filtros mais detalhados (estado / cidade / ano específico para tabela) -->
+    <div class="controls">
+      <label>Estado:
+        <select id="estadoFilter">
+          <option value="">Todos</option>
+        </select>
+      </label>
+
+      <label>Município:
+        <select id="municipioFilter">
+          <option value="">Todos</option>
+        </select>
+      </label>
+
+      <label>Ano (tabela):
+        <select id="anoFilter">
+          <option value="">Todos</option>
+        </select>
+      </label>
+
+      <button id="applyFilters">Aplicar filtros</button>
+      <button id="clearFilters" style="background:#999;">Limpar</button>
     </div>
-    <div style="overflow-x:auto; max-width:1000px; margin: 0 auto 30px auto; overflow-y: auto; max-height: 40vh;">
-      <table id="disasterTable" style="width:100%; border-collapse:collapse; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-        <thead style="background:#e4f1ed;">
+
+    <h2 style="text-align:center;">Lista de Registros</h2>
+    <div class="container">
+      <div class="table-container">
+      <table id="disasterTable">
+        <thead>
           <tr>
-            <th style="padding:10px; border-bottom:1px solid #cde5dd; text-align:center;">Ano</th>
-            <th style="padding:10px; border-bottom:1px solid #cde5dd;">Evento</th>
-            <th style="padding:10px; border-bottom:1px solid #cde5dd; text-align:center;">Estado</th>
-            <th style="padding:10px; border-bottom:1px solid #cde5dd;">Descrição Climática</th>
+            <th>Ano</th>
+            <th>Município</th>
+            <th>Estado</th>
+            <th>Tipologia / Evento</th>
+            <th>Grupo</th>
+            <th>FERIDOS</th>
+            <th>MORTOS</th>
           </tr>
         </thead>
-        <tbody>
-          <!-- As linhas serão preenchidas dinamicamente via JavaScript -->
-        </tbody>
+        <tbody></tbody>
       </table>
+      </div>
     </div>
-    <h2>Quantidade de eventos por ano:</h2>
-    <canvas id="barChart" width="600" height="400"></canvas>
 
-    <!-- Leaflet JS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
+    <h2 style="text-align:center;">Quantidade de eventos por ano</h2>
+    <div style="margin-left: 350px; width: 725px; max-width: 100%;">
+      <canvas id="barChart" width="800" height="300"></canvas>
+    </div>
+    <!-- abaixo do canvas do gráfico -->
+    <div id="resultado_analise" style="max-width:900px; margin: 10px auto;"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{{ url_for('static', filename='app.js') }}"></script>
-    <script src="{{ url_for('static', filename='grafico.js') }}"></script>
 
     <footer>
       © 2025 — Monitoramento de Desastres Naturais (M.D.N.) | Desenvolvido para pesquisa e prevenção
