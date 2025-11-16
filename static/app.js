@@ -430,12 +430,19 @@ return await res.json();
   chartInstance.data.labels = anosOrdenados;
   chartInstance.data.datasets[0].data = anosOrdenados.map(a => eventosPorAno[a] || 0);
   chartInstance.update();
-  exibirAnalise(anosOrdenados, chartInstance.data.datasets[0].data);
+  exibirAnalise(
+  anosOrdenados,
+  chartInstance.data.datasets[0].data,
+  datasetRows
+);
+
 }
 
-// --------------------------------------------------------------
-// 🔥 NOVO — ANÁLISE AUTOMÁTICA DE TENDÊNCIAS + PREVISÃO
-// --------------------------------------------------------------
+// ---------------------------
+// 🔥 NOVO — ANÁLISE AVANÇADA + PREVISÃO 2026
+// ---------------------------
+
+// analisa tendência geral (subindo, caindo, estável)
 function analisarTendencia(anos, valores) {
   if (anos.length < 2) return { tendencia: "indefinida", direcao: 0 };
 
@@ -450,10 +457,10 @@ function analisarTendencia(anos, valores) {
   return { tendencia: "estável", direcao: 0 };
 }
 
+// regressão linear simples para previsão de 2026
 function calcularPrevisao(anos, valores) {
   if (anos.length < 2) return null;
 
-  // regressão linear simples
   const n = anos.length;
   const xs = anos.map(Number);
   const ys = valores.map(Number);
@@ -466,13 +473,49 @@ function calcularPrevisao(anos, valores) {
   const m = (n*somaXY - somaX*somaY) / (n*somaX2 - somaX*somaX);
   const b = (somaY - m*somaX) / n;
 
-  const proximoAno = Math.max(...xs) + 1;
-  const previsao = Math.max(0, Math.round(m * proximoAno + b));
+  const previsaoAno = 2026;  // sempre 2026
+  const previsaoValor = Math.max(0, Math.round(m * previsaoAno + b));
 
-  return { ano: proximoAno, valor: previsao };
+  return { ano: previsaoAno, valor: previsaoValor };
 }
 
-function exibirAnalise(anos, valores) {
+// calcula variação percentual dos últimos 3 anos
+function calcularPercentualAtualizacao(anos, valores) {
+  const n = valores.length;
+  if (n < 4) return null; // precisa de pelo menos 4 anos para comparar últimos 3 anos
+
+  const ultimos3Anos = valores.slice(n-3);
+  const primeiro = ultimos3Anos[0];
+  const ultimo = ultimos3Anos[2];
+
+  const perc = primeiro === 0 ? 100 : Math.round(((ultimo - primeiro)/primeiro) * 100);
+  return perc;
+}
+
+// retorna os 3 estados mais afetados (eventos, feridos, mortos)
+function topEstados(rows) {
+  const totalPorEstado = {};
+  rows.forEach(r => {
+    const uf = r.Sigla_UF || r.uf || r.Sigla || "";
+    if (!uf) return;
+    totalPorEstado[uf] = totalPorEstado[uf] ? {
+      eventos: totalPorEstado[uf].eventos + 1,
+      feridos: totalPorEstado[uf].feridos + (Number(r.DH_FERIDOS) || 0),
+      mortos: totalPorEstado[uf].mortos + (Number(r.DH_MORTOS) || 0)
+    } : {
+      eventos: 1,
+      feridos: Number(r.DH_FERIDOS) || 0,
+      mortos: Number(r.DH_MORTOS) || 0
+    };
+  });
+
+  const arr = Object.entries(totalPorEstado).map(([uf, vals]) => ({ uf, ...vals }));
+  arr.sort((a,b) => b.eventos - a.eventos);
+  return arr.slice(0,3);
+}
+
+// exibe análise detalhada abaixo do gráfico
+function exibirAnalise(anos, valores, rows = []) {
   let box = document.getElementById("analiseBox");
   if (!box) {
     box = document.createElement("div");
@@ -487,12 +530,27 @@ function exibirAnalise(anos, valores) {
 
   const t = analisarTendencia(anos, valores);
   const p = calcularPrevisao(anos, valores);
+  const perc3anos = calcularPercentualAtualizacao(anos, valores);
+  const top3 = topEstados(rows);
 
   let texto =
-    `<b>Tendência:</b> ${t.tendencia.toUpperCase()}<br>`;
+    `<b>Tendência geral:</b> ${t.tendencia.toUpperCase()}<br>`;
 
   if (p) {
-    texto += `<b>Previsão ${p.ano}:</b> ${p.valor} eventos estimados`;
+    texto += `<b>Previsão para 2026:</b> ${p.valor} eventos estimados<br>`;
+  }
+
+  if (perc3anos !== null) {
+    texto += `<b>Variação últimos 3 anos:</b> ${perc3anos > 0 ? "+" : ""}${perc3anos}%<br>`;
+  }
+
+  if (top3.length) {
+    texto += `<b>estados mais afetados:</b><br>`;
+    top3.forEach(s => {
+      const percFeridos = s.feridos ? Math.round((s.feridos/Math.max(1,s.eventos))*100) : 0;
+      const percMortos = s.mortos ? Math.round((s.mortos/Math.max(1,s.eventos))*100) : 0;
+      texto += `${s.uf}: ${s.eventos} eventos, ${s.feridos} feridos (${percFeridos}%), ${s.mortos} mortos (${percMortos}%)<br>`;
+    });
   }
 
   box.innerHTML = texto;
